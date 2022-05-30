@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<locals>
+  <GrowthTreeRemains>To growth tree remains: %1 sec</GrowthTreeRemains>
+  <NewTreeRemains>To new tree remains: %1 sec</NewTreeRemains>
+  <ZombiesSpawned>%1 zombies spawned.</ZombiesSpawned>
+  <ZombiesCantSpawn>Zombies can`t find position to spawn.</ZombiesCantSpawn>
+  <ZombiesLeft>%1 zombies left.</ZombiesLeft>
+  <PositionDefined>%1 position defined.</PositionDefined>
+  <CantFindPosition>%1 can`t find position to spawn.</CantFindPosition>
+  <BlackFlaffiesLeft>%1 black fluffies left.</BlackFlaffiesLeft>
+  <WindowDesc>Повышает домашний уют.</WindowDesc>
+  <LadderDesc>Лестница увеличивает скорость вертикального передвижения и не дает упасть.</LadderDesc>
+  <DoorDesc>Деревянные двери необходимы для завершения дома. Также предотвращают проникновение монстров.</DoorDesc>
+  <DoNothing>Бездельничает</DoNothing>
+  <DoEscape>Убегает</DoEscape>
+  <AttackEnemy>Сражается</AttackEnemy>
+  <GoSleep>Идет спать</GoSleep>
+  <Digs>Работает</Digs>
+  <DoBuild>Строит</DoBuild>
+  <GoHome>Идет домой</GoHome>
+  <GoStore>Идет на склад</GoStore>
+  <GoResources>Идет к складу за ресурсами</GoResources>
+  <CollectResources>Собирает ресурсы</CollectResources>
+  <CalculatePath>Ищет путь</CalculatePath>
+  <Sleep>Спит</Sleep>
+  <Fishing>Рыбачит</Fishing>
+  <Waiting>Ждет</Waiting>
+  <WaitingElevator>Ждет лифт</WaitingElevator>
+  <Lifting>Едет на лифте</Lifting>
+  <DoWorking>Работает</DoWorking>
+  <NoFishTackle>На складе нет удочки</NoFishTackle>
+  <NeedSmithy>Нужна кузница</NeedSmithy>
+  <NeedKitchen>Нужна кухня</NeedKitchen>
+  <NeedLab>Нужна лаборатория</NeedLab>
+  <NeedWorkshop>Нужна мастерская</NeedWorkshop>
+  <NeedWorkbench>Нужен верстак</NeedWorkbench>
+  <NeedMillstone>Нужна мельница</NeedMillstone>
+  <Smithy>Кузница</Smithy>
+  <Kitchen>Кухня</Kitchen>
+  <Lab>Лаборатория</Lab>
+  <Workshop>Мастерская</Workshop>
+  <Workbench>Верстак</Workbench>
+  <Millstone>Мельница</Millstone>
+  <MRemoveConstruction>Убрать конструкцию</MRemoveConstruction>
+  <MRemove>Удалить %1</MRemove>
+  <MRemoveFront>Удалить передний %1</MRemoveFront>
+  <MRemoveBack>Удалить задний %1</MRemoveBack>
+  <MReplace>Заменить %1</MReplace>
+  <MReplaceFront>Заменить передний %1</MReplaceFront>
+  <MReplaceBack>Заменить задний %1</MReplaceBack>
+  <MConstruction>Конструкция</MConstruction>
+  <MGatherWater>Добыть воды</MGatherWater>
+  <MFishing>Рыбалка</MFishing>
+  <MDig>Копать</MDig>
+  <MCut>Рубить</MCut>
+  <MUse>Использовать</MUse>
+  <MSelectWorker>Выбрать гнома</MSelectWorker>
+  <MEnterShop>Зайти в магазин</MEnterShop>
+  <MBuild>Построить %1</MBuild>
+  <Totem>Тотем</Totem>
+  <TotemHint>Комфорт %1</TotemHint>
+  <NoMana>Недостаточно маны для вызова заклинания.</NoMana>
+  <TooFar>Слишком далеко от исследуемой области.</TooFar>
+  <NoTreePlace>Неподходящее место для выращивания деревьев. Найдите более открытое пространство.</NoTreePlace>
+  <SpeechICantEat>%1 ?! Я не могу это больше есть!</SpeechICantEat>
+  <SpeechNoFood>Где еда? Умираю с голоду!</SpeechNoFood>
+  <SpeechNoBed>Мне нужна кровать для отдыха</SpeechNoBed>
+  <SpeechNoHouse>Мне нужно жилье для отдыха</SpeechNoHouse>
+  <SpeechNoTool>У меня нет подходящего инструмента</SpeechNoTool>
+  <SpeechNoTable>Для еды нужно сделать стол.</SpeechNoTable>
+  <SpeechNoDivingHelm>Нет водолазного шлема</SpeechNoDivingHelm>
+  <!--Предмет можно установить только на заднюю стену-->
+  <!--Только один предмет может быть помещен на стенку-->
+  <MsgBuildBackWallOnly>Предмет можно установить только на заднюю стену</MsgBuildBackWallOnly>
+  <MsgBuildUnableHere>Невозможно построить %1 здесь</MsgBuildUnableHere>
+  <MsgBuildNoResources>Недостаточно ресурсов на складе</MsgBuildNoResources>
+  <MsgTooDeep>Не могу копать под водой!</MsgTooDeep>
+  <MsgBuildBedOutHouse>Гномы будут спать на кровати только внутри дома!</MsgBuildBedOutHouse>
+  <HintTool1>Инструмент для копания.</HintTool1>
+  <HintTool2>Инструмент для рубки деревьев.</HintTool2>
+  <HintWeapon>Оружие</HintWeapon>
+  <Level1Name>Земля новых надежд</Level1Name>
+  <Level2Name>Земля сухих ветров</Level2Name>
+  <Level3Name>Земля зимних небес</Level3Name>
+  <SizeSmall>Маленький</SizeSmall>
+  <SizeMedium>Средний</SizeMedium>
+  <SizeLarge>Большой</SizeLarge>
+  <TempCold>Холодно</TempCold>
+  <TempNormal>Средняя</TempNormal>
+  <TempHot>Тепло</TempHot>
+  <HumLow>Редкие</HumLow>
+  <HumNormal>Умеренные</HumNormal>
+  <HumHigh>Частые</HumHigh>
+  <TopoPlain>Равнинная</TopoPlain>
+  <TopoHills>Холмистая</TopoHills>
+  <TopoMountain>Горная</TopoMountain>
+  <ComfortNone>Нет</ComfortNone>
+  <ComfortPoor>Бедно</ComfortPoor>
+  <ComfortMod>Неплохо</ComfortMod>
+  <ComfortAvg>Уютно</ComfortAvg>
+  <ComfortGood>Роскошно</ComfortGood>
+  <ComfortEx>По-королевски!</ComfortEx>
+  <harmor>Защита</harmor>
+  <hdamage>Повреждения</hdamage>
+  <hdurability>Прочность</hdurability>
+  <hfeeding>Питательность</hfeeding>
+  <hmining>Добыча</hmining>
+  <hcomfort>Комфорт</hcomfort>
+  <hlumbering>Рубка деревьев</hlumbering>
+  <Empty>Пусто</Empty>
+  <Easy>Легко</Easy>
+  <Normal>Средняя</Normal>
+  <Hard>Сложно</Hard>
+  <VeryEasy>Очень легко</VeryEasy>
+  <VeryHard>Очень сложно</VeryHard>
+  <Nightmare>Кошмар</Nightmare>
+  <CraftAndBuildItemTitle>Новый рецепт: %1</CraftAndBuildItemTitle>
+  <UseMagicItemTitle>Новое заклинание: %1</UseMagicItemTitle>
+  <CraftAndEquipItemTitle>Экипировать: %1</CraftAndEquipItemTitle>
+  <CraftFoodTitle>Создать: %1</CraftFoodTitle>
+  <CraftItemTitle>Создать: %1</CraftItemTitle>
+  <CraftAndBuildItem>Создайте и установите эту вещь, чтобы продвинуться по дереву технологий.</CraftAndBuildItem>
+  <UseMagicItem>Примените заклинание, чтобы продвинуться по дереву технологий.</UseMagicItem>
+  <CraftAndEquipItem>Создайте и снарядите этой вещью гнома, чтобы продвинуться по дереву технологий.</CraftAndEquipItem>
+  <CraftFood>Создайте эту еду, чтобы продвинуться по дереву технологий.</CraftFood>
+  <CraftItem>Создайте предмет, чтобы продвинуться по дереву технологий.</CraftItem>
+  <NotReadyCollect>Еще не выросла</NotReadyCollect>
+  <NeedToBuildDevice>Чтобы создать эту вещь требуется %1</NeedToBuildDevice>
+  <NotYet>Не сейчас.</NotYet>
+  <TechCraftTree>Дерево рецептов</TechCraftTree>
+  <TechTree>Дерево технологий</TechTree>
+  <TechSandbox>Песочница</TechSandbox>
+  <GameNormal>Нормальный</GameNormal>
+  <GamePermanentDeath>Хардкорный</GamePermanentDeath>
+  <CustomSlot>%1. Своя игра [%2:%3]</CustomSlot>
+  <CompaignSlot>%1. Кампания [%2:%3]</CompaignSlot>
+  <Custom>Своя игра</Custom>
+  <Compaign>Кампания</Compaign>
+  <UnableDisassemble>Невозможно разобрать предмет</UnableDisassemble>
+  <SiegeModeEnabled>Гномам запрещено покидать убежище</SiegeModeEnabled>
+  <NormalModeEnabled>Гномы могут покидать убежище</NormalModeEnabled>
+  <ExploreTechnologyTitle>Новая технология: %1</ExploreTechnologyTitle>
+  <ExploreTechnology>Чтобы освоить технологию, изготавливайте относящиеся к ней предметы.</ExploreTechnology>
+  <LockedByOtherTech>Откроется после изучения других технологий</LockedByOtherTech>
+  <LockedByLevel>Откроется после достижения уровня %1</LockedByLevel>
+  <MediumPlanet>Лесной мир</MediumPlanet>
+  <IcePlanet>Снежный мир</IcePlanet>
+  <DesertPlanet>Пустыня</DesertPlanet>
+  <PortalNotFoundYet>Портал еще не найден</PortalNotFoundYet>
+  <LevelPortalHint>Портал: %1 из %2 частей собрано</LevelPortalHint>
+  <NoMagicPyramide>Энергия пирамиды блокирует ваши заклинания!</NoMagicPyramide>
+  <SpellAlreadyAvailable>Заклинание уже доступно.</SpellAlreadyAvailable>
+  <RateTitle>Если вам понравилась игра, пожалуйста, поставьте 5-звезд!</RateTitle>
+  <RateOk>Хорошо!</RateOk>
+  <RateNo>Никогда</RateNo>
+  <RateLater>Может быть позже</RateLater>
+  <RateText>Ваши отзывы помогут сделать игру лучше и ускорят выход обновлений. Спасибо!</RateText>
+  <MCatch>Поймать</MCatch>
+  <NoFarmSpace>недостаточно места на фермах</NoFarmSpace>
+  <MKill>Убить</MKill>
+  <MToCut>Остричь</MToCut>
+  <NoToCutTool>нет ножниц</NoToCutTool>
+  <AlreadyToCut>уже острижена</AlreadyToCut>
+  <Level4Name>Земля опасных пещер</Level4Name>
+  <UndergroudPlanet>Подземелье</UndergroudPlanet>
+  
+  <MaxLarge>Неимоверный</MaxLarge>
+  <VeryHigh>Постоянные</VeryHigh>
+  <LandSmall>Островок</LandSmall>
+  <PlaneSmall>Плоский</PlaneSmall>
+  <OrcPlanet>Земля орков</OrcPlanet>
+  <SwampPlanet>Болото</SwampPlanet>
+  <PlanePlanet>Тропический остров</PlanePlanet>
+  <PlainsPlanet>Плоская Земля</PlainsPlanet>
+  
+  <ReturnToHome>Возвращение домой…</ReturnToHome>
+  <SingleBiom>Вход в биом без оппонента…</SingleBiom>
+  <FriendGame>Союзник %1 найден. Переход в биом…</FriendGame>
+  <WarGame>Противник %1 найден. Переход в биом…</WarGame>
+  <InviteFriend>Пригласить друга</InviteFriend>
+  <DwarfsSoFew>Недостаточно гномов для сетевой игры (требуется %1 гномов)</DwarfsSoFew>
+  <OpponentDeath>Соперник повержен!</OpponentDeath>
+  <YouWin>Победа! Возвращение домой…</YouWin>
+  <YouDefeat>Поражение! Возвращение домой...</YouDefeat>
+  <ClaimSend>Жалоба отправлена.</ClaimSend>
+  <Disconnect>Отключение от многопользовательской сессии…</Disconnect>
+  <BiomPlanet>Биом</BiomPlanet>
+  <CantDo>Невозможно выполнить</CantDo>
+  <UpgradeNeed>Требуется усовершенствование главного портала</UpgradeNeed>
+  <MToFree>Освободить</MToFree>
+  <MaxImps>Достигнуто максимальное количество импов!</MaxImps>
+  <AddPlayer>К вам присоединился %1</AddPlayer>
+  <NoMagic>Магическая энергия блокирует ваши заклинания!</NoMagic>
+  <BeetlesPlanet>Жучий биом</BeetlesPlanet>
+</locals>

@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<locals>
+
+	<obsidianT>Обсидиан</obsidianT>
+	<obsidianD>Самый прочный и крепкий минерал. Но гномы делают из него статуи и стенки.</obsidianD>
+	
+	<monumentT>Обсидиановый монумент</monumentT>
+	<monumentD>Монумент постоянно напоминает гномам о падших воинах и заставляет их с неистовой силой уничтожать монстров. Увеличивает навык воинов, лучников и магов на 90 пунктов.</monumentD>
+	
+	<bone_wallT>Костяная стенка</bone_wallT>
+	<dekor_wallD>Стенка используется для отделки стен внутри дома.</dekor_wallD>
+	<tileD>Плитка используется для отделки стен внутри дома</tileD>
+	<scull_wallT>Cтенка из черепов</scull_wallT>	
+	<wood_stoneT>Шахтерская стенка</wood_stoneT>	
+	<stuccoT>Глиняная стенка</stuccoT>	
+	<wood_centerT>Дощатая стенка</wood_centerT>
+	<woodcT>Укреплённая стенка</woodcT>	
+	<wheat_wallT>Соломенная стенка</wheat_wallT>
+	<cane_wallT>Тростниковая стенка</cane_wallT>	
+	<gold_wallT>Золотая стенка</gold_wallT>	
+	<obsidian_wallT>Обсидиановая стенка</obsidian_wallT>	
+	<stonewT>Отбеленная плитка</stonewT>
+	<tileT>Плитка</tileT>
+	
+	<hedgeT>Живая изгородь</hedgeT>
+	<hedgeD>Чуть лучше и красивее простого забора. Немного замедляет продвижение врагов.</hedgeD>
+
+	<arbaletT>Арбалет</arbaletT>
+	<arbaletD>Верх мастерства гномов - убойное дальнобойное оружие.</arbaletD>
+	<map_roundT>Круглая карта</map_roundT>
+	<map_roundD>Над этим шедевром трудились лучшие картографы гномов.</map_roundD>
+	<color_flagT>Боевой флаг</color_flagT>
+	<color_flagD>Поднимает боевой дух гномов. Увеличивает навык воинов, лучников и магов на 5 пунктов.</color_flagD>
+	<bannerT>Синий флаг</bannerT>
+	<bannerD>Простой синий флаг.</bannerD>
+
+
+	<IronPlateT>Железная стена</IronPlateT>
+	<IronPlateD>Прочная стена, выкованная гномами.</IronPlateD>
+	
+	<BetonPlateT>Бетонная стена</BetonPlateT>
+	<BetonPlateD>Прочная стена, отлитая гномами.</BetonPlateD>
+	
+	<BetonT>Бетон</BetonT>
+	<BetonD>Прочный материал из глины, песка и каменной крошки для постройки стен.</BetonD>
+	
+	<IronLadderT>Железная лестница</IronLadderT>
+	<IronLadderD>Надёжная лестница для быстрого подъёма.</IronLadderD>
+	
+	<IronBridgeT>Стальной мост</IronBridgeT>
+	<IronBridgeD>Надёжная переправа для гномов.</IronBridgeD>
+	
+	<LittleIronBridgeT>Железный мосток</LittleIronBridgeT>
+	<LittleIronBridgeD>Хлипкий мост, слепленный из кусков железа. Не очень надёжен.</LittleIronBridgeD>
+	
+	<TabelIronT>Железный стол</TabelIronT>
+	<TabelIronD>Не очень комфортный, но вместительный стол.</TabelIronD>
+	
+	<ChairIronT>Железный табурет</ChairIronT>
+	<ChairIronD>Простой табурет для железных помещений.</ChairIronD>
+	
+	<FenceWoodT>Деревянный забор</FenceWoodT>
+	<FenceWoodD>Простой забор. Немного замедляет продвижение врагов.</FenceWoodD>
+	
+	<GateWoodenT>Деревянные ворота</GateWoodenT>
+	<GateWoodenD>Ворота вряд ли задержат ваших врагов, но вот гномам пройти не дадут.</GateWoodenD>
+	
+	<IronWindowT>Железная решётка</IronWindowT>
+	<IronWindowD>Решётка пропускает много света.</IronWindowD>
+	
+	<StoneTorchT>Каменный факел </StoneTorchT>
+	<StoneTorchD>Ярко и долго горит. А ещё придаёт дому комфорт.</StoneTorchD>
+	
+	<PosionT>Яд</PosionT>
+	<Posion10T>10</Posion10T>
+	<Posion100T>100</Posion100T>
+	<Posion2T>2</Posion2T>
+	<Posion3T>3</Posion3T>
+	<Posion4T>4</Posion4T>
+	<Posion5T>5</Posion5T>
+	<Posion6T>6</Posion6T>
+	<Posion7T>7</Posion7T>
+	<Posion8T>8</Posion8T>
+	<Posion9T>9</Posion9T>
+	<PosionD>Смертельно опасно! Один глоток убивает лошадь! Нужная вещь, если вы решили устроить суицид гномам. ;D</PosionD>
+	
+	
+	<CeramicTaleT>Кухонная плитка</CeramicTaleT>
+	<CeramicTaleD>Украшение кухни. К тому же, повышает навык поваров.</CeramicTaleD>
+	
+	<ScarecrowPigT>Чучело кабана</ScarecrowPigT>
+	<ScarecrowPigD>Охотничий трофей. Улучшает навык охотника.</ScarecrowPigD>
+	
+	<ScarecrowSkeletonT>Скелет поверженого врага</ScarecrowSkeletonT>
+	<ScarecrowsSkeletonD>Поднимает боевой дух гномов.</ScarecrowsSkeletonD>
+	
+	<BigWindowT>Большое окно</BigWindowT>
+	<BigWindowD>Большое окно пропускает много света. Ставится двумя блоками.</BigWindowD>
+	
+	<stonewindowT>Каменное окно</stonewindowT>
+	<stonewindowD>Каменное окно пропускает много света.</stonewindowD>	
+	
+	
+	<FenceIronT>Железная изгородь</FenceIronT>
+	<FenceIronD>Декоративная красивая изгородь. На некоторое время задержит врагов.</FenceIronD>
+	
+	<MedievalWallsT>Средневековая стенка</MedievalWallsT>
+	<MedievalWallsD>Стенка используется для отделки стен внутри дома.</MedievalWallsD>
+	
+	<GateIronT>Железные ворота</GateIronT>
+	<GateIronD>Опускающаяся решетка на время задержит врагов.</GateIronD>
+	
+	<BalconyT>Железный балкон</BalconyT>
+	<BalconyD>Замедляет гномов, позволяя насладиться окружающим видом.</BalconyD>
+	
+	<StairWoodT>Деревянные ступени</StairWoodT>
+	<StairStoneT>Каменные ступени</StairStoneT>
+	<StairWoodD>Гномы, конечно, кривоногие и не умеют ходить по таким ступеням. Но вы можете использовать их как декор, или в качестве простых лестниц.</StairWoodD>
+	
+	
+	<CollumnIronT>Железная колонна</CollumnIronT>
+    <CollumnIronD>Декоративная колонна для помещений из металла. Хорошо гармонирует с железной стеной и может служить подпоркой для моста</CollumnIronD>
+	
+	<GearT>Шестерни</GearT>
+    <GearD>Нужны для создания сложных механизмов.</GearD>
+	
+	<TubeT>Медная труба</TubeT>
+    <TubeD>Трубы применяются для быстрого перемещения воды. Очень узкие - гномы не смогут пролезть внутрь.</TubeD>
+	
+	<ArrowPosionT>Отравленные стрелы</ArrowPosionT>
+    <ArrowPosionD>Отравленные стрелы очень эффективны.</ArrowPosionD>
+	
+	<WoodTonnelT>Деревянный тоннель</WoodTonnelT>
+    <WoodTonnelD>Эффективное средство перемещения для гномов.</WoodTonnelD>
+	
+	<IronTonnelT>Железный тоннель</IronTonnelT>
+    <IronTonnelD>Эффективное средство перемещения для гномов.</IronTonnelD>
+	
+	<CuprumIgnotT>Медный слиток</CuprumIgnotT>
+    <CuprumIgnotD>Медь - хороший материал для изготовления труб.</CuprumIgnotD>
+	
+	<CuprumT>Медь</CuprumT>
+    <CuprumD>Мягкий металл. Лёгок в обработке.</CuprumD>
+	
+	<CuprumDoorT>Медная дверь</CuprumDoorT>
+    <CuprumDoorD>Укреплённая дверь.</CuprumDoorD>
+	
+	<CuprumHatchT>Медный люк</CuprumHatchT>
+    <CuprumHatchD>Улучшенный люк.</CuprumHatchD>
+	
+	
+	
+	
+	
+	<WoodDoorT>Укреплёная дверь</WoodDoorT>
+	<WoodDoorD>Укреплёная деревянная дверь сможет задержать врагов чуть дольше.</WoodDoorD>
+	
+	<GlassDoorT>Стеклянная дверь</GlassDoorT>
+	<GlassDoorD>Декоративная дверь, не участвующая в определении границ дома.</GlassDoorD>
+	
+	<GoldDoorT>Золотая дверь</GoldDoorT>
+	<GoldDoorD>Декоративная дверь, не участвующая в определении границ дома.</GoldDoorD>
+	
+	
+	<SkinWallT>Золотая стена</SkinWallT>
+    <SkinWallD>Красивое украшение для дома. Ставится на заднюю стену и придает комфорт жилищу.</SkinWallD>
+	
+	<CuprumBedT>Медная кровать</CuprumBedT>
+    <CuprumBedD>Комфортная кровать для крепкого сна.</CuprumBedD>
+	
+	<IronBedT>Железная кровать</IronBedT>
+    <IronBedD>Место для восстановления сил гнома.</IronBedD>
+	
+	<CuprumTableT>Медный стол</CuprumTableT>
+    <CuprumTableD>Не очень комфортный, но вместительный стол.</CuprumTableD>
+	
+	<ChairCuprumT>Медный стул</ChairCuprumT>
+    <ChairCuprumD>Простой стул для комфортного поедания пищи.</ChairCuprumD>
+	
+	<LeadT>Свинец</LeadT>
+    <LeadD>Часто встречающаяся руда. Можно использовать для создания консервов.</LeadD>
+	
+	<CannedFoodFishT>Рыбные консервы</CannedFoodFishT>
+	<CannedFoodMeatT>Мясные консервы</CannedFoodMeatT>
+    <CannedFoodD>Простая пища. Немного востанавливает голод.</CannedFoodD>
+	
+	<CuprumTorchT>Медный факел</CuprumTorchT>
+    <CuprumTorchD>Ярко и долго горит. А ещё придаёт дому комфорт.</CuprumTorchD>
+	
+	<LightbulbT>Лампочка</LightbulbT>
+    <LightbulbD>Первый шаг на пути к веку электричества.</LightbulbD>
+	
+	<PosionBerriesT>Волчьи ягоды</PosionBerriesT>
+    <PosionBerriesD> Не рекомендуется к приёму в качестве пищи. Универсальный ингредиент для эликсиров и краски.</PosionBerriesD>
+	
+	
+	<CookedTableT>Кухонный стол</CookedTableT>
+    <CookedTableD>Простая поверхность для готовки блюд.</CookedTableD>
+	
+	<CuprumWireT>Медная проволока</CuprumWireT>
+    <CuprumWireD>Самое надёжное крепление. К тому-же, хорошо проводит электричество.</CuprumWireD>
+	
+	
+	<CuprumLampT>Электрическая осветительная стойка</CuprumLampT>
+    <CuprumLampD>Мощный уличный фонарь.</CuprumLampD>
+  
+	<CuprumUpLampT>Электрическая лампа</CuprumUpLampT>
+	<CuprumUpLampD>Мощный фонарь.</CuprumUpLampD>
+  
+	<TorfT>Торф</TorfT>
+	<TorfD>Вид топлива для горнов и кухонь гномов.</TorfD>
+  
+	<OilWaterT>Нефть</OilWaterT>
+	<OilWaterD>Тягучая жидкость. Можно испльзовать для создания новых материалов.</OilWaterD>
+  
+	<CuprumAxeT>Медный топор</CuprumAxeT>
+	<CuprumAxeD>Усовершенствованный топор из меди для рубки дерева. Также может использоваться в качестве оружия.</CuprumAxeD>
+  
+	<CuprumPickaxeT>Медная кирка</CuprumPickaxeT>
+	<CuprumPickaxeD>Усовершенствованная кирка из меди для добычи руды.</CuprumPickaxeD>
+  
+	<CuprumspearT>Медное копье</CuprumspearT>
+	<CuprumspearD>Простое копье.</CuprumspearD>
+  
+	<CuprumswordT>Медный меч</CuprumswordT>
+	<CuprumswordD>Медный меч - основное оружие ближнего боя. Позволяет также охотиться на опасных зверей.</CuprumswordD>
+	
+	
+	<BlueAxeT>Алмазный топор</BlueAxeT>
+	<BlueAxeD>Усовершенствованный топор из алмазов для быстрой рубки дерева. Также может использоваться в качестве оружия.</BlueAxeD>
+  
+	<BluePickaxeT>Алмазная кирка</BluePickaxeT>
+	<BluePickaxeD>Усовершенствованная кирка из алмазов для быстрой добычи руды.</BluePickaxeD>
+  
+	<BluespearT>Алмазное копье</BluespearT>
+	<BluespearD>Просто алмазное копье.</BluespearD>
+  
+	<BlueswordT>Алмазный меч</BlueswordT>
+	<BlueswordD>Алмазный меч - лучше серебрянного, но хуже мифрилового</BlueswordD>
+	
+	<DuoAxeT>Секира</DuoAxeT>
+	<DuoAxeD>Секира - главное оружие гномов!</DuoAxeD>
+	
+	
+  <BookT>Книга</BookT>
+  <BookD>Пустая книга. Ее можно заполнить полезными знаниями по разным проффесиям.</BookD>
+  
+  <CaneseedT>Тростник</CaneseedT>
+  <CaneseedD>Слабый строительный материал. Также можно смолоть в сахар.</CaneseedD>
+  
+  <SugarT>Сахар</SugarT>
+  <SugarD>Сладкий порошок.</SugarD>
+
+  <DrinkWaterT>Питьевая вода</DrinkWaterT>
+  <DrinkWaterD>Простейший напиток. Придаёт гномам немного сил</DrinkWaterD>
+  
+  <RoofwheatT>Соломенная крыша</RoofwheatT>
+  <RoofwheatD>Самая простая крыша из соломы для защиты от осадков.</RoofwheatD>
+  
+  <RoofmetallT>Железная крыша</RoofmetallT>
+  <RoofmetallD>Самая прочная крыша для защиты от осадков и врагов.</RoofmetallD>
+  
+  <CanewallT>Тростниковая стена</CanewallT>
+  <CanewallD>Тростниковые стены обладают простой конструкцией и незаменимы для постройки начального убежища.</CanewallD>
+  
+  <LeadwallT>Свинцовая стена</LeadwallT>
+  <LeadwallD>Доступный и прочный строительный материал.</LeadwallD>
+  
+  <CanechairT>Тростниковое кресло</CanechairT>
+  <CanechairD>Простое кресло для столовых и жилых комнат.</CanechairD>
+  
+  <CaneBedT>Тростниковая кровать</CaneBedT>
+  <CaneBedD>Место для восстановления сил гнома.</CaneBedD>
+  
+  <CanetableT>Тростниковый стол</CanetableT>
+  <CanetableD>Простенький стол, на который можно выкладывать еду для гномов.</CanetableD>
+  
+  <CanetorchT>Тростниковая осветительная стойка</CanetorchT>
+  <CanetorchD>Самый простой уличный фонарь.</CanetorchD>
+  
+	<SilverDoorT>Серебрянная дверь</SilverDoorT>
+	<SilverDoorD>Декоративная дверь, не участвующая в определении границ дома.</SilverDoorD>
+	
+	
+	<ElectrypistT>Электро-пушка</ElectrypistT>
+	<ElectrypistD>Достойная замена посоху мага.</ElectrypistD>
+  
+	<OnionmeatT>Жареное мясо с луком</OnionmeatT>
+	<OnionmeatD>Добытое на охоте мясо можно приготовить на кухне.</OnionmeatD>
+  
+	<OnionfishT>Жареная рыба с луком</OnionfishT>
+	<OnionfishD>Самый простой способ приготовить пойманную рыбу - поджарить ее на углях.</OnionfishD>
+	
+	<OnionT>Лук</OnionT>
+	<OnionD>Лук придаёт еде вкус и увеличивает сытность блюд.</OnionD>
+  
+	<RiceT>Рисовые зерна</RiceT>
+	<RiceD>Зерна добываются из колосьев зрелого риса. Их можно сварить или посадить.</RiceD>
+	
+	<BoilriceT>Варёный рис</BoilriceT>
+	<BoilriceD>Простая пища.</BoilriceD>
+  
+	<WheatriceT>Колосья риса</WheatriceT>
+	<WheatriceD>Рис можно выращивать для получения зерен. Она требует периодического полива для роста.</WheatriceD>
+	
+	<BatteryEnergT>Медно-свинцовая батарея</BatteryEnergT>
+	<BatteryEnergD>Питание для электро-пушки</BatteryEnergD>
+  
+	<BombT>Разрывная бомба</BombT>
+    <BombD>Бомба является заменой эликсиру огня. Использовать могут только инженеры и маги с электро-пушками. </BombD>
+	
+	<ShopSwordT>Пиломеч</ShopSwordT>
+    <ShopSwordD>Редкий артефакт.</ShopSwordD>
+	
+	<nightstandT>Тумба</nightstandT>
+    <nightstandD>Прикроватная тумбочка.</nightstandD>
+	
+
+  <FlourT>Мука</FlourT>
+  <FlourD>Мука перерабатывается из зерна при помощи мельницы и используется для приготовления выпечки.</FlourD>
+  <EarthT>Земля</EarthT>
+  <EarthD>Если другого строительного материала нет, то можно использовать блоки земли для создания стен и защитных барьеров.</EarthD>
+  <SandT>Песок</SandT>
+  <SandD>Песок используется в строительстве и изготовлении стекла. Будьте осторожны, чтобы гномов не завалило его сыпучими блоками.</SandD>
+  <StoneT>Камень</StoneT>
+  <StoneD>Доступный и прочный строительный материал.</StoneD>
+  <IronT>Железная руда</IronT>
+  <IronD>Основной металл для изготовления оружия, доспехов и прочных предметов.</IronD>
+  <SilverT>Серебряная руда</SilverT>
+  <SilverD>Один из редких металлов для изготовления изящных и прочных вещей.</SilverD>
+  <GoldT>Золотая руда</GoldT>
+  <GoldD>Один из редких металлов для изготовления роскошных доспехов и вооружения.</GoldD>
+  <CoalT>Уголь</CoalT>
+  <CoalD>Основной вид топлива для горнов и кухонь гномов.</CoalD>
+  <MithrilT>Мифриловая руда</MithrilT>
+  <MithrilD>Невероятно прочный и редкий металл для изготовления самых лучших доспехов и вооружения.</MithrilD>
+  <WoodT>Дерево</WoodT>
+  <WoodD>Основной возобновляемый материал для строительства и изготовления мебели и других предметов.</WoodD>
+  <LeavesT>Листья</LeavesT>
+  <LeavesD>Листья деревьев используются для изготовления самых простых и недолговечных предметов.</LeavesD>
+  <WheatearsT>Колосья пшеницы</WheatearsT>
+  <WheatearsD>Пшеницу можно выращивать для получения зерен. Она требует периодического полива для роста.</WheatearsD>
+  <ResinT>Смола</ResinT>
+  <ResinD>Добытая из сосен смола используется в различных светильниках.</ResinD>
+  <WoolT>Шерсть</WoolT>
+  <WoolD>Добытая на охоте шерсть зверей используется для изготовления тканей и веревок.</WoolD>
+  <EyeT>Глаз</EyeT>
+  <EyeD>Глаз невезучего монстра. Компонент для магических эликсиров.</EyeD>
+  <BluediamondT>Синий алмаз</BluediamondT>
+  <BluediamondD>Драгоценные камни для создания магических предметов и конструкций.</BluediamondD>
+  <ReddiamondT>Красный алмаз</ReddiamondT>
+  <ReddiamondD>Драгоценные камни для создания магических предметов и конструкций.</ReddiamondD>
+  <DarkbluediamondT>Черный алмаз</DarkbluediamondT>
+  <DarkbluediamondD>Драгоценные камни для создания магических предметов и конструкций.</DarkbluediamondD>
+  <GreendiamondT>Зеленый алмаз</GreendiamondT>
+  <GreendiamondD>Драгоценные камни для создания магических предметов и конструкций.</GreendiamondD>
+  <PurplediamondT>Фиолетовый алмаз</PurplediamondT>
+  <PurplediamondD>Драгоценные камни для создания магических предметов и конструкций.</PurplediamondD>
+  <WaterT>Вода</WaterT>
+  <WaterD>Вода широко используется для приготовления пищи, эликсиров и строительных растворов. Для сбора воды нужны ведра на складе.</WaterD>
+  <ZombiebrainT>Мозг зомби</ZombiebrainT>
+  <ZombiebrainD>Пораженный мозг зомби сгодится для приготовления алхимических эликсиров.</ZombiebrainD>
+  <RootT>Корень</RootT>
+  <RootD>Некоторые корни растений могут быть использованы для приготовления эликсиров и приправ.</RootD>
+  <SlimeT>Слизь</SlimeT>
+  <SlimeD>Субстанция из слизняков может использоваться для изготовления особых светильников и эликсиров.</SlimeD>
+  <NeedlecrystalT>Игольчатый кристалл</NeedlecrystalT>
+  <NeedlecrystalD>Кристаллы периодически образуются под землей при сочетании определенных условий.</NeedlecrystalD>
+  <CoinT>Монета</CoinT>
+  <CoinD>Иногда можно найти монеты, на которые потом приобрести редкие и необходимые вещи в лавке гномов.</CoinD>
+  <BoardsT>Доски</BoardsT>
+  <BoardsD>Обработанное дерево является хорошим строительным материалом и широко используется при изготовлении мебели и других конструкций.</BoardsD>
+  <GlassT>Стекло</GlassT>
+  <GlassD>Стекло необходимо для изготовления окон и светильников, а также стеклянных предметов интерьера вроде ваз.</GlassD>
+  <SteelT>Сталь</SteelT>
+  <SteelD>Сталь используется для изготовления особо прочного оружия и дверей.</SteelD>
+  <ThreadT>Нитки</ThreadT>
+  <ThreadD>Нитки используются для пошива изделий из ткани.</ThreadD>
+  <BonesT>Кости</BonesT>
+  <BonesD>Оставшиеся от существ кости можно использовать для изготовления простых факелов.</BonesD>
+  <BrickT>Кирпичи</BrickT>
+  <BrickD>Прочный материал из глины для постройки стен.</BrickD>
+  <KettleT>Котелок</KettleT>
+  <KettleD>Неотъемлемый компонент любой кухни для приготовления горячих блюд.</KettleD>
+  <RopeT>Веревка</RopeT>
+  <RopeD>Веревки в основном используется для изготовления оружия и инструментов.</RopeD>
+  <LockT>Замок</LockT>
+  <LockD>Компонент для создания дверей и сундуков.</LockD>
+  <LeatherskinT>Шкура</LeatherskinT>
+  <LeatherskinD>Добытая в процессе охоты шкура может быть использована для изготовления декоративных и полезных предметов интерьера.</LeatherskinD>
+  <NailT>Гвозди</NailT>
+  <NailD>Практически ни одна сложная деревянная конструкция не обходится без использования гвоздей.</NailD>
+  <PaintT>Краски</PaintT>
+  <PaintD>Краска придает цвет разным изделиям из ткани.</PaintD>
+  <PaperT>Бумага</PaperT>
+  <PaperD>Бумага используется для создания таких предметов интерьера как картины.</PaperD>
+  <FabricT>Ткань</FabricT>
+  <FabricD>Ткань используется для изготовления одежды и некоторых предметов интерьера.</FabricD>
+  <NeedleT>Иглы</NeedleT>
+  <NeedleD>Иглы используются при работе с тканью.</NeedleD>
+  <GrainT>Пшеничные зерна</GrainT>
+  <GrainD>Зерна добываются из колосьев зрелой пшеницы. Их можно переработать в муку или посадить.</GrainD>
+  <ClayT>Глина</ClayT>
+  <ClayD>Строительный материал, который можно достать буквально из-под ног и использовать в строительстве и гончарном деле.</ClayD>
+  <OilT>Масло</OilT>
+  <OilD>Добытое из ягод масло позволяет изготавливать особо яркие светильники.</OilD>
+  <FeatherT>Перо</FeatherT>
+  <FeatherD>Перья птиц можно использовать для изготовления стрел.</FeatherD>
+  <BottleT>Бутылочка</BottleT>
+  <BottleD>Используется для хранения алхимических эликсиров.</BottleD>
+  <PitcherT>Кувшин</PitcherT>
+  <PitcherD>Сосуд для хранения жидких продуктов.</PitcherD>
+  <Block1portalT>Первая часть Портала</Block1portalT>
+  <Block1portalD>Элемент конструкции портала между мирами.</Block1portalD>
+  <Block2portalT>Вторая часть Портала</Block2portalT>
+  <Block2portalD></Block2portalD>
+  <Block3portalT>Третья часть Портала</Block3portalT>
+  <Block3portalD></Block3portalD>
+  <Block4portalT>Четвертая часть Портала</Block4portalT>
+  <Block4portalD></Block4portalD>
+  <Block5portalT>Пятая часть Портала</Block5portalT>
+  <Block5portalD></Block5portalD>
+  <StoneknifeT>Каменный нож</StoneknifeT>
+  <StoneknifeD>Самый простой нож, который есть у большинства гномов при их появлении. Универсальное оружие и инструмент для добычи ресурсов.</StoneknifeD>
+  <StoneaxeT>Каменный топор</StoneaxeT>
+  <StoneaxeD>Простейший топор из подручных материалов для рубки деревьев.</StoneaxeD>
+  <IronaxeT>Железный топор</IronaxeT>
+  <IronaxeD>Усовершенствованный топор из железа для рубки дерева. Также может использоваться в качестве оружия.</IronaxeD>
+  <StonepickaxeT>Каменная кирка</StonepickaxeT>
+  <StonepickaxeD>Простейшая кирка из подручных материалов. Но даже она ускоряет процесс добычи руды по сравнению с обычными инструментами вроде ножа.</StonepickaxeD>
+  <IronpickaxeT>Железная кирка</IronpickaxeT>
+  <IronpickaxeD>Усовершенствованная кирка для добычи руды.</IronpickaxeD>
+  <IronswordT>Железный меч</IronswordT>
+  <IronswordD>Железный меч - основное оружие ближнего боя. Позволяет также охотиться на опасных зверей.</IronswordD>
+  <SteelswordT>Стальной меч</SteelswordT>
+  <SteelswordD>Стальной меч - основное оружие ближнего боя. Позволяет также охотиться на опасных зверей.</SteelswordD>
+  <YataganswordT>Ятаган</YataganswordT>
+  <YataganswordD>Изогнутой меч обладает несложным рецептом изготовления, но является грозным оружием в умелых руках.</YataganswordD>
+  <BatonT>Дубинка</BatonT>
+  <BatonD>Простая в изготовлении дубинка поможет гному отбиться от не слишком сильных противников.</BatonD>
+  <SteelbatonT>Железная дубинка</SteelbatonT>
+  <SteelbatonD>С такой дубинкой не страшно прогуляться по дикому лесу.</SteelbatonD>
+  <WoodenbowT>Деревянный лук</WoodenbowT>
+  <WoodenbowD>Простейшее оружие дальнего боя. Обладает неограниченным запасом обычных деревянных стрел.</WoodenbowD>
+  <LongbowT>Длинный лук</LongbowT>
+  <LongbowD>Усовершенствованный лук для дальнего боя. Наносит более сильные повреждения.</LongbowD>
+  <WizardsstaffT>Посох мага</WizardsstaffT>
+  <WizardsstaffD>Посох позволяет своему владельцу использовать заранее приготовленные эликсиры волшебных заклинаний в битве.</WizardsstaffD>
+  <SimplearrowT>Обычные стрелы</SimplearrowT>
+  <SimplearrowD>Наносят небольшой урон. Гномы имеют практически неограниченный запас этих стрел. Используются, когда заканчиваются более мощные стрелы.</SimplearrowD>
+  <FirearrowT>Огненные стрелы</FirearrowT>
+  <FirearrowD>Наносят заметное повреждение. Чтобы гномы могли использовать огненные стрелы вместо обычных, выберите их в диалоге снаряжения.</FirearrowD>
+  <SilverarrowT>Серебряные стрелы</SilverarrowT>
+  <SilverarrowD>Выполнены с использованием эльфийских знаний. Необычайно эффективны в бою. Отметьте серебряные стрелы для использования их гномами вместо обычных в диалоге снаряжения.</SilverarrowD>
+  <BucketT>Ведро</BucketT>
+  <BucketD>Ведра используются для переноса воды. Чем больше ведер, тем больше гномы могут переносить воды одновременно.</BucketD>
+  <FishingrodT>Удочка</FishingrodT>
+  <FishingrodD>Снасть для рыбалки. Гномы берут удочки со склада сами, когда собираются ловить рыбу. Чем больше удочек, тем большее число гномов может рыбачить одновременно.</FishingrodD>
+  <WoodenwallT>Деревянная стена</WoodenwallT>
+  <WoodenwallD>Деревянные стены обладают простой конструкцией и незаменимы для постройки начального убежища.</WoodenwallD>
+  <BrickwallT>Кирпичная стена</BrickwallT>
+  <BrickwallD>Толстые кирпичные стены являются одной из самых надежных преград.</BrickwallD>
+  <StonewallT>Каменная стена</StonewallT>
+  <StonewallD>Каменные стены изготавливаются по несложной технологии и обладают хорошей прочностью.</StonewallD>
+  <VenetianstuccoT>Декоративная штукатурка</VenetianstuccoT>
+  <VenetianstuccoD>Декоративная штукатурка используется для отделки стен внутри дома.</VenetianstuccoD>
+  <LadderT>Лестница</LadderT>
+  <LadderD>Лестницы увеличивают скорость передвижения гномов и не дают им падать.</LadderD>
+  <StonestepsT>Каменные ступеньки</StonestepsT>
+  <StonestepsD>Хотя гномы неплохо прыгают и карабкаются, они будут очень довольны, если смогут воспользоваться ступеньками.</StonestepsD>
+  <WoodenstepsT>Деревянные ступеньки</WoodenstepsT>
+  <WoodenstepsD>Хотя гномы неплохо прыгают и карабкаются, они будут очень довольны, если смогут воспользоваться ступеньками.</WoodenstepsD>
+  <IronfenceT>Железный забор</IronfenceT>
+  <IronfenceD>Забор замедляет продвижение врагов.</IronfenceD>
+  <FenceT>Изгородь</FenceT>
+  <FenceD>Самый простой забор. Немного замедляет продвижение врагов.</FenceD>
+  <BrickfenceT>Кирпичный забор</BrickfenceT>
+  <BrickfenceD>Забор замедляет продвижение врагов.</BrickfenceD>
+  <WoodendoorT>Деревянная дверь</WoodendoorT>
+  <WoodendoorD>Простая деревянная дверь, как и все остальные, позволяет завершить постройку убежища гномов и закрыть посторонним вход в него.</WoodendoorD>
+  <IrondoorT>Железная дверь</IrondoorT>
+  <IrondoorD>Усиленная железная дверь сможет дольше противостоять нежданным гостям.</IrondoorD>
+  <SteeldoorT>Стальная дверь</SteeldoorT>
+  <SteeldoorD>Самая прочная из всех дверей.</SteeldoorD>
+  <WoodenhatchT>Деревянный люк</WoodenhatchT>
+  <WoodenhatchD>Самый простой способ ограничить проникновение в дом. Вы можете открывать и закрывать люки, чтобы блокировать некоторые пути передвижения гномов.</WoodenhatchD>
+  <IronhatchT>Железный люк</IronhatchT>
+  <IronhatchD>Усиленный железный люк.</IronhatchD>
+  <StonecolumnT>Каменная колонна</StonecolumnT>
+  <StonecolumnD>Декоративная колонна для торжественных залов.</StonecolumnD>
+  <AntiquecolumnT>Античная колонна</AntiquecolumnT>
+  <AntiquecolumnD>Древняя колонна, найденная гномами в заброшенных подземельях.</AntiquecolumnD>
+  <SpireT>Башенный шпиль</SpireT>
+  <SpireD>Верхний элемент башен замка.</SpireD>
+  <StoneloopholeT>Каменная бойница</StoneloopholeT>
+  <StoneloopholeD>Надстройка на стенах замка позволяет гномам атаковать, находясь в укрытии.</StoneloopholeD>
+  <FlowerbedT>Клумба</FlowerbedT>
+  <FlowerbedD>Украшение из цветов возле дома.</FlowerbedD>
+  <FountainT>Фонтан</FountainT>
+  <FountainD>Декоративное украшение прилегающей территории.</FountainD>
+  <WoodentrapT>Деревянный капкан</WoodentrapT>
+  <WoodentrapD>Простейшая ловушка для зверей и слабых монстров. Установите ее на их предполагаемом пути передвижения.</WoodentrapD>
+  <SteeltrapT>Железный капкан</SteeltrapT>
+  <SteeltrapD>Замена обычному капкану из дерева. Отнимает больше здоровья у зверей и монстров.</SteeltrapD>
+  <ZombiecagewoodenT>Деревянная клетка</ZombiecagewoodenT>
+  <ZombiecagewoodenD>Деревянная клетка задерживает некоторых монстров на небольшое время, позволяя гномам безнаказанно атаковать их.</ZombiecagewoodenD>
+  <ZombiecageironT>Железная клетка</ZombiecageironT>
+  <ZombiecageironD>Железная клетка надежно удерживает некоторых монстров, делая их совершенно беспомощными.</ZombiecageironD>
+  <LogbridgeT>Мост из бревен</LogbridgeT>
+  <LogbridgeD>Временный мост, самый простой в изготовлении, но не очень надежный.</LogbridgeD>
+  <WoodenbridgeT>Деревянный мост</WoodenbridgeT>
+  <WoodenbridgeD>Простой, но достаточно прочный и быстрый в изготовлении, деревянный мост обеспечит надежную переправу.</WoodenbridgeD>
+  <StonebridgeT>Каменный мост</StonebridgeT>
+  <StonebridgeD>Прочный каменный мост может быть изготовлен по простой технологии.</StonebridgeD>
+  <TotemT>Тотем</TotemT>
+  <TotemD>Создает ауру дома, препятствующую появлению монстров.</TotemD>
+  <Relief1T>Барельеф "Цветы"</Relief1T>
+  <Relief1D>Один из вариантов декоративного оформления стен.</Relief1D>
+  <Relief2T>Барельеф "Простор"</Relief2T>
+  <Relief2D>Один из вариантов декоративного оформления стен.</Relief2D>
+  <ShingledroofT>Черепичная крыша</ShingledroofT>
+  <ShingledroofD>Черепичная крыша является превосходным материалом и украшением жилища.</ShingledroofD>
+  <RoofofleavesT>Крыша из листьев</RoofofleavesT>
+  <RoofofleavesD>Самая простая крыша из листьев для защиты от осадков.</RoofofleavesD>
+  <AnvilwithahammerT>Кузница</AnvilwithahammerT>
+  <AnvilwithahammerD>Кузница необходима для изготовления сложных изделий из металлов.</AnvilwithahammerD>
+  <WorkshopT>Мастерская</WorkshopT>
+  <WorkshopD>Мастерская позволяет обрабатывать камень, придавая ему сложную форму.</WorkshopD>
+  <WorkbenchT>Верстак</WorkbenchT>
+  <WorkbenchD>Верстак необходим для обработки дерева, чтобы изготовить сложные предметы.</WorkbenchD>
+  <MagiccauldronT>Лаборатория</MagiccauldronT>
+  <MagiccauldronD>Волшебный котел используется для приготовления эликсиров магических заклинаний, которые гномы могут использовать самостоятельно.</MagiccauldronD>
+  <MillT>Мельница</MillT>
+  <MillD>Жернова мельницы могут измельчить зерна для превращения их в муку.</MillD>
+  <ElevatorT>Лифт</ElevatorT>
+  <ElevatorD>Лифт устанавливается в вертикальную шахту и быстро перемещает сразу несколько гномов между горизонтами.</ElevatorD>
+  <RailsT>Рельсы</RailsT>
+  <RailsD>Теперь вы можете построить железную дорогу. Разместите рельсы последовательно на нескольких блоках и установите на них хотя бы одну вагонетку.</RailsD>
+  <WagonT>Вагонетка</WagonT>
+  <WagonD>Вагонетка устанавливается на железную дорогу и позволяет гномам быстро перемещаться вдоль нее.</WagonD>
+  <RailroadswitchT>ж/д переключатель</RailroadswitchT>
+  <RailroadswitchD>Чтобы гномы могли совершать посадку в вагонетки не только в начале и конце железной дороги, установите эти переключатели на промежуточных станциях.</RailroadswitchD>
+  <TeslatowerT>Башня Тесла</TeslatowerT>
+  <TeslatowerD>Башня поражает нападающих врагов молниями. Она может быть улучшена до 3-го уровня путем надстройки дополнительных секций сверху.</TeslatowerD>
+  <WoodenchestT>Деревянный сундук</WoodenchestT>
+  <WoodenchestD>Используется для украшения интерьера. Найденные в заброшенных комнатах, сундуки могут содержать полезные предметы.</WoodenchestD>
+  <MetalchestT>Металлический сундук</MetalchestT>
+  <MetalchestD>Используется для украшения интерьера. Найденные в заброшенных комнатах, сундуки могут содержать полезные предметы.</MetalchestD>
+  <GargoylestatueT>Статуя гаргульи</GargoylestatueT>
+  <GargoylestatueD>Украшение для ворот и стен замка.</GargoylestatueD>
+  <SquarewindowT>Квадратное окно</SquarewindowT>
+  <SquarewindowD>Простое окно для освещения дома.</SquarewindowD>
+  <RoundwindowT>Круглое окно</RoundwindowT>
+  <RoundwindowD>Небольшое круглое окно.</RoundwindowD>
+  <Stained-glasswindowT>Витраж</Stained-glasswindowT>
+  <Stained-glasswindowD>Витраж для главного зала - замена обычным окнам.</Stained-glasswindowD>
+  <RoundstainedglassT></RoundstainedglassT>
+  <RoundstainedglassD>Круглый витраж</RoundstainedglassD>
+  <StainedglasswithsplashesT>Витраж с вкраплениями</StainedglasswithsplashesT>
+  <StainedglasswithsplashesD>Декоративный элемент для украшения стен.</StainedglasswithsplashesD>
+  <LancetwindowT>Стрельчатое окно</LancetwindowT>
+  <LancetwindowD>Классическое деревянное окно.</LancetwindowD>
+  <StonechairT>Каменное кресло</StonechairT>
+  <StonechairD>Под землей нет деревьев, поэтому иногда приходится использовать для изготовления мебели даже камни.</StonechairD>
+  <WoodenchairT>Деревянный стул</WoodenchairT>
+  <WoodenchairD>Обычный стул для столовых и жилых комнат.</WoodenchairD>
+  <TextilechairT>Кресло из ткани</TextilechairT>
+  <TextilechairD>Простое кресло из ткани.</TextilechairD>
+  <LeatherchairT>Кожаное кресло</LeatherchairT>
+  <LeatherchairD>Удобное кожаное кресло для интерьера.</LeatherchairD>
+  <SofaT>Диван</SofaT>
+  <SofaD>Диван заметно увеличивает уют любого дома.</SofaD>
+  <WallcarpetT>Настенный ковер</WallcarpetT>
+  <WallcarpetD>Настенный ковер для украшения интерьера.</WallcarpetD>
+  <CabinetwithshelvesT>Шкаф с полками</CabinetwithshelvesT>
+  <CabinetwithshelvesD>Шкаф с полками для украшения интерьера.</CabinetwithshelvesD>
+  <RoundmirrorT>Круглое зеркало</RoundmirrorT>
+  <RoundmirrorD>Даже гномам не помешает изредка следить за собственной внешностью.</RoundmirrorD>
+  <DecorativemirrorT>Декоративное зеркало</DecorativemirrorT>
+  <DecorativemirrorD>Роскошное зеркало в раме для украшения интерьера.</DecorativemirrorD>
+  <PaintingwithsightsT>Пейзаж</PaintingwithsightsT>
+  <PaintingwithsightsD>Виды природы.</PaintingwithsightsD>
+  <AbstractpaintingT>Портрет</AbstractpaintingT>
+  <AbstractpaintingD>Портреты знаменитых и не очень гномов</AbstractpaintingD>
+  <RedpennantT>Вымпел</RedpennantT>
+  <RedpennantD>Вымпел для украшения интерьера.</RedpennantD>
+  <BlackandwhitepennantT>Вымпел</BlackandwhitepennantT>
+  <BlackandwhitepennantD>Вымпел для украшения интерьера.</BlackandwhitepennantD>
+  <BedT>Деревянная кровать</BedT>
+  <BedD>Место для восстановления сил гнома.</BedD>
+  <Bed2T>Изящная кровать</Bed2T>
+  <Bed2D>Комфортная кровать для крепкого сна.</Bed2D>
+  <BedofleavesT>Кровать из листьев</BedofleavesT>
+  <BedofleavesD>Не очень удобная, но простая в изготовлении кровать.</BedofleavesD>
+  <LuxurybedT>Роскошная кровать</LuxurybedT>
+  <LuxurybedD>Кровать королей! Не просто место, чтобы поспать, но и украшение всего дома.</LuxurybedD>
+  <WoodentableT>Деревянный стол</WoodentableT>
+  <WoodentableD>Простой стол, на который можно выкладывать еду для гномов.</WoodentableD>
+  <LargetableT>Широкий стол</LargetableT>
+  <LargetableD>Широкий стол может вместить большее количество разных блюд.</LargetableD>
+  <TablewithatableclothT>Стол со скатертью</TablewithatableclothT>
+  <TablewithatableclothD>Красивый стол, накрытый скатертью.</TablewithatableclothD>
+  <CabinetwithglassdoorsT>Стеклянный шкаф</CabinetwithglassdoorsT>
+  <CabinetwithglassdoorsD>Резной шкаф со стеклянными дверями для украшения интерьера.</CabinetwithglassdoorsD>
+  <BookshelfT>Книжная полка</BookshelfT>
+  <BookshelfD>Элемент интерьера дома.</BookshelfD>
+  <FireplaceT>Камин</FireplaceT>
+  <FireplaceD>Камин для украшения интерьера.</FireplaceD>
+  <CrockT>Глиняный горшок</CrockT>
+  <CrockD>Хороший горшок … можно поставить рядом с кроватью на ночь.</CrockD>
+  <GlassvaseT>Стеклянная ваза</GlassvaseT>
+  <GlassvaseD>Изысканная стеклянная ваза.</GlassvaseD>
+  <WallskinrugT>Шкура на стену</WallskinrugT>
+  <WallskinrugD>Охотничий трофей, украшение стен дома.</WallskinrugD>
+  <ShieldwithskullT>Щит с черепом</ShieldwithskullT>
+  <ShieldwithskullD></ShieldwithskullD>
+  <BarrelT>Бочка</BarrelT>
+  <BarrelD>Бочки используются для производства крепких напитков.</BarrelD>
+  <WinebarrelT>Бочка с вином</WinebarrelT>
+  <WinebarrelD>Бочки со старым добрым вином хорошо поднимают настроение гномам.</WinebarrelD>
+  <Plantinapot2T>Горшечное растение</Plantinapot2T>
+  <Plantinapot2D>Украшение интерьера и прилегающей территории.</Plantinapot2D>
+  <PlantinapotT>Цветочки в горшке</PlantinapotT>
+  <PlantinapotD></PlantinapotD>
+  <AquariumT>Аквариум</AquariumT>
+  <AquariumD>Рыбу можно не только поджарить на сковородке, но и поместить в аквариум. Тогда она будет радовать не только желудок, но и глаз.</AquariumD>
+  <Cuckoo-clockT>Часы с кукушкой</Cuckoo-clockT>
+  <Cuckoo-clockD>Под землей не бывает смены дня и ночи, поэтому хорошие часы не помешают.</Cuckoo-clockD>
+  <PendulumclockT>Часы с маятником</PendulumclockT>
+  <PendulumclockD>Массивные напольные часы для украшения интерьера.</PendulumclockD>
+  <BirdcageT>Клетка с птичкой</BirdcageT>
+  <BirdcageD>Сердитая птичка в клетке, но она веселит гномов.</BirdcageD>
+  <AppleT>Яблоко</AppleT>
+  <AppleD>Шишки и яблоки гномы могут есть сразу же, как только находят их при добыче древесины.</AppleD>
+  <ConeT>Шишка</ConeT>
+  <ConeD>Шишки и яблоки гномы могут есть сразу же, как только находят их при добыче древесины.</ConeD>
+  <HamT>Мясо</HamT>
+  <HamD>Мясо можно добыть, охотясь на диких зверей. Сырое мясо гномы не едят, его нужно приготовить.</HamD>
+  <GrilledmeatT>Жареное мясо</GrilledmeatT>
+  <GrilledmeatD>Добытое на охоте мясо можно приготовить на кухне.</GrilledmeatD>
+  <BerriesT>Ягоды</BerriesT>
+  <BerriesD>Универсальный ингредиент для блюд, эликсиров и краски.</BerriesD>
+  <CoconutT>Кокос</CoconutT>
+  <CoconutD>Сок и мякоть кокоса хорошо восстанавливают силы.</CoconutD>
+  <EggT>Яйцо</EggT>
+  <EggD>Нельзя приготовить яичницу, не разбив яиц.</EggD>
+  <StewT>Похлебка</StewT>
+  <StewD>Кроме жареного мяса из пойманной дичи можно приготовить мясную похлебку.</StewD>
+  <BunT>Булочка</BunT>
+  <BunD>Аппетитная булочка с простым рецептом приготовления.</BunD>
+  <ApplepieT>Яблочный пирог</ApplepieT>
+  <ApplepieD>Приготовить пирог непросто, но его хватит на нескольких едоков.</ApplepieD>
+  <BreadT>Хлеб</BreadT>
+  <BreadD>Хлеб - основное блюдо, которое можно приготовить из пшеницы.</BreadD>
+  <MixedgreenssaladT>Салат из свежей зелени</MixedgreenssaladT>
+  <MixedgreenssaladD>Если продуктов мало, а кушать очень хочется, можно соорудить простой салат из свежей зелени.</MixedgreenssaladD>
+  <GrilledfishT>Жареная рыба</GrilledfishT>
+  <GrilledfishD>Самый простой способ приготовить пойманную рыбу - поджарить ее на углях.</GrilledfishD>
+  <FishstewT>Уха</FishstewT>
+  <FishstewD>Из рыбы можно сварить несколько порций ухи по несложному рецепту.</FishstewD>
+  <FishT>Рыба</FishT>
+  <FishD>Возобновляемый источник пищи, из которого можно приготовить много различных блюд. Для ловли требуется удочка.</FishD>
+  <TorchT>Факел</TorchT>
+  <TorchD>Факелы освещают подземелья и отпугивают некоторых небольших созданий.</TorchD>
+  <WalllampT>Настенная лампа</WalllampT>
+  <WalllampD>Простой масляный светильник для дома.</WalllampD>
+  <LightingstandT>Осветительная стойка</LightingstandT>
+  <LightingstandD>Простой уличный фонарь.</LightingstandD>
+  <MinerslampT>Шахтерская лампа</MinerslampT>
+  <MinerslampD>Шахтерские лампы можно установить на пол в любом месте. Они хорошо подходят для использования в подземных выработках.</MinerslampD>
+  <SimplehatT>Обычная шляпа</SimplehatT>
+  <SimplehatD>Обычная шляпа защищает только от дождя и солнца и точно не от ударов по голове.</SimplehatD>
+  <HoodedhatT>Капюшон</HoodedhatT>
+  <HoodedhatD>С таким капюшоном к вам приходят новые гномы, надеясь, что вы обеспечите им более надежное снаряжение.</HoodedhatD>
+  <IronhelmetT>Железный шлем</IronhelmetT>
+  <IronhelmetD>Железный шлем обладает простой конструкцией и неплохой прочностью.</IronhelmetD>
+  <DivinghelmetT>Водолазный шлем</DivinghelmetT>
+  <DivinghelmetD>Водолазный шлем позволяет гномам спокойно работать под водой.</DivinghelmetD>
+  <LeatherhelmetT>Кожаный шлем</LeatherhelmetT>
+  <LeatherhelmetD>Простой шлем для защиты головы в битве.</LeatherhelmetD>
+  <GoldenhelmetT>Золотой шлем</GoldenhelmetT>
+  <GoldenhelmetD>Роскошный и прочный золотой шлем обеспечивает хорошую защиту.</GoldenhelmetD>
+  <LeatherbootsT>Кожаные ботинки</LeatherbootsT>
+  <LeatherbootsD>Обычная обувь гномов.</LeatherbootsD>
+  <IronbootsT>Железные ботинки</IronbootsT>
+  <IronbootsD>Металлические доспехи для защиты ног.</IronbootsD>
+  <LeathershirtT>Кожаные доспехи</LeathershirtT>
+  <LeathershirtD>Обеспечивают дополнительную защиту.</LeathershirtD>
+  <GoldarmorT>Золотые доспехи</GoldarmorT>
+  <GoldarmorD>Золотые доспехи могут себе позволить только гномы старейшины.</GoldarmorD>
+  <CampfirewithpotT>Костер с котелком</CampfirewithpotT>
+  <CampfirewithpotD>Простейшая кухня для готовки блюд.</CampfirewithpotD>
+  <PotbellystoveT>Печка</PotbellystoveT>
+  <PotbellystoveD>Небольшая кухня для готовки блюд.</PotbellystoveD>
+  <StonestoveT>Каменная печь</StonestoveT>
+  <StonestoveD>Простая в изготовлении печь из камней.</StonestoveD>
+  <LargestoveT>Большая печь</LargestoveT>
+  <LargestoveD>Большая и удобная кухня шеф-повара.</LargestoveD>
+  <ScaffoldingT>Строительные леса</ScaffoldingT>
+  <ScaffoldingD>По строительным лесам гномы могут забираться, чтобы выполнять работы на большой высоте. Вы можете самостоятельно устанавливать и убирать их.</ScaffoldingD>
+  <TeaT>Чай</TeaT>
+  <TeaD>Чай придает силы гномам, и они начинают двигаться быстрее.</TeaD>
+  <BeerT>Пиво</BeerT>
+  <BeerD>Работа гномов будет спориться быстрее после кружки пенистого пива.</BeerD>
+  <CasttheportalT>Портал</CasttheportalT>
+  <CasttheportalD>Заклинание открывает портал, ведущий к складу. Гномы могут перемещаться по нему в оба направления.</CasttheportalD>
+  <CastthelightT>Магический свет</CastthelightT>
+  <CastthelightD>Заклинание на некоторое время освещает небольшое пространство.</CastthelightD>
+  <CastthefireballT>Огненный шар</CastthefireballT>
+  <CastthefireballD>Заклинание вызывает огненный шар, который наносит заметные повреждения сразу нескольким существам.</CastthefireballD>
+  <CasttheforestT>Магический лес</CasttheforestT>
+  <CasttheforestD>Заклинание вызывает мгновенный рост деревьев на выбранном участке местности.</CasttheforestD>
+  <CastthecompasT>Компас</CastthecompasT>
+  <CastthecompasD>Компас показывает направление в сторону ближайшей секретной комнаты.</CastthecompasD>
+  <CastthehornT>Общий сбор</CastthehornT>
+  <CastthehornD>Заклинание призывает гномов собраться в определенном месте, например, для совместной атаки или защиты.</CastthehornD>
+  <CasttherainT>Вызов дождя или снега</CasttherainT>
+  <CasttherainD>Заклинание вызывает обычный дождь на поверхности или снег в зависимости от сезона.</CasttherainD>
+  <MigiccollectresourcesT>Быстрый сбор ресурсов</MigiccollectresourcesT>
+  <MigiccollectresourcesD>Заклинание отправляет на склад лежащие на земле ресурсов в небольшом радиусе от его применения.</MigiccollectresourcesD>
+  <CasttheimpsT>Вызов Импов</CasttheimpsT>
+  <CasttheimpsD>Заклинание вызывает несколько летающих помощников, которые помогают собирать ресурсы.</CasttheimpsD>
+  <ManaElixirT>Эликсир маны</ManaElixirT>
+  <ManaElixirD>Используйте эликсир, чтобы восстановить некоторое количество маны.</ManaElixirD>
+  <WebT>Паутина</WebT>
+  <WebD>Компонент алхимических эликсиров.</WebD>
+  <QuartzT>Кварц</QuartzT>
+  <QuartzD>Необычайно полезный кристалл для постройки башен Тесла.</QuartzD>
+  <PinkCrystalT>Розовый кристалл</PinkCrystalT>
+  <PinkCrystalD>Драгоценный камень, который можно найти на большой глубине.</PinkCrystalD>
+  <GreyMushroomT>Серый гриб</GreyMushroomT>
+  <GreyMushroomD>Компонент алхимических эликсиров.</GreyMushroomD>
+  <PinkMushroomT>Розовый гриб</PinkMushroomT>
+  <PinkMushroomD>Компонент алхимических эликсиров.</PinkMushroomD>
+  <DragonEggT>Яйцо дракона</DragonEggT>
+  <DragonEggD>Редкий и труднодоступный алхимический ингредиент.</DragonEggD>
+  <StonecollumnT>Черная колонна</StonecollumnT>
+  <StonecollumnD></StonecollumnD>
+  <WheelfortrolleyT>Колесо</WheelfortrolleyT>
+  <WheelfortrolleyD>Необходимый элемент вагонетки.</WheelfortrolleyD>
+  <FlagT>Флаг</FlagT>
+  <FlagD>Декоративный предмет и компонент для постройки дополнительного лагеря-склада. </FlagD>
+  <WarehouseT>Дополнительный склад</WarehouseT>
+  <WarehouseD>Установка дополнительных складов позволит гномам тратить меньше времени на перенос предметов.</WarehouseD>
+  <DeadlockT>Тупик для вагонетки</DeadlockT>
+  <DeadlockD></DeadlockD>
+  <CasewithclothesT>Гардероб</CasewithclothesT>
+  <CasewithclothesD>Мебель повышает уют в жилище, что способствует скорейшему восстановлению сил гномов.</CasewithclothesD>
+  <DecorativeShieldT>Декоративный щит</DecorativeShieldT>
+  <DecorativeShieldD>Декоративный элемент интерьера.</DecorativeShieldD>
+  <StatueT>Статуя Рори Камнешкура</StatueT>
+  <StatueD>Статуя легендарного героя гномов и покровителя рудокопов. По преданиям его дух все еще бродит по заброшенным шахтам и помогает заблудившимся гномам найти дорогу домой. Повышает навык шахтеров на 5 пунктов.</StatueD>
+  <GunnarT>Статуя Гуннара Айронфиста</GunnarT>
+  <GunnarD>Статуя легендарного генерала, героя войны с гоблинами Северных кланов. А так же выпивохи и дебошира, но об этом в легендах старались не упоминать... Повышает навык воинов на 5 пунктов.</GunnarD>
+  <HoneyT>Мед</HoneyT>
+  <HoneyD></HoneyD>
+  <ChandelierSmallT>Маленькая люстра</ChandelierSmallT>
+  <ChandelierSmallD>Светильники увеличивают комфорт в жилище.</ChandelierSmallD>
+  <LanternT>Фонарь</LanternT>
+  <LanternD>Добротный фонарь для освещения территории вокруг убежища, чтобы вовремя заметить опасность.</LanternD>
+  <TinkersHatT>Шляпа с очками</TinkersHatT>
+  <TinkersHatD>Начальная одежда, в которой появляются новые гномы.</TinkersHatD>
+  <WoodmansHatT>Шляпа с пером</WoodmansHatT>
+  <WoodmansHatD></WoodmansHatD>
+  <OrdinaryshirtT>Рубаха</OrdinaryshirtT>
+  <OrdinaryshirtD></OrdinaryshirtD>
+  <SteelChainArmorT>Стальная броня</SteelChainArmorT>
+  <SteelChainArmorD>Добротная броня из обычного металла.</SteelChainArmorD>
+  <BewareT>Знак "Осторожно"</BewareT>
+  <BewareD>Установите табличку, чтобы запретить гномам ходить через это место. Например, если там много сильных монстров, которые им пока не по зубам.</BewareD>
+  <MigicexplosionT>Магический взрыв</MigicexplosionT>
+  <MigicexplosionD>Вызывает разрушение ближайших блоков и наносит серьезные повреждения существам.</MigicexplosionD>
+  <HealthElixirT>Эликсир здоровья</HealthElixirT>
+  <HealthElixirD>Используйте эликсир в диалоге снаряжения, чтобы поправить здоровье выбранному гному.</HealthElixirD>
+  <ElixiroffireballT>Эликсир огня</ElixiroffireballT>
+  <ElixiroffireballD>Создайте запас эликсира для гномов-магов, чтобы они могли вызывать при помощи своих посохов огненные шары.</ElixiroffireballD>
+  <LoggerSkillT>Книга лесоруба</LoggerSkillT>
+  <LoggerSkillD>Изучите, чтобы ускорить рубку леса.</LoggerSkillD>
+  <MinnerSkillT>Книга шахтера</MinnerSkillT>
+  <MinnerSkillD>Изучите, чтобы ускорить добычу земли и камня.</MinnerSkillD>
+  <FisherSkillT>Книга рыбака</FisherSkillT>
+  <FisherSkillD>Изучите, чтобы ускорить ловлю рыбы.</FisherSkillD>
+  <MeleeSkillT>Книга воина</MeleeSkillT>
+  <MeleeSkillD>Изучите, чтобы увеличить мастерство ближнего боя.</MeleeSkillD>
+  <ArcherSkillT>Книга лучника</ArcherSkillT>
+  <ArcherSkillD>Изучите, чтобы увеличить мастерство стрельбы из луков.</ArcherSkillD>
+  <CookSkillT>Книга повара</CookSkillT>
+  <CookSkillD>13-е издание, переработанное и дополненное. Теперь уже точно все съедобные грибы и ягоды!</CookSkillD>
+  <SmithSkillT>Книга кузнеца</SmithSkillT>
+  <SmithSkillD>Изучите, чтобы ускорить изготовление предметов из металла.</SmithSkillD>
+  <CarpenterSkillT>Книга плотника</CarpenterSkillT>
+  <CarpenterSkillD>Изучите, чтобы ускорить изготовление предметов из дерева.</CarpenterSkillD>
+  <MageSkillT>Книга мага</MageSkillT>
+  <MageSkillD>Да пребудет с вами сила! Как сделать из мухи слона и другие заклинания.</MageSkillD>
+  <MillerSkillT>Книга мельника</MillerSkillT>
+  <MillerSkillD>Как быстро молоть не только языком. Изучите, чтобы ускорить производство муки.</MillerSkillD>
+  <HunterSkillT>Книга охотника</HunterSkillT>
+  <HunterSkillD>Как добыть себе на обед и самому не стать им! Изучите, чтобы охотиться эффективнее.</HunterSkillD>
+  <ClimberSkillT>Книга скалолаза</ClimberSkillT>
+  <ClimberSkillD>Лучше нор могут быть только горы! Изучите, чтобы падать реже.</ClimberSkillD>
+  <SwimmerSkillT>Книга пловца</SwimmerSkillT>
+  <SwimmerSkillD>Стиль топора и другие способы переплыть озеро. Изучите, чтобы плавать лучше.</SwimmerSkillD>
+  <RecipeT>Рецепт:</RecipeT>
+  <RecipeD></RecipeD>
+  <SilverAxeT>Серебряный топор</SilverAxeT>
+  <SilverAxeD></SilverAxeD>
+  <SilverPickT>Серебряная кирка</SilverPickT>
+  <SilverPickD>Серебрянная кирка эффективнее железной.</SilverPickD>
+  <SilverSwordT>Серебряный меч</SilverSwordT>
+  <SilverSwordD>Серебрянный меч наносит больше повреждений, чем железный.</SilverSwordD>
+  <SlimetorchT>Костяной факел</SlimetorchT>
+  <SlimetorchD>У гномов ничего не хранится просто так. Даже кости скелетов и слизь находят свое применение.</SlimetorchD>
+  <MithrilAxeT>Мифриловый топор</MithrilAxeT>
+  <MithrilAxeD></MithrilAxeD>
+  <MithrilPickT>Мифриловая кирка</MithrilPickT>
+  <MithrilPickD></MithrilPickD>
+  <MithrilSwordT>Мифриловый меч</MithrilSwordT>
+  <MithrilSwordD>Роскошное вооружение из ценного металла.</MithrilSwordD>
+  <MithrilHammerT>Мифриловый молот</MithrilHammerT>
+  <MithrilHammerD></MithrilHammerD>
+  <WoodHelmetT>Деревянный шлем</WoodHelmetT>
+  <WoodHelmetD>Простейший шлем из подручных материалов.</WoodHelmetD>
+  <SilverHelmetT>Серебряный шлем</SilverHelmetT>
+  <SilverHelmetD></SilverHelmetD>
+  <MithrilHelmetT>Мифриловый шлем</MithrilHelmetT>
+  <MithrilHelmetD></MithrilHelmetD>
+  <WoodArmorT>Деревянная броня</WoodArmorT>
+  <WoodArmorD>Простейшая броня из подручных материалов.</WoodArmorD>
+  <SilverArmorT>Серебряная броня</SilverArmorT>
+  <SilverArmorD></SilverArmorD>
+  <MithrilArmorT>Мифриловая броня</MithrilArmorT>
+  <MithrilArmorD>Роскошное снаряжение из ценного металла.</MithrilArmorD>
+  <SnowT>Снег</SnowT>
+  <SnowD></SnowD>
+  <IceT>Лед</IceT>
+  <IceD>Можно растопить для получения воды.</IceD>
+  <FatT>Сало</FatT>
+  <FatD>Можно употреблять в пищу.</FatD>
+  <IcewallT>Ледяная стена</IcewallT>
+  <IcewallD>Стена из подручного материала на зимних уровнях.</IcewallD>
+  <WinterbootsT>Зимняя обувь</WinterbootsT>
+  <WinterbootsD>Не валенки, но тоже ничего.</WinterbootsD>
+  <WinterhatT>Зимняя шапка</WinterhatT>
+  <WinterhatD></WinterhatD>
+  <SantaArmorT>Одежда Деда Мороза</SantaArmorT>
+  <SantaArmorD>Волшебный тулуп Деда Мороза</SantaArmorD>
+  <SantaHatT>Шапка Деда Мороза</SantaHatT>
+  <SantaHatD>Волшебная шапка Деда Мороза</SantaHatD>
+  <SilverIngotT>Серебряный слиток</SilverIngotT>
+  <SilverIngotD>Брусок металла для дальнейшей переработки и изготовления предметов.</SilverIngotD>
+  <GoldIngotT>Золотой слиток</GoldIngotT>
+  <GoldIngotD>Брусок металла для дальнейшей переработки и изготовления предметов.</GoldIngotD>
+  <MithrilIngotT>Мифриловый слиток</MithrilIngotT>
+  <MithrilIngotD>Брусок металла для дальнейшей переработки и изготовления предметов.</MithrilIngotD>
+  <WizardsstaffMistT>Мифриловый посох мага</WizardsstaffMistT>
+  <WizardsstaffMistD>Мифриловый посох увеличивает эффективность заклинаний по сравнению с обычным.</WizardsstaffMistD>
+  <WoodenspikesT>Деревянная рогатка</WoodenspikesT>
+  <WoodenspikesD>Рогатка задерживает наступающих монстров и наносит им повреждения.</WoodenspikesD>
+  <IcespikesT>Ледяная рогатка</IcespikesT>
+  <IcespikesD>Рогатка задерживает наступающих монстров и наносит им повреждения.</IcespikesD>
+  <WoodenbigchairT>Большой стул</WoodenbigchairT>
+  <WoodenbigchairD>Добротный стул для столовых и жилых комнат.</WoodenbigchairD>
+  <IcetableT>Ледяной стол</IcetableT>
+  <IcetableD>Стол изо льда. Не использовать при температуре выше нуля.</IcetableD>
+  <IcestatueT>Ледяная статуя</IcestatueT>
+  <IcestatueD>Скульптура изо льда.</IcestatueD>
+  <ScrambledeggsT>Яичница</ScrambledeggsT>
+  <ScrambledeggsD>Нельзя приготовить яичницу, не разбив яйца.</ScrambledeggsD>
+  <FrostlingbowT>Лук Фростлингов</FrostlingbowT>
+  <FrostlingbowD>Небольшой лук, который Фростлинги используют в охоте.</FrostlingbowD>
+  <FrostlingspearT>Копье Фростлингов</FrostlingspearT>
+  <FrostlingspearD>Небольшое копье.</FrostlingspearD>
+  <RustyskeletonmaceT>Ржавая булава скелетов</RustyskeletonmaceT>
+  <RustyskeletonmaceD>Скелеты не следят за своим оружием, поэтому булава ржавая.</RustyskeletonmaceD>
+  <RustyskeletonheavymaceT>Массивная булава скелетов</RustyskeletonheavymaceT>
+  <RustyskeletonheavymaceD>Даже после смерти некоторые воины не расстаются со своим оружием.</RustyskeletonheavymaceD>
+  <RustyskeletonsaberT>Ржавая сабля скелета</RustyskeletonsaberT>
+  <RustyskeletonsaberD>Старая ржавая сабля.</RustyskeletonsaberD>
+  <RustymummysaberT>Сабля мумии</RustymummysaberT>
+  <RustymummysaberD>Старая ржавая сабля.</RustymummysaberD>
+  <GobllinspearT>Копье гоблинов</GobllinspearT>
+  <GobllinspearD>Небольшое копье.</GobllinspearD>
+  <RustyskeletonhelmetT>Ржавый шлем</RustyskeletonhelmetT>
+  <RustyskeletonhelmetD>Ржавый шлем скелета.</RustyskeletonhelmetD>
+  <ChitinT>Хитин</ChitinT>
+  <ChitinD>Остатки хитинового панциря.</ChitinD>
+  <SteelpickaxeT>Стальная кирка</SteelpickaxeT>
+  <SteelpickaxeD>Стальная кирка - самый совершенный инструмент из простого металла для добычи руды.</SteelpickaxeD>
+  <AxeSteelT>Стальной топор</AxeSteelT>
+  <AxeSteelD>Отличный инструмент для рубки дерева. Может использоваться как оружие.</AxeSteelD>
+  <HeavybowT>Тяжелый лук</HeavybowT>
+  <HeavybowD>Механический лук для дальнего боя. Выпускает сразу по три стрелы.</HeavybowD>
+  <GoldbootsT>Золотые ботинки</GoldbootsT>
+  <GoldbootsD>Красивые и прочные ботинки из золота.</GoldbootsD>
+  <MithrilbootsT>Мифриловые ботинки</MithrilbootsT>
+  <MithrilbootsD>Самые прочные ботинки из легкого металла.</MithrilbootsD>
+  <DesertbootsT>Ботинки для пустыни</DesertbootsT>
+  <DesertbootsD></DesertbootsD>
+  <DeserthatT>Тюрбан</DeserthatT>
+  <DeserthatD>Незаменимая вещь в пустыне.</DeserthatD>
+  <WoodenstaffT>Деревянный посох</WoodenstaffT>
+  <WoodenstaffD>Простейший посох волшебника.</WoodenstaffD>
+  <ElixirofsparkT>Эликсир молнии</ElixirofsparkT>
+  <ElixirofsparkD>Неисчерпаемый запас этого эликсира позволяет гномам-волшебникам метать посохами молнии.</ElixirofsparkD>
+  <Backpack1T>Короб</Backpack1T>
+  <Backpack1D>Увеличивает максимальное количество предметов, которые может переносить гном, на %1.</Backpack1D>
+  <Backpack2T>Прочный короб</Backpack2T>
+  <Backpack2D></Backpack2D>
+  <SawT>Ножовка</SawT>
+  <SawD>Увеличивает эффект от навыков лесоруба и плотника.</SawD>
+  <MinerLampT>Переносная лампа</MinerLampT>
+  <MinerLampD>Увеличивает эффект от навыка шахтера.</MinerLampD>
+  <BucketOfWormsT>Ведро с червяками</BucketOfWormsT>
+  <BucketOfWormsD>Увеличивает эффект от навыка рыбака.</BucketOfWormsD>
+  <GrindingStoneT>Точильный камень</GrindingStoneT>
+  <GrindingStoneD>Увеличивает эффект от навыка воина.</GrindingStoneD>
+  <ArcherGloveT>Перчатка лучника</ArcherGloveT>
+  <ArcherGloveD>Увеличивает эффект от навыка лучника.</ArcherGloveD>
+  <ServingSpoonT>Поварешка</ServingSpoonT>
+  <ServingSpoonD>Увеличивает эффект от навыка повара.</ServingSpoonD>
+  <SmithApronT>Фартук кузнеца</SmithApronT>
+  <SmithApronD>Увеличивает эффект от навыка кузнеца.</SmithApronD>
+  <AlchemistBagT>Сумка с эликсирами</AlchemistBagT>
+  <AlchemistBagD>Увеличивает эффект от навыка мага.</AlchemistBagD>
+  <SieveT>Сито</SieveT>
+  <SieveD>Увеличивает эффект от навыка мельника.</SieveD>
+  <ClimbingCatsT>Кошки скалолаза</ClimbingCatsT>
+  <ClimbingCatsD>Увеличивают эффект от навыка скалолаза.</ClimbingCatsD>
+  <FloatT>Поплавок</FloatT>
+  <FloatD>Увеличивает эффект от навыка пловца.</FloatD>
+  <WoodtowerT>Деревянная башня</WoodtowerT>
+  <WoodtowerD>Простейшая башня защиты. Стреляет по монстрам самостоятельно.</WoodtowerD>
+  <IcearrowelexirT>Эликсир ледяной стрелы</IcearrowelexirT>
+  <IcearrowelexirD>Эликсир позволяет гномам-волшебникам метать ледяную стрелу, которая останавливает группу врагов на некоторое время.</IcearrowelexirD>
+  <TransformelexirT>Эликсир трансфигурации</TransformelexirT>
+  <TransformelexirD>Эликсир позволяет гномам-волшебникам превращать монстров в улиток.</TransformelexirD>
+  <PumpkinT>Тыква</PumpkinT>
+  <PumpkinD>Зловещие тыквы с горящими глазами появляются в канун праздника Хэллоуин. Их можно приспособить для освещения.</PumpkinD>
+  <JasonMaskT>Маска Джейсона</JasonMaskT>
+  <JasonMaskD>Эта маска оказывает устрашающий эффект даже на монстров.</JasonMaskD>
+  <GargoyleySpawnerT>Окаменелая горгулья</GargoyleySpawnerT>
+  <GargoyleySpawnerD>Горгульи ночные существа и не выносят дневного света, который превращает их в камень.</GargoyleySpawnerD>
+  <FarmFenceT>Ограда фермы</FarmFenceT>
+  <FarmFenceD>Установите несколько секций ограды пока не появится фермерская постройка.</FarmFenceD>
+  <ScissorsT>Ножницы</ScissorsT>
+  <ScissorsD>Инструмент для стрижки овец.</ScissorsD>
+  <AnimalTrapT>Ловушка</AnimalTrapT>
+  <AnimalTrapD>Установите ловушку в местах обитания зверей для их поимки.</AnimalTrapD>
+  <PistolT>Пистолет</PistolT>
+  <PistolD>Эффективное на близких дистанциях, но слабое огнестрельное оружие.</PistolD>
+  <RifleT>Ружье</RifleT>
+  <RifleD>Огнестрельное оружие со средними характеристиками.</RifleD>
+  <HeavyrifleT>Тяжелая винтовка</HeavyrifleT>
+  <HeavyrifleD>Дальнобойная мощная винтовка с низкой точностью.</HeavyrifleD>
+  <AmmoT>Обычные заряды</AmmoT>
+  <AmmoD>Наносят небольшой урон, но запас их не ограничен.</AmmoD>
+  <AmmoSteelT>Стальные заряды</AmmoSteelT>
+  <AmmoSteelD>Наносят значительный урон.</AmmoSteelD>
+  <AmmoFireT>Огненные заряды</AmmoFireT>
+  <AmmoFireD>Обладают самой большой разрушительной силой.</AmmoFireD>
+  <GunpowderT>Порох</GunpowderT>
+  <GunpowderD>Ингредиент для производства огнестрельного оружия.</GunpowderD>
+  <SulfurT>Сера</SulfurT>
+  <SulfurD>Ингредиент для производства взрывчатых веществ.</SulfurD>
+  <TrunkT>Ствол</TrunkT>
+  <TrunkD>Основная часть огнестрельного оружия.</TrunkD>
+  <TriggerMechT>Спусковой механизм</TriggerMechT>
+  <TriggerMechD>Деталь огнестрельного оружия.</TriggerMechD>
+  <SteelwallT>Стальная стена</SteelwallT>
+  <SteelwallD>Прочная стена гномьей ковки.</SteelwallD>
+  <SteelLadderT>Стальная лестница</SteelLadderT>
+  <SteelLadderD>Значительно ускоряет перемещение гномов, а также добавляет комфорт жилищу.</SteelLadderD>
+  <ForgetElixirT>Эликсир забвения</ForgetElixirT>
+  <ForgetElixirD>Заставляет гнома забыть все его навыки.</ForgetElixirD>
+  <RoomdoorT>Межкомнатная дверь</RoomdoorT>
+  <RoomdoorD>Декоративная дверь, не участвующая в определении границ дома.</RoomdoorD>
+  <PickCaveGoblinT>Кирка пещерных гоблинов</PickCaveGoblinT>
+  <PickCaveGoblinD>А эти гоблины знают толк в рытье земли! Хелицер подземного червя, используемый в качестве рабочей части кирки, режет горную породу, как масло!</PickCaveGoblinD>
+  <HitinBootsT>Хитиновые ботинки</HitinBootsT>
+  <HitinBootsD>Кожаные ботинки, упрочненные хитиновыми пластинами. Пусть жуки приносят пользу!</HitinBootsD>
+  <HitinHelmetT>Хитиновый шлем</HitinHelmetT>
+  <HitinHelmetD>Кожаный шлем, обшитый для прочности хитиновыми пластинами. Не очень красиво и аккуратно, зато просто и надежно.</HitinHelmetD>
+  <SilverbootsT>Серебряные ботинки</SilverbootsT>
+  <SilverbootsD>Довольно прочные и идеально подходят к комплекту серебряной брони.</SilverbootsD>
+  <HitinArmorT>Хитиновые доспехи</HitinArmorT>
+  <HitinArmorD>А что если обшить кожаные доспехи пластинами хитина? Получатся доспехи неудобные, но прочные и надежные.</HitinArmorD>
+  <CavegoblinSaberT>Сабля пещерных гоблинов</CavegoblinSaberT>
+  <CavegoblinSaberD>Грубое оружие из костей и зубов.</CavegoblinSaberD>
+  <CaveGobllinspearT>Копье пещерных гоблинов</CaveGobllinspearT>
+  <CaveGobllinspearD>Простое и эффективное колющее оружие! Пригодится, пока не изготовим что-нибудь получше.</CaveGobllinspearD>
+  <MushroomT>Гриб</MushroomT>
+  <MushroomD>Новый ингредиент, который можно использовать для приготовления блюд.</MushroomD>
+  <MushDryT>Сушеные грибы</MushDryT>
+  <MushDryD>Собранные грибы можно просто высушить и съесть!</MushDryD>
+  <MushSalatT>Грибной салат</MushSalatT>
+  <MushSalatD>Простой салат из свежей зелени и грибов.</MushSalatD>
+  <MushSoupT>Грибной суп</MushSoupT>
+  <MushSoupD>Вкусный суп с грибочками.</MushSoupD>
+  <MushPiesT>Пирожки с грибами</MushPiesT>
+  <MushPiesD>Все-таки, сколько блюд можно приготовить с грибами!</MushPiesD>
+  <TrickyTokiT>Статуя Хитрюги Токи</TrickyTokiT>
+  <TrickyTokiD>Одиозный герой гномских анекдотов, Токи сказочно богат и не менее сказочно хитер! Статуя этого персонажа улучшает настроение в племени и увеличивает шанс найти золотую монету. Гномская магия, не иначе...</TrickyTokiD>
+  <ElvenspearT>Эльфийская алебарда</ElvenspearT>
+  <ElvenspearD>Основное оружие эльфов ледяного биома.</ElvenspearD>
+  <ElvenbowT>Эльфийский лук</ElvenbowT>
+  <ElvenbowD>Лук эльфов ледяного биома.</ElvenbowD>
+  <ElvenHelmetT>Эльфийский шлем</ElvenHelmetT>
+  <ElvenHelmetD>Шлем эльфов ледяного биома.</ElvenHelmetD>
+  <ElvenbootsT>Эльфийские ботинки</ElvenbootsT>
+  <ElvenbootsD>Ботинки эльфов ледяного биома.</ElvenbootsD>
+  <ElvenArmorT>Эльфийская броня</ElvenArmorT>
+  <ElvenArmorD>Броня эльфов ледяного биома.</ElvenArmorD>
+  <ElvenFlagT>Эльфийский флаг</ElvenFlagT>
+  <ElvenFlagD>Украшение эльфов ледяного биома.</ElvenFlagD>
+  <ElvenShieldT>Эльфийский щит</ElvenShieldT>
+  <ElvenShieldD>Щит эльфов ледяного биома.</ElvenShieldD>
+  <SoulKeepT>Хранитель душ</SoulKeepT>
+  <SoulKeepD>Хранит души погибших гномов для возможного воскрешения.</SoulKeepD>
+  <RevivalElixirT>Зелье воскрешения</RevivalElixirT>
+  <RevivalElixirD>Позволяет воскресить погибшего гнома. Используйте на призраке в диалоге экипировки.</RevivalElixirD>
+  <WarehouseUpgradeT>Усовершенствованный портал</WarehouseUpgradeT>
+  <WarehouseUpgradeD>Позволяет открывать портал в биомы и многопользовательскую игру при помощи специального заклинания.</WarehouseUpgradeD>
+  <BiomePortalPvpT>Сетевая игра</BiomePortalPvpT>
+  <BiomePortalPvpD>Открывает портал в биом для игры по сети.</BiomePortalPvpD>
+  <!--<BiomePortalCoopT>Совместная игра</BiomePortalCoopT>
+  <BiomePortalCoopD>Открывает портал в биом для кооперативного прохождения.</BiomePortalCoopD>-->
+  <KnightSwordT>Меч Темного лорда</KnightSwordT>
+  <KnightSwordD>Меч когда-то величественного лорда. Восстанавливает жизненную энергию владельца при использовании.</KnightSwordD>
+  <ZombiespearT>Алебарда прислужника темного лорда</ZombiespearT>
+  <ZombiespearD>Простое и надежное оружие ближнего боя.</ZombiespearD>
+  <ShamanCloakT>Колпак Шамана гоблинов</ShamanCloakT>
+  <ShamanCloakD>Колпак усиливает магические атаки ... и неплохо защищает от дождя.</ShamanCloakD>
+  <ShamanStaffT>Посох Шамана</ShamanStaffT>
+  <ShamanStaffD>От пронизывающей посох магии даже руки покалывает! Дает возможность атаковать 4 цели одновременно и усиливает навык мага.</ShamanStaffD>
+  <EnchantedBerriesT>Заговоренные ягоды</EnchantedBerriesT>
+  <EnchantedBerriesD>Магия предков творит чудеса! Эти ягоды не только утоляют голод, но и восстанавливают здоровье.</EnchantedBerriesD>
+  <Broth_of_combat_madnessT>Отвар боевого безумия</Broth_of_combat_madnessT>
+  <Broth_of_combat_madnessD>Кровь орка, настой синей плесени и размолотый зуб пещерного зверя. Этот отвар - сильнейший стимулятор! На короткое время повышает скорость передвижения и силу атаки.</Broth_of_combat_madnessD>
+  <KnightHelmetT>Рогатый рыцарский шлем</KnightHelmetT>
+  <KnightHelmetD>Рога на нем для устрашения, а не из-за того, что рыцарь много путешествовал.</KnightHelmetD>
+  <KnightBootsT>Латные ботинки Темного лорда</KnightBootsT>
+  <KnightBootsD>Тяжелая поступь вам гарантирована.</KnightBootsD>
+  <KnightArmorT>Кираса Темного лорда</KnightArmorT>
+  <KnightArmorD>Отличная кираса! Остается надеяться, что запах гробницы из нее когда-нибудь выветрится.</KnightArmorD>
+  <PoisonArrowT>Отравленные стрелы</PoisonArrowT>
+  <PoisonArrowD>На некоторое время отравляет врага при попадании.</PoisonArrowD>
+  <NecklaceT>Хитиновое ожерелье из клешней</NecklaceT>
+  <NecklaceD>Повышает навык воина на 100%</NecklaceD>
+  <ChitinRingT>Кольцо значительного ускорения</ChitinRingT>
+  <ChitinRingD>Перманентно ускоряет перемещение гнома на 30%</ChitinRingD>
+  <BeatlePoisonousClubT>Булава "Ядовитый шип"</BeatlePoisonousClubT>
+  <BeatlePoisonousClubD>Булава, утыканная шипами жуков, которые отравляют при ударе.</BeatlePoisonousClubD>
+  <WorkerInStoneT>Жук в камне</WorkerInStoneT>
+  <WorkerInStoneD>Отличное украшение для уютного дома.</WorkerInStoneD>
+</locals>
