@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="mainmenu" border="1">
+    <list name="mainmenu0" size="1024|1024" count="34">
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\join_right_bg.png" x="0" y="0" w="703" h="759" />
+        <image path="gfx\Spine\interface\main_menu\bottom.png" x="0" y="760" w="497" h="236" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\ipad.png" x="704" y="0" w="255" h="356" />
+        <image path="gfx\Spine\interface\main_menu\centre_ring_shad.png" x="704" y="357" w="280" h="280" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\beard.png" x="704" y="638" w="272" h="287" />
+        <image path="gfx\Spine\interface\exit\head.png" x="498" y="760" w="176" h="198" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\surv_slot_selected.png" x="704" y="926" w="279" h="79" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\create_dis.png" x="498" y="959" w="198" h="65" />
+        <image path="gfx\Spine\interface\exit\beeds.png" x="960" y="0" w="63" h="151" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\nose.png" x="960" y="152" w="64" h="88" />
+        <image path="gfx\Spine\interface\exit\arm1_1.png" x="960" y="241" w="56" h="87" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\vert_scroll_handle.png" x="0" y="997" w="120" h="27" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\vert_scroll_handle_pushed.png" x="675" y="760" w="27" h="119" />
+        <image path="gfx\ui\new_interface\true_mult\menu\player_color_cloud.png" x="985" y="357" w="38" h="49" />
+        <image path="gfx\ui\new_interface\true_mult\menu\warning_glow.png" x="985" y="407" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\warning_disable.png" x="985" y="444" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\warning.png" x="985" y="481" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\reban_glow.png" x="985" y="518" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\reban_disable.png" x="985" y="555" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\reban.png" x="985" y="592" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\kick_glow.png" x="977" y="638" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\kick_disable.png" x="977" y="675" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\kick.png" x="977" y="712" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\delete_pushed.png" x="977" y="749" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\delete_glow.png" x="977" y="786" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\delete.png" x="977" y="823" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\ban_glow.png" x="977" y="860" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\ban_disable.png" x="984" y="926" w="36" h="36" />
+        <image path="gfx\ui\new_interface\true_mult\menu\ban.png" x="984" y="963" w="36" h="36" />
+        <image path="gfx\Spine\interface\main_menu\shad.png" x="121" y="997" w="47" h="26" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\star.png" x="675" y="880" w="28" h="30" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\up.png" x="169" y="997" w="18" h="16" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\down.png" x="188" y="997" w="18" h="16" />
+        <image path="gfx\Spine\interface\main_menu\bar_arrow.png" x="207" y="997" w="5" h="25" />
+    </list>
+    <list name="mainmenu1" size="1024|1024" count="34">
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\host_right_bg.png" x="0" y="0" w="703" h="759" />
+        <image path="gfx\Spine\interface\main_menu\right.png" x="0" y="760" w="373" h="217" />
+        <image path="gfx\Spine\interface\main_menu\centre_ring.png" x="704" y="0" w="270" h="270" />
+        <image path="gfx\Spine\interface\main_menu\steam3.png" x="374" y="760" w="279" h="256" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\arm1_2.png" x="704" y="271" w="198" h="317" />
+        <image path="gfx\Spine\interface\main_menu\sphere9.png" x="704" y="589" w="241" h="241" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\join_pushed.png" x="704" y="831" w="288" h="145" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\arm2_1.png" x="903" y="271" w="110" h="192" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\arm2_3.png" x="903" y="464" w="110" h="123" />
+        <image path="gfx\Spine\interface\main_menu\chain.png" x="0" y="978" w="331" h="30" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\text_bg.png" x="704" y="977" w="176" h="32" />
+        <image path="gfx\Spine\interface\exit\arm2_2.png" x="946" y="589" w="74" h="75" />
+        <image path="gfx\Spine\interface\exit\arm1_2.png" x="946" y="665" w="69" h="74" />
+        <image path="gfx\Spine\interface\exit\arm2_3.png" x="946" y="740" w="61" h="74" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\tooth.png" x="881" y="977" w="63" h="29" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\lock.png" x="332" y="978" w="31" h="38" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\filter_refr_glow.png" x="654" y="760" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\filter_refr.png" x="654" y="795" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_right_pushed.png" x="654" y="830" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_right_glow.png" x="654" y="865" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_right.png" x="654" y="900" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_left_pushed.png" x="654" y="935" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_left_glow.png" x="654" y="970" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_left.png" x="975" y="0" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\menu\warning_push.png" x="975" y="35" w="34" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\menu\kick_pushed.png" x="975" y="70" w="33" h="33" />
+        <image path="gfx\ui\new_interface\true_mult\menu\ban_pushed.png" x="975" y="104" w="33" h="33" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\last_serv.png" x="975" y="138" w="30" h="35" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\quick_tip.png" x="975" y="174" w="32" h="32" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\filter_refr_back.png" x="975" y="207" w="32" h="32" />
+        <image path="gfx\ui\new_interface\true_mult\menu\reban_pushed.png" x="945" y="977" w="32" h="32" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_right_disable.png" x="993" y="831" w="31" h="32" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\arrow_button_left__disable.png" x="993" y="864" w="31" h="32" />
+        <image path="gfx\Spine\interface\main_menu\bar_glass.png" x="993" y="897" w="31" h="31" />
+    </list>
+    <list name="mainmenu2" size="1024|1024" count="5">
+        <image path="gfx\ui\new_interface\true_mult\statistics\Victory.png" x="0" y="0" w="1024" h="495" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\Loss_2.png" x="0" y="496" w="1024" h="400" />
+        <image path="gfx\ui\new_interface\slot_selekt\for_txt.png" x="0" y="897" w="481" h="105" />
+        <image path="gfx\ui\new_interface\slot_selekt\for_button.png" x="482" y="897" w="481" h="105" />
+        <image path="gfx\Spine\interface\exit\arm1_3.png" x="964" y="897" w="52" h="71" />
+    </list>
+    <list name="mainmenu3" size="1024|1024" count="7">
+        <image path="gfx\ui\new_interface\true_mult\statistics\Loss.png" x="0" y="0" w="1024" h="400" />
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\surv.png" x="0" y="401" w="963" h="381" />
+        <image path="gfx\Spine\interface\main_menu\left.png" x="0" y="783" w="373" h="213" />
+        <image path="gfx\ui\bars\loading_bar.png" x="374" y="783" w="549" h="140" />
+        <image path="gfx\ui\new_interface\slot_selekt\slot_selected.png" x="374" y="924" w="499" h="100" />
+        <image path="gfx\ui\new_interface\slot_selekt\rename_push.png" x="874" y="924" w="143" h="82" />
+        <image path="gfx\Spine\interface\exit\ear1.png" x="924" y="783" w="97" h="108" />
+    </list>
+    <list name="mainmenu4" size="1024|1024" count="11">
+        <image path="gfx\ui\new_interface\true_mult\menu\menu_bg.png" x="0" y="0" w="529" h="742" />
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\join_left_bg.png" x="530" y="0" w="440" h="759" />
+        <image path="gfx\Spine\interface\main_menu\back.png" x="0" y="743" w="424" h="271" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\taz.png" x="530" y="760" w="380" h="160" />
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\flag_red.png" x="530" y="921" w="347" h="103" />
+        <image path="gfx\Spine\interface\main_menu\steam1.png" x="425" y="743" w="98" h="99" />
+        <image path="gfx\Spine\interface\main_menu\gear2.png" x="425" y="843" w="89" h="91" />
+        <image path="gfx\ui\new_interface\true_mult\menu\manage_glow.png" x="425" y="935" w="89" h="88" />
+        <image path="gfx\ui\new_interface\true_mult\menu\manage.png" x="911" y="760" w="89" h="88" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\beard_shad.png" x="911" y="849" w="87" h="84" />
+        <image path="gfx\Spine\interface\exit\ear2.png" x="911" y="934" w="110" h="66" />
+    </list>
+    <list name="mainmenu5" size="1024|1024" count="10">
+	
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\host_left_bg.png" x="580" y="0" w="440" h="759" />
+        <image path="gfx\Spine\interface\main_menu\centre1.png" x="0" y="614" w="436" h="385" />
+        <image path="gfx\Spine\interface\main_menu\sphere8.png" x="580" y="760" w="241" h="241" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\arm1_1.png" x="822" y="760" w="170" h="201" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\silver.png" x="437" y="614" w="128" h="128" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\gold.png" x="437" y="743" w="128" h="128" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\bronze.png" x="437" y="872" w="128" h="128" />
+        <image path="gfx\Spine\interface\exit\eye_close.png" x="822" y="962" w="100" h="53" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\mouth.png" x="923" y="962" w="80" h="56" />
+    </list>
+    <list name="mainmenu6" size="1024|1024" count="11">
+        <image path="gfx\Spine\interface\main_menu\steam6.png" x="0" y="0" w="618" h="535" />
+        <image path="gfx\Spine\interface\main_menu\steam5.png" x="0" y="536" w="506" h="444" />
+        <image path="gfx\Spine\interface\main_menu\steam4.png" x="619" y="0" w="403" h="343" />
+        <image path="gfx\Spine\interface\main_menu\centre2.png" x="507" y="536" w="326" h="331" />
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\creative.png" x="619" y="344" w="373" h="136" />
+        <image path="gfx\Spine\interface\exit\body.png" x="834" y="536" w="189" h="265" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\join.png" x="507" y="868" w="288" h="145" />
+        <image path="gfx\Spine\interface\main_menu\steam2.png" x="834" y="802" w="152" h="148" />
+        <image path="gfx\ui\new_interface\true_mult\menu\text_field_selected.png" x="619" y="481" w="377" h="49" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\back_glow.png" x="834" y="951" w="180" h="67" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\select_varius_bg.png" x="0" y="981" w="152" h="34" />
+    </list>
+    <list name="mainmenu7" size="1024|1024" count="23">
+        <image path="gfx\Spine\interface\dwarf_with_ipad\body.png" x="0" y="0" w="416" h="494" />
+        <image path="gfx\ui\bars\loading_back.png" x="417" y="0" w="549" h="140" />
+        <image path="gfx\Spine\interface\main_menu\sphere7.png" x="0" y="495" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere6.png" x="0" y="737" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere5.png" x="417" y="141" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere4.png" x="659" y="141" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere3.png" x="417" y="383" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere2.png" x="659" y="383" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere11.png" x="417" y="625" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere10.png" x="659" y="625" w="241" h="241" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\whiskers.png" x="659" y="867" w="345" h="121" />
+        <image path="gfx\Spine\interface\exit\tabl.png" x="417" y="867" w="210" h="149" />
+        <image path="lang\Russian\gfx\Spine\interface\twit_face\t.png" x="242" y="495" w="148" h="148" />
+        <image path="gfx\Spine\interface\twit_face\t.png" x="242" y="737" w="148" h="148" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\glass_02.png" x="242" y="886" w="172" h="99" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\glass.png" x="242" y="644" w="163" h="77" />
+        <image path="gfx\ui\new_interface\slot_selekt\cloud_save_push.png" x="901" y="141" w="120" h="83" />
+        <image path="gfx\ui\new_interface\slot_selekt\cloud_save_dis.png" x="901" y="225" w="120" h="83" />
+        <image path="gfx\ui\new_interface\slot_selekt\cloud_save.png" x="901" y="383" w="120" h="83" />
+        <image path="gfx\ui\new_interface\slot_selekt\cloud_load_push.png" x="901" y="467" w="120" h="83" />
+        <image path="gfx\ui\new_interface\slot_selekt\cloud_load_dis.png" x="901" y="625" w="120" h="83" />
+        <image path="gfx\ui\new_interface\slot_selekt\cloud_load.png" x="901" y="709" w="120" h="83" />
+        <image path="gfx\Spine\interface\exit\arm2_1.png" x="901" y="309" w="86" h="71" />
+    </list>
+    <list name="mainmenu8" size="1024|1024" count="33">
+        <image path="gfx\Spine\interface\main_menu\sphere1.png" x="0" y="0" w="241" h="241" />
+        <image path="gfx\Spine\interface\main_menu\sphere1-2.png" x="242" y="0" w="240" h="240" />
+        <image path="gfx\Spine\interface\main_menu\sphere1-1.png" x="483" y="0" w="240" h="240" />
+        <image path="gfx\ui\new_interface\slot_selekt\slot.png" x="0" y="242" w="499" h="100" />
+        <image path="gfx\ui\new_interface\Restore Purchase\Restore-Purchase_pushed.png" x="724" y="0" w="212" h="212" />
+        <image path="gfx\ui\new_interface\Restore Purchase\Restore-Purchase.png" x="0" y="343" w="212" h="212" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\host_pushed.png" x="213" y="343" w="287" h="145" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\host.png" x="501" y="343" w="287" h="145" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\head.png" x="213" y="489" w="253" h="154" />
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\flag_shad.png" x="467" y="489" w="343" h="106" />
+        <image path="gfx\ui\new_interface\true_mult\game_mode_select\flag_green.png" x="467" y="596" w="347" h="103" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\appstore_glow.png" x="467" y="700" w="300" h="108" />
+        <image path="gfx\Spine\interface\dwarf_with_ipad\appstore.png" x="467" y="809" w="300" h="108" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\red.png" x="500" y="242" w="436" h="71" />
+        <image path="gfx\ui\Logo_sisters_in_arms2_glow.png" x="768" y="700" w="256" h="116" />
+        <image path="gfx\ui\Logo_sisters_in_arms2_disable.png" x="768" y="817" w="256" h="116" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\surv_slot.png" x="467" y="918" w="279" h="79" />
+        <image path="gfx\Spine\interface\twit_face\f.png" x="0" y="556" w="148" h="148" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\buttons_bg2.png" x="213" y="644" w="245" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\fav_glow.png" x="789" y="343" w="234" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\fav.png" x="213" y="718" w="234" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\fav_dis.png" x="789" y="417" w="232" h="71" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\fav_pushed.png" x="213" y="792" w="228" h="71" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\refresh_glow.png" x="0" y="705" w="204" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\refresh.png" x="0" y="779" w="204" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\delete.png" x="0" y="853" w="204" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\delete _glow.png" x="0" y="927" w="204" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\button_green_pushed.png" x="213" y="864" w="235" h="63" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\button_green_glow.png" x="213" y="928" w="235" h="63" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\button_green.png" x="768" y="934" w="235" h="63" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\refresh_dis.png" x="811" y="489" w="202" h="71" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\delete_pushed.png" x="815" y="596" w="199" h="71" />
+        <image path="gfx\ui\new_interface\true_mult\menu\manage_pushed.png" x="937" y="0" w="82" h="82" />
+    </list>
+    <list name="mainmenu9" size="1024|1024" count="38">
+        <image path="gfx\ui\new_interface\true_mult\statistics\green.png" x="0" y="0" w="436" h="71" />
+        <image path="gfx\ui\Logo_sisters_in_arms2.png" x="0" y="72" w="256" h="116" />
+        <image path="gfx\ui\dig_with_friends_glow.png" x="257" y="72" w="256" h="116" />
+        <image path="gfx\ui\dig_with_friends_diasble.png" x="514" y="72" w="256" h="116" />
+        <image path="gfx\ui\dig_with_friends.png" x="0" y="189" w="256" h="116" />
+        <image path="gfx\ui\new_interface\true_mult\statistics\buttons_bg.png" x="257" y="189" w="392" h="73" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\line_sel.png" x="257" y="263" w="617" h="45" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\line.png" x="257" y="309" w="617" h="45" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\empty_slot_selected.png" x="257" y="355" w="279" h="79" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\empty_slot.png" x="537" y="355" w="279" h="79" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\creative_slot_selected.png" x="257" y="435" w="279" h="79" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\creative_slot.png" x="537" y="435" w="279" h="79" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\vert_scroll_bar.png" x="257" y="515" w="594" h="34" />
+        <image path="gfx\ui\new_interface\true_mult\menu\text_field.png" x="437" y="0" w="377" h="49" />
+        <image path="gfx\ui\new_interface\true_mult\menu\disable_text_field_selekted.png" x="257" y="550" w="377" h="49" />
+        <image path="gfx\ui\new_interface\true_mult\menu\banned_text_field_selected.png" x="635" y="550" w="377" h="49" />
+        <image path="gfx\ui\new_interface\true_mult\menu\banned_text_field.png" x="257" y="600" w="377" h="49" />
+        <image path="gfx\ui\new_interface\true_mult\menu\disable_text_field.png" x="257" y="650" w="377" h="47" />
+        <image path="gfx\Spine\interface\exit\mouth_close.png" x="771" y="72" w="129" h="112" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\refresh_pushed.png" x="815" y="0" w="197" h="70" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\create_glow.png" x="0" y="306" w="200" h="67" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\create.png" x="0" y="374" w="200" h="67" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\create_pushed.png" x="0" y="442" w="194" h="65" />
+        <image path="gfx\ui\new_interface\slot_selekt\not_accept_push.png" x="0" y="508" w="151" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\not_accept_glow.png" x="0" y="591" w="151" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\not_accept.png" x="0" y="674" w="151" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\delete_dis.png" x="0" y="757" w="151" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\delete.png" x="0" y="840" w="151" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\delet_push.png" x="0" y="923" w="151" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\delet_glow.png" x="257" y="698" w="151" h="82" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\back.png" x="650" y="189" w="180" h="67" />
+        <image path="gfx\ui\new_interface\slot_selekt\rename_glow.png" x="409" y="698" w="143" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\rename_dis.png" x="257" y="781" w="143" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\rename.png" x="257" y="864" w="143" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\accept_push.png" x="401" y="781" w="143" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\accept_glow.png" x="401" y="864" w="143" h="82" />
+        <image path="gfx\ui\new_interface\slot_selekt\accept.png" x="635" y="600" w="143" h="82" />
+        <image path="gfx\ui\new_interface\true_mult\true_mult_images\back_ pushed.png" x="831" y="189" w="173" h="64" />
+    </list>
+    <list name="mainmenu10" count="1" path="gfx\ui\new_interface\slot_selekt\back.png" />
+    <list name="mainmenu11" count="1" path="gfx\ui\new_interface\slot_selekt\back_02.png" />
+    <list name="mainmenu12" count="1" path="gfx\ui\new_interface\true_mult\statistics\wood.png" />
+    <list name="mainmenu13" count="1" path="gfx\ui\new_interface\true_mult\statistics\wood_back.png" />
+</atlas>

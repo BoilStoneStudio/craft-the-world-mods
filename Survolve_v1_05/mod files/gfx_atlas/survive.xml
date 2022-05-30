@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="survive" border="1">
+    <list name="survive0" size="1024|1024" count="24">
+        <image path="gfx\survive\wand.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\survive\flint.png" x="100" y="0" w="100" h="75" />
+		<image path="gfx\survive\leaves_rope.png" x="100" y="500" w="100" h="78" />
+		<image path="gfx\level_tiles\craft_obj\workshops\kitchen_wood.png" x="200" y="0" w="100" h="100" />
+		
+		<image path="gfx\survive\offal.png" x="603" y="821" w="75" h="55" />
+		<image path="gfx\survive\offal_soup.png" x="510" y="829" w="79" h="42" />
+		<image path="gfx\survive\dung.png" x="500" y="708" w="100" h="80" />
+		<image path="gfx\survive\furs.png" x="400" y="700" w="100" h="82" />
+		<image path="gfx\survive\juice_a.png" x="632" y="718" w="37" h="57" />
+		<image path="gfx\survive\juice_b.png" x="730" y="718" w="37" h="57" />
+		<image path="gfx\survive\cone_tea.png" x="423" y="809" w="55" h="91" />
+				
+		<image path="gfx\survive\smillstone.png" x="899" y="700" w="101" h="101" />
+		<image path="gfx\survive\smillstone_big.png" x="697" y="846" w="303" h="155" />
+		
+		<image path="gfx\survive\skin_wall01.png" x="0" y="100" w="200" h="200" />
+        <image path="gfx\survive\skin_wall02.png" x="200" y="100" w="200" h="200" />
+		<image path="gfx\survive\skin_wall03.png" x="400" y="100" w="200" h="200" />
+		<image path="gfx\survive\skin_wall04.png" x="600" y="100" w="200" h="200" />
+		<image path="gfx\survive\skin_wall05.png" x="400" y="300" w="200" h="200" />
+		<image path="gfx\survive\skin_wall06.png" x="600" y="300" w="200" h="200" />
+		<image path="gfx\survive\skin_wall_up_l.png" x="0" y="300" w="100" h="100" />
+		<image path="gfx\survive\skin_wall_up_r.png" x="200" y="300" w="100" h="100" />
+		<image path="gfx\survive\skin_wall_up_c.png" x="100" y="300" w="100" h="100" />
+		<image path="gfx\survive\skin_wall_l01.png" x="0" y="400" w="100" h="100" />
+		<image path="gfx\survive\skin_wall_l02.png" x="0" y="500" w="100" h="100" />
+		<image path="gfx\survive\skin_wall_r01.png" x="200" y="400" w="100" h="100" />
+		<image path="gfx\survive\skin_wall_r02.png" x="200" y="500" w="100" h="100" />
+		
+		<image path="gfx\survive\skin_wall_bord_lr1.png" x="800" y="408" w="200" h="20" />
+		<image path="gfx\survive\skin_wall_bord_lr2.png" x="800" y="457" w="200" h="20" />
+		<image path="gfx\survive\skin_wall_bord_ud1.png" x="800" y="514" w="200" h="20" />
+		<image path="gfx\survive\skin_wall_bord_ud2.png" x="800" y="563" w="200" h="20" />
+		
+		
+		<image path="gfx\survive\logs_wall1.png" x="0" y="700" w="100" h="100" />
+		<image path="gfx\survive\logs_wall2.png" x="100" y="700" w="100" h="100" />
+		<image path="gfx\survive\logs_wall3.png" x="200" y="700" w="100" h="100" />
+		<image path="gfx\survive\logs_wall4.png" x="300" y="700" w="100" h="100" />
+		<image path="gfx\survive\logs_w_lu.png" x="0" y="800" w="100" h="100" />
+		<image path="gfx\survive\logs_w_ru.png" x="300" y="800" w="100" h="100" />
+		<image path="gfx\survive\logs_w_u1.png" x="100" y="800" w="100" h="100" />
+		<image path="gfx\survive\logs_w_u2.png" x="200" y="800" w="100" h="100" />
+		<image path="gfx\survive\logs_w_l01.png" x="0" y="900" w="60" h="100" />
+		<image path="gfx\survive\logs_w_l02.png" x="99" y="900" w="60" h="100" />
+		<image path="gfx\survive\logs_w_r01.png" x="200" y="900" w="100" h="100" />
+		<image path="gfx\survive\logs_w_r02.png" x="340" y="900" w="60" h="100" />
+		
+		<image path="gfx\survive\logs_bord_u.png" x="0" y="601" w="100" h="20" />
+		<image path="gfx\survive\logs_bord_d.png" x="0" y="650" w="100" h="20" />
+		
+		<image path="gfx\survive\logs_bord_r.png" x="100" y="635" w="100" h="23" />
+		<image path="gfx\survive\logs_bord_l.png" x="200" y="635" w="100" h="23" />
+		
+		<image path="gfx\survive\spearhead_bone.png" x="100" y="400" w="100" h="100" />
+		
+		<image path="gfx\survive\clay_ore01.png" x="300" y="0" w="100" h="100" />
+		<image path="gfx\survive\clay_ore02.png" x="400" y="0" w="100" h="100" />
+		<image path="gfx\survive\clay_ore03.png" x="500" y="0" w="100" h="100" />
+		<image path="gfx\survive\clay_ore04.png" x="600" y="0" w="100" h="100" />
+		<image path="gfx\survive\clay_ore05.png" x="700" y="0" w="100" h="100" />
+		
+		<image path="gfx\survive\bloom.png" x="313" y="320" w="73" h="60" />
+		<image path="gfx\survive\blue_steel.png" x="301" y="401" w="98" h="98" />
+		<image path="gfx\survive\cast_iron.png" x="301" y="501" w="98" h="98" />
+		<image path="gfx\survive\wrought_iron.png" x="301" y="601" w="98" h="98" />
+		<image path="gfx\survive\bronze.png" x="401" y="501" w="98" h="98" />
+		
+		<image path="gfx\survive\iron.png" x="501" y="501" w="98" h="98" />
+		<image path="gfx\survive\silver.png" x="401" y="601" w="98" h="98" />
+		<image path="gfx\survive\gold.png" x="501" y="601" w="98" h="98" />
+		<image path="gfx\survive\mithril.png" x="601" y="501" w="98" h="98" />
+		<image path="gfx\survive\sulfur.png" x="701" y="601" w="98" h="98" />
+		
+		<image path="gfx\survive\hammer_wood.png" x="800" y="0" w="100" h="90" />
+		<image path="gfx\Spine\characters\dwarf_new\weapon\hammer_wood.png" x="916" y="22" w="100" h="61" />
+		<image path="gfx\survive\jointer.png" x="800" y="100" w="100" h="90" />
+		
+		
+		<image path="gfx\survive\garden_dirt.png" x="900" y="300" w="100" h="100" />
+		<image path="gfx\survive\garden_d_bc.png" x="900" y="241" w="100" h="20" />
+		<image path="gfx\survive\garden_d_up.png" x="900" y="290" w="100" h="20" />
+		
+		<image path="gfx\survive\well.png" x="800" y="300" w="100" h="100" />
+		
+		
+		<image path="gfx\Spine\environment\sunflo\colos3.png" x="836" y="759" w="29" h="41" />
+		<image path="gfx\Spine\environment\sunflo\colos2.png" x="816" y="626" w="66" h="74" />
+		<image path="gfx\Spine\environment\sunflo\colos.png" x="915" y="600" w="69" h="100" />
+    </list>
+	
+	<list name="survive1" size="1024|1024" count="51">
+        <image path="gfx\survive\nak_iron.png" x="0" y="0" w="200" h="200" />
+		<image path="gfx\survive\nak_steel.png" x="200" y="0" w="200" h="200" />
+		<image path="gfx\survive\nak_blue.png" x="400" y="0" w="200" h="200" />
+		<image path="gfx\survive\nak_mithril.png" x="600" y="0" w="200" h="200" />
+		<image path="gfx\survive\nak_clear.png" x="800" y="0" w="200" h="200" />
+		<image path="gfx\survive\nak_new.png" x="100" y="200" w="100" h="100" />
+		<image path="gfx\survive\nak_old.png" x="0" y="200" w="100" h="100" />
+		
+		<image path="gfx\survive\signboard.png" x="0" y="300" w="300" h="300" />
+		<image path="gfx\survive\w_signboard.png" x="300" y="300" w="300" h="300" />
+		
+		<image path="gfx\survive\beehive.png" x="600" y="274" w="100" h="126" />
+		<image path="gfx\survive\hon_beehive.png" x="700" y="274" w="100" h="126" />
+		
+		<image path="gfx\level_tiles\craft_obj\locker31.png" x="0" y="600" w="100" h="144" />
+		<image path="gfx\level_tiles\craft_obj\locker32.png" x="100" y="600" w="100" h="144" />
+		<image path="gfx\level_tiles\craft_obj\locker33.png" x="200" y="600" w="100" h="144" />
+		<image path="gfx\level_tiles\craft_obj\locker34.png" x="300" y="600" w="100" h="144" />
+    </list>
+	
+	<list name="metal1" size="1024|1024" count="24">
+        <image path="gfx\survive\sunflo_s.png" x="701" y="400" w="100" h="100" /> 
+		
+		<image path="gfx\survive\wine.png" x="404" y="800" w="100" h="100" /> 
+		<image path="gfx\survive\vine1.png" x="301" y="310" w="100" h="91" /> 
+		<image path="gfx\survive\vine2.png" x="201" y="310" w="100" h="91" /> 
+		<image path="gfx\survive\vine3.png" x="201" y="410" w="100" h="91" /> 
+		
+		<image path="gfx\metalmod\plate1.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\plate2.png" x="0" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\plate3.png" x="0" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\plate4.png" x="0" y="303" w="100" h="100" />
+		
+		<image path="gfx\metalmod\stairs1.png" x="101" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\stairs2.png" x="101" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\stairs3.png" x="101" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\stairs4.png" x="101" y="303" w="100" h="100" />
+		
+		<image path="gfx\metalmod\fence_iron1.png" x="505" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron2.png" x="606" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron3.png" x="707" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron4.png" x="808" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron_prev.png" x="924" y="924" w="100" h="100" />
+		
+		<image path="gfx\metalmod\stair_wood.png" x="202" y="202" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\little_bridge1.png" x="0" y="606" w="100" h="50" />
+		<image path="gfx\metalmod\little_bridge2.png" x="101" y="606" w="100" h="50" />
+		<image path="gfx\metalmod\little_bridge3.png" x="101" y="505" w="100" h="50" />
+		
+		<image path="gfx\metalmod\little_bridge_prev.png" x="0" y="606" w="100" h="24" />
+		
+		
+		<image path="gfx\metalmod\bridge1.png" x="505" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\bridge2.png" x="606" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\bridge3.png" x="707" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\bridge4.png" x="808" y="0" w="100" h="100" />
+		
+		<image path="gfx\metalmod\bridg4.png" x="0" y="606" w="100" h="21" />
+		
+		<image path="gfx\metalmod\collumn_iron1.png" x="404" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\collumn_iron21.png" x="404" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\collumn_iron22.png" x="404" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\collumn_iron23.png" x="404" y="303" w="100" h="100" />
+		
+		<image path="gfx\metalmod\cornel.png" x="0" y="404" w="100" h="100" />
+		<image path="gfx\metalmod\roof.png" x="101" y="404" w="100" h="100" />
+		<image path="gfx\metalmod\side.png" x="0" y="505" w="100" h="100" />
+		<image path="gfx\metalmod\cornelb.png" x="202" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\side1.png" x="202" y="101" w="100" h="100" />
+		
+		<image path="gfx\metalmod\table_iron.png" x="302" y="600" w="100" h="100" />
+		
+		<image path="gfx\metalmod\chair_iron.png" x="303" y="501" w="100" h="99" />
+		
+		<image path="gfx\particles\stonetorch1.png" x="35" y="921" w="27" h="56" />
+		<image path="gfx\particles\stonetorch2.png" x="135" y="921" w="27" h="56" />
+		<image path="gfx\particles\stonetorch3.png" x="235" y="921" w="27" h="56" />
+		
+		<image path="gfx\metalmod\fence_wood1.png" x="0" y="801" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood2.png" x="101" y="801" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood3.png" x="202" y="801" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood4.png" x="303" y="801" w="100" h="100" />
+		
+		<image path="gfx\metalmod\fence_wood_b1.png" x="500" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood_b2.png" x="600" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood_b3.png" x="700" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood_b4.png" x="800" y="700" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\balcony.png" x="404" y="404" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\gate_closed.png" x="400" y="500" w="50" h="100" />
+		<image path="gfx\metalmod\gate_rame.png" x="202" y="500" w="50" h="100" />
+		<image path="gfx\metalmod\gate_opened.png" x="202" y="601" w="100" h="98" />
+		
+		<image path="gfx\metalmod\iron_window.png" x="303" y="0" w="100" h="100" />
+		
+		<image path="gfx\metalmod\posion.png" x="336" y="448" w="26" h="52" />
+		
+		<image path="gfx\metalmod\medieval_walls1.png" x="505" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls2.png" x="606" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls3.png" x="707" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls4.png" x="808" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls5.png" x="909" y="201" w="100" h="100" />
+		
+		<image path="gfx\metalmod\ceramic_tale1.png" x="0" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\ceramic_tale2.png" x="101" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\ceramic_tale3.png" x="202" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\ceramic_tale4.png" x="303" y="700" w="100" h="100" />
+		
+		
+		
+		<image path="gfx\metalmod\gate_iron_closed.png" x="303" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\gate_iron_opened.png" x="303" y="202" w="100" h="100" />
+		
+		<image path="gfx\metalmod\gate_iron_1closed.png" x="505" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\gate_iron_1opened.png" x="505" y="303" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\gate_water.png" x="300" y="900" w="100" h="100" />
+		
+		<image path="gfx\metalmod\gear.png" x="400" y="907" w="100" h="90" />
+		
+		<image path="gfx\metalmod\scarecrow_pig.png" x="402" y="604" w="100" h="96" />
+		<image path="gfx\metalmod\scarecrow_skeleton.png" x="503" y="604" w="100" h="96" />
+		
+		<image path="gfx\metalmod\big_window3.png" x="909" y="0" w="100" h="200" />
+		
+		<image path="gfx\metalmod\big_window01.png" x="909" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\big_window02.png" x="909" y="100" w="100" h="100" />
+		
+		<image path="gfx\metalmod\tube_prev.png" x="904" y="504" w="100" h="100" />
+		
+		<image path="gfx\metalmod\vine.png" x="404" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\vine_seed.png" x="404" y="800" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\arrow_posion.png" x="545" y="402" w="13" h="100" />
+		<image path="gfx\metalmod\arrow_quiver_posion.png" x="500" y="520" w="100" h="64" />
+		
+		<image path="gfx\metalmod\book.png" x="900" y="800" w="100" h="100" />
+		
+		
+        <image path="gfx\metalmod\cuprum.png" x="610" y="810" w="70" h="52" />
+		<image path="gfx\metalmod\cuprum_ignot.png" x="800" y="620" w="100" h="60" />
+		
+		
+		<image path="gfx\metalmod\cuprum_door_open.png" x="601" y="700" w="95" h="100" />
+		<image path="gfx\metalmod\cuprum_door_close.png" x="700" y="605" w="100" h="100" />
+		<image path="gfx\metalmod\cuprum_door_rame.png" x="601" y="700" w="6" h="100" />
+		
+		<image path="gfx\metalmod\cuprum_hatch_open.png" x="699" y="800" w="100" h="100" />
+		<image path="gfx\metalmod\cuprum_hatch_close.png" x="800" y="800" w="100" h="100" />
+		<image path="gfx\metalmod\cuprum_hatch_rame.png" x="699" y="894" w="100" h="6" />
+		
+		<image path="gfx\metalmod\cuprum_wire.png" x="905" y="606" w="100" h="100" />
+	</list>
+	
+	
+	<list name="new_items2" size="1024|1024" count="24">
+		<image path="gfx\particles\tile_highlight1.png" x="500" y="900" w="100" h="100" />
+		<image path="gfx\particles\tile_highlight_fishing1.png" x="600" y="900" w="100" h="100" />
+		<image path="gfx\particles\tile_highlight_water1.png" x="700" y="900" w="100" h="100" />
+		<image path="gfx\particles\tile_build1.png" x="800" y="900" w="100" h="100" />
+		<image path="gfx\particles\tile_highlight_harvest1.png" x="900" y="900" w="100" h="100" />
+		<image path="gfx\ui\Logo.png" x="405" y="276" w="588" h="613" />
+	
+	</list>
+	<list name="tonnels1" size="1024|1024" count="22">
+		<image path="gfx\tonnels\wood_fon1.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_fon2.png" x="100" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_fon3.png" x="0" y="100" w="100" h="100" />
+		<image path="gfx\tonnels\wood_fon4.png" x="100" y="100" w="100" h="100" />
+		<image path="gfx\tonnels\wood_fon5.png" x="0" y="200" w="100" h="100" />
+		<image path="gfx\tonnels\wood_fon6.png" x="100" y="200" w="100" h="100" />
+		
+		<image path="gfx\tonnels\wood_down.png" x="200" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_up.png" x="300" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_right.png" x="400" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_left.png" x="500" y="0" w="100" h="100" />
+		
+		<image path="gfx\tonnels\wood_up_down.png" x="600" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_left_right.png" x="700" y="0" w="100" h="100" />
+		<image path="gfx\tonnels\wood_down_right.png" x="300" y="100" w="100" h="100" />
+		<image path="gfx\tonnels\wood_down_left.png" x="400" y="100" w="100" h="100" />
+		<image path="gfx\tonnels\wood_up_left.png" x="500" y="100" w="100" h="100" />
+		<image path="gfx\tonnels\wood_up_right.png" x="600" y="100" w="100" h="100" />
+		
+		<image path="gfx\tonnels\wood_previeve.png" x="924" y="0" w="100" h="100" />
+		
+		
+		<image path="gfx\tonnels\iron_fon1.png" x="0" y="700" w="100" h="100" />
+		<image path="gfx\tonnels\iron_fon2.png" x="100" y="700" w="100" h="100" />
+		<image path="gfx\tonnels\iron_fon3.png" x="0" y="800" w="100" h="100" />
+		<image path="gfx\tonnels\iron_fon4.png" x="100" y="800" w="100" h="100" />
+		<image path="gfx\tonnels\iron_fon5.png" x="0" y="900" w="100" h="100" />
+		<image path="gfx\tonnels\iron_fon6.png" x="100" y="900" w="100" h="100" />
+		
+		<image path="gfx\tonnels\iron_up.png" x="200" y="900" w="100" h="100" />
+		<image path="gfx\tonnels\iron_down.png" x="300" y="900" w="100" h="100" />
+		<image path="gfx\tonnels\iron_left.png" x="400" y="900" w="100" h="100" />
+		<image path="gfx\tonnels\iron_right.png" x="500" y="900" w="100" h="100" />
+		
+		<image path="gfx\tonnels\iron_down_right.png" x="400" y="700" w="100" h="100" />
+		<image path="gfx\tonnels\iron_up_right.png" x="400" y="800" w="100" h="100" />
+		<image path="gfx\tonnels\iron_down_left.png" x="500" y="700" w="100" h="100" />
+		<image path="gfx\tonnels\iron_up_left.png" x="500" y="800" w="100" h="100" />
+		
+		<image path="gfx\tonnels\iron_not_right.png" x="600" y="800" w="100" h="100" />
+		<image path="gfx\tonnels\iron_not_left.png" x="700" y="800" w="100" h="100" />
+		<image path="gfx\tonnels\iron_not_down.png" x="800" y="700" w="100" h="100" />
+		<image path="gfx\tonnels\iron_not_up.png" x="800" y="800" w="100" h="100" />
+		
+		<image path="gfx\tonnels\iron_up_down.png" x="300" y="700" w="100" h="100" />
+		<image path="gfx\tonnels\iron_left_right.png" x="300" y="800" w="100" h="100" />
+		
+		<image path="gfx\tonnels\iron_previeve.png" x="200" y="700" w="100" h="100" />
+		
+		
+		<image path="gfx\tonnels\cuprum1.png" x="200" y="100" w="100" h="100" />
+		<image path="gfx\tonnels\cuprum2.png" x="200" y="200" w="100" h="100" />
+		<image path="gfx\tonnels\cuprum3.png" x="300" y="200" w="100" h="100" />
+		
+		<image path="gfx\tonnels\turtille1.png" x="802" y="303" w="100" h="100" />
+		<image path="gfx\tonnels\turtille2.png" x="802" y="404" w="100" h="100" />
+		<image path="gfx\tonnels\turtille3.png" x="903" y="303" w="100" h="100" />
+		<image path="gfx\tonnels\turtille4.png" x="903" y="404" w="100" h="100" />
+		
+		<image path="gfx\tonnels\corn_turtille1.png" x="701" y="382" w="100" h="21" />
+		<image path="gfx\tonnels\corn_turtille2.png" x="701" y="481" w="100" h="21" />
+		<image path="gfx\tonnels\corn_turtille3.png" x="903" y="184" w="100" h="21" />
+		<image path="gfx\tonnels\corn_turtille4.png" x="903" y="282" w="100" h="21" />
+		
+		<image path="gfx\tonnels\wood_door_rame.png" x="400" y="201" w="20" h="99" />
+		<image path="gfx\tonnels\wood_door_open.png" x="483" y="201" w="90" h="98" />
+		<image path="gfx\tonnels\wood_door_close.png" x="583" y="201" w="47" h="98" />
+		
+		
+		<image path="gfx\tonnels\oil_water.png" x="320" y="430" w="60" h="40" />
+		
+		<image path="gfx\tonnels\skin_wall1.png" x="701" y="101" w="100" h="100" />
+		<image path="gfx\tonnels\skin_wall2.png" x="701" y="202" w="100" h="100" />
+		<image path="gfx\tonnels\skin_wall3.png" x="802" y="101" w="100" h="100" />
+		<image path="gfx\tonnels\skin_wall4.png" x="802" y="202" w="100" h="100" />
+		
+		
+		<image path="gfx\tonnels\glass_door_rame.png" x="0" y="500" w="20" h="100" />
+		<image path="gfx\tonnels\glass_door_open.png" x="85" y="500" w="55" h="100" />
+		<image path="gfx\tonnels\glass_door_close.png" x="182" y="500" w="42" h="100" />
+		<image path="gfx\tonnels\glass_door_prev.png" x="309" y="500" w="82" h="100" />
+		
+		<image path="gfx\tonnels\cuprum_door_rame.png" x="601" y="402" w="13" h="100" />
+		<image path="gfx\tonnels\cuprum_door_open.png" x="487" y="402" w="76" h="100" />
+		<image path="gfx\tonnels\cuprum_door_close.png" x="387" y="402" w="46" h="100" />
+		
+		<image path="gfx\tonnels\gold_door_rame.png" x="401" y="301" w="9" h="100" />
+		<image path="gfx\tonnels\gold_door_close.png" x="401" y="301" w="33" h="100" />
+		<image path="gfx\tonnels\gold_door_open.png" x="501" y="301" w="46" h="100" />
+		<image path="gfx\tonnels\gold_door_prev.png" x="606" y="301" w="90" h="100" />
+		
+		
+		<image path="gfx\tonnels\cuprum_bed.png" x="201" y="611" w="125" h="87" />
+		<image path="gfx\tonnels\iron_bed.png" x="401" y="644" w="114" h="54" />
+		
+		<image path="gfx\tonnels\cuprum_table.png" x="600" y="600" w="100" h="100" />
+		<image path="gfx\tonnels\cuprum_chair.png" x="700" y="600" w="100" h="100" />
+
+		<image path="gfx\tonnels\cuprum_hatch_rame.png" x="400" y="585" w="100" h="15" />
+		<image path="gfx\tonnels\cuprum_hatch_open.png" x="500" y="538" w="102" h="77" />
+		<image path="gfx\tonnels\cuprum_hatch_close.png" x="704" y="557" w="100" h="38" />
+		<image path="gfx\tonnels\cuprum_hatch_down.png" x="603" y="503" w="100" h="100" />
+		
+		
+		<image path="gfx\tonnels\canned_food.png" x="0" y="301" w="100" h="100" />
+		<image path="gfx\tonnels\lead.png" x="100" y="302" w="100" h="74" />
+		
+		<image path="gfx\particles\cuprum_torch.png" x="120" y="390" w="50" h="100" />
+		
+		<image path="gfx\tonnels\lightbulb.png" x="0" y="402" w="100" h="98" />
+		
+		<image path="gfx\particles\cuprum_lamp.png" x="225" y="300" w="50" h="100" />
+		
+		<image path="gfx\particles\cuprum_up_lamp.png" x="300" y="330" w="100" h="70" />
+		
+		
+		<image path="gfx\tonnels\posion_berries.png" x="933" y="837" w="35" h="25" />
+		
+		
+		<image path="gfx\tonnels\cooked_table.png" x="802" y="504" w="222" h="96" />
+		
+		
+	
+		
+		<image path="gfx\swamp\torf_coal.png" x="802" y="0" w="100" h="89" />
+		
+		
+	
+	</list>
+	
+	<list name="water" size="1024|1024" count="22">
+		<image path="gfx\swamp\torf1.png" x="701" y="102" w="100" h="100" />
+		<image path="gfx\swamp\torf2.png" x="801" y="102" w="100" h="100" />
+		<image path="gfx\swamp\torf3.png" x="901" y="102" w="100" h="100" />
+		
+		<image path="gfx\swamp\oil1.png" x="700" y="204" w="100" h="100" />
+		<image path="gfx\swamp\oil2.png" x="800" y="204" w="100" h="100" />
+		<image path="gfx\swamp\oil3.png" x="900" y="204" w="100" h="100" />
+	
+	</list>
+	
+	
+	<list name="armor" size="1024|1024" count="22">
+		<image path="gfx\armor\hard_steel_helmet.png" x="0" y="100" w="100" h="100" />
+		<image path="gfx\armor\hard_steel_armor.png" x="0" y="200" w="100" h="100" />
+		<image path="gfx\armor\hard_steel_boots.png" x="100" y="200" w="100" h="100" />
+		<image path="gfx\armor\cupwood_helmet.png" x="400" y="0" w="100" h="100" />
+	
+	
+	
+	
+		<image path="gfx\Spine\characters\dwarf_new\hats\gold_helmet.png" x="903" y="0" w="111" h="154" />
+		<image path="gfx\Spine\characters\dwarf_new\hats\gold_helmet(main).png" x="292" y="649" w="100" h="151" />
+        <image path="gfx\Spine\characters\dwarf_new\hats\gold_helmet(back).png" x="430" y="632" w="120" h="137" />
+	
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_armor.png" x="320" y="281" w="86" h="110" />
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_armor(main).png" x="830" y="512" w="115" h="140" />
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_armor(back).png" x="187" y="681" w="100" h="116" />
+		
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_armor_shoulder(main).png" x="545" y="419" w="81" h="54" />
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_armor_shoulder.png" x="618" y="476" w="78" h="50" />
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_armor_back.png" x="699" y="475" w="78" h="50" />
+		
+		<image path="gfx\Spine\characters\dwarf_new\armor\gold_shoulder(back)2.png" x="677" y="692" w="60" h="50" />
+        <image path="gfx\Spine\characters\dwarf_new\armor\gold_shoulder(back)1.png" x="740" y="692" w="60" h="50" />
+		
+		<image path="gfx\Spine\characters\dwarf_new\boots\boots_gold.png" x="510" y="0" w="262" h="63" />	
+		
+		
+		
+		<image path="gfx\Spine\characters\dwarf_new\hats\cupwood_helmet.png" x="691" y="251" w="152" h="75" />
+		<image path="gfx\Spine\characters\dwarf_new\hats\cupwood_helmet(main).png" x="216" y="236" w="152" h="79" />
+		<image path="gfx\Spine\characters\dwarf_new\hats\cupwood_helmet(back).png" x="727" y="120" w="152" h="48" />
+		
+		
+		
+		
+		
+	</list>
+	
+	<list name="ItemsNew1" size="1024|1024" count="22">
+	
+		<image path="gfx\ItemsNew\roof_metall_left.png" x="53" y="912" w="146" h="112" />
+		<image path="gfx\ItemsNew\roof_metall_center2.png" x="200" y="912" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_metall_center1.png" x="301" y="912" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_metall_right.png" x="402" y="912" w="146" h="112" />
+		
+		
+        <image path="gfx\ItemsNew\cane_plate1.png" x="600" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plate2.png" x="701" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plate3.png" x="802" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plate4.png" x="903" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_lu.png" x="600" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_u.png" x="701" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_ru.png" x="802" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_r.png" x="903" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_l.png" x="903" y="202" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\cane_bord1.png" x="350" y="100" w="100" h="10" />
+		<image path="gfx\ItemsNew\cane_bord2.png" x="470" y="135" w="100" h="10" />
+		<image path="gfx\ItemsNew\cane_bord3.png" x="470" y="95" w="100" h="10" />
+		<image path="gfx\ItemsNew\cane_bord4.png" x="350" y="135" w="100" h="10" />
+		
+		<image path="gfx\ItemsNew\mushrum1.png" x="0" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrumb1.png" x="101" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrum2.png" x="202" y="0" w="80" h="78" />
+		<image path="gfx\ItemsNew\mushrum3.png" x="303" y="0" w="80" h="81" />
+		
+		<image path="gfx\ItemsNew\mushrum4.png" x="25" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrumb2.png" x="121" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrum5.png" x="222" y="0" w="80" h="78" />
+		<image path="gfx\ItemsNew\mushrum6.png" x="323" y="0" w="80" h="81" />
+		
+		
+		<image path="gfx\ItemsNew\roof_wheat_left.png" x="355" y="288" w="146" h="112" />
+		<image path="gfx\ItemsNew\roof_wheat_center1.png" x="502" y="288" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_wheat_center2.png" x="603" y="288" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_wheat_right.png" x="704" y="288" w="141" h="112" />
+		
+		<image path="gfx\ItemsNew\lead_wall1.png" x="0" y="201" w="100" h="100" />
+		<image path="gfx\ItemsNew\lead_wall2.png" x="0" y="302" w="100" h="100" />
+		<image path="gfx\ItemsNew\lead_wall3.png" x="101" y="201" w="100" h="100" />
+		<image path="gfx\ItemsNew\lead_wall4.png" x="101" y="302" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\lead_wall_prev.png" x="202" y="302" w="100" h="90" />
+		
+		<image path="gfx\ItemsNew\lead_bord1.png" x="202" y="210" w="100" h="21" />
+		<image path="gfx\ItemsNew\lead_bord2.png" x="202" y="232" w="100" h="21" />
+		<image path="gfx\ItemsNew\lead_bord3.png" x="202" y="257" w="100" h="21" />
+		<image path="gfx\ItemsNew\lead_bord4.png" x="202" y="279" w="100" h="21" />
+		
+		<image path="gfx\ItemsNew\cane_chair.png" x="0" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_table.png" x="101" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_bed.png" x="202" y="101" w="130" h="100" />
+		
+		<image path="gfx\ItemsNew\food_fish.png" x="0" y="404" w="100" h="90" />
+		<image path="gfx\ItemsNew\food_meat.png" x="101" y="404" w="100" h="90" />
+		
+		
+		<image path="gfx\Spine\environment\rice\colos.png" x="32" y="500" w="64" h="100" />
+		<image path="gfx\Spine\environment\rice\colos2.png" x="135" y="515" w="45" h="85" />
+		<image path="gfx\Spine\environment\rice\colos3.png" x="237" y="540" w="21" h="60" />
+		
+		
+		<image path="gfx\ItemsNew\rice.png" x="750" y="205" w="100" h="70" />
+		<image path="gfx\ItemsNew\wh_rice.png" x="900" y="500" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\boil_rice.png" x="720" y="518" w="60" h="50" />
+		
+		<image path="gfx\ItemsNew\onion_dirt.png" x="400" y="500" w="100" h="100" />		
+		<image path="gfx\ItemsNew\onion.png" x="500" y="0" w="90" h="88" />
+		
+		<image path="gfx\ItemsNew\fish_onion.png" x="720" y="425" w="60" h="45" />
+		<image path="gfx\ItemsNew\meat_onion.png" x="810" y="420" w="75" h="54" />
+		
+		<image path="gfx\ItemsNew\potato.png" x="390" y="0" w="110" h="76" />
+		<image path="gfx\ItemsNew\potato_dirt.png" x="300" y="499" w="100" h="100" />	
+
+		<image path="gfx\Spine\environment\corn\colos.png" x="30" y="610" w="45" h="90" />	
+		<image path="gfx\Spine\environment\corn\colos2.png" x="130" y="625" w="44" h="74" />	
+		<image path="gfx\Spine\environment\corn\colos3.png" x="232" y="660" w="40" h="39" />
+
+		<image path="gfx\ItemsNew\water_eat.png" x="300" y="602" w="100" h="90" />
+		
+		
+		
+		<image path="gfx\ItemsNew\stone_window.png" x="901" y="901" w="100" h="100" />
+		<image path="gfx\ItemsNew\nightstand.png" x="627" y="936" w="51" h="64" />
+		
+		<image path="gfx\ItemsNew\x_shield.png" x="901" y="800" w="100" h="100" />
+		<image path="gfx\particles\streetlight.png" x="805" y="795" w="100" h="100" />
+		
+		<image path="gfx\level_tiles\craft_obj\partofbear1.png" x="726" y="907" w="46" h="90" />
+		<image path="gfx\level_tiles\craft_obj\partofbear2.png" x="810" y="900" w="80" h="90" />
+		
+		<image path="gfx\ItemsNew\betonplate.png" x="402" y="601" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton.png" x="603" y="601" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate1.png" x="502" y="702" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate2.png" x="603" y="702" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate3.png" x="704" y="702" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate4.png" x="502" y="803" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate5.png" x="603" y="803" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate6.png" x="704" y="803" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\beton_plat_lu.png" x="600" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_u.png" x="701" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_ru.png" x="802" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_r.png" x="903" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_l.png" x="903" y="202" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\beton_bord1.png" x="805" y="702" w="100" h="10" />
+		<image path="gfx\ItemsNew\beton_bord2.png" x="905" y="702" w="100" h="10" />
+		<image path="gfx\ItemsNew\beton_bord3.png" x="805" y="732" w="100" h="10" />
+		<image path="gfx\ItemsNew\beton_bord4.png" x="905" y="732" w="100" h="10" />
+		
+		<image path="gfx\ItemsNew\stone_ladder.png" x="303" y="700" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\beton_cornel1.png" x="542" y="595" w="62" h="61" />
+		<image path="gfx\ItemsNew\beton_cornel.png" x="503" y="638" w="62" h="61" />
+		<image path="gfx\ItemsNew\beton_cornel3.png" x="440" y="800" w="62" h="61" />
+		<image path="gfx\ItemsNew\beton_cornel2.png" x="404" y="843" w="62" h="61" />
+
+    </list>
+</atlas>

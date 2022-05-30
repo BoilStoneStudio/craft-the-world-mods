@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<locals>
+  <BloomT>Bloom</BloomT>
+  <BloomD>Softened iron. For use it is necessary to process in the forge.</BloomD>
+  <WroughtIronT>Wrought iron</WroughtIronT>
+  <WroughtIronD>A bar of iron for further processing and making items.</WroughtIronD>
+  <CastIronT>Cast iron</CastIronT>
+  <CastIronD>A bar of heavy metal. Can be recoated in steel.</CastIronD>
+  <BlueSteelT>Blue Steel</BlueSteelT>
+  <BlueSteelD>More solid metal, alloy of steel and gold. Used to create luxury items.</BlueSteelD>
+  <ObsidianT>Obsidian</ObsidianT>
+  <ObsidianD>Incredibly strong volcanic glass. So strong that it is impossible to do anything from it.</ObsidianD>
+  
+  <NakzagD>Procurement. To obtain the finished product, it is necessary to place it on the ground and destroy it.</NakzagD>
+  
+  <IronLadderT>Iron ladder</IronLadderT>
+  <IronLadderD>Improved ladder for a quick ascent.</IronLadderD>
+  <IronBridgeT>Steel bridge</IronBridgeT>
+  <IronBridgeD>Improved crossing for dwarves.</IronBridgeD>
+  <LittleIronBridgeT>Iron bridge</LittleIronBridgeT>
+  <LittleIronBridgeD>A flimsy bridge, made of pieces of iron. Not very reliable.</LittleIronBridgeD>
+  <IronPlateT>Iron wall</IronPlateT>
+  <IronPlateD>A solid wall forged by dwarves. Great for futuristic shelters.</IronPlateD>
+  <IronWindowT>Grate</IronWindowT>
+  <IronWindowD>The classical grating window. Great for futuristic shelters.</IronWindowD>
+  <CollumnIronT>Iron column</CollumnIronT>
+  <CollumnIronD>Decorative column. Great for futuristic shelters.</CollumnIronD>
+  <RoofmetallT>Iron roof</RoofmetallT>
+  <RoofmetallD>The iron roof is an excellent decoration for a futuristic hideout.</RoofmetallD>
+  <LogsT>Log wall</LogsT>
+  <LogsD>Walls from logs are extremely simple and durable, but expensive.</LogsD>
+  <MedievalWallsT>Medieval Wall Set</MedievalWallsT>
+  <WoodenGateT>Wooden gates</WoodenGateT>
+  <WoodenGateD>Slippery gates can hold unless the sheep.</WoodenGateD>
+  <WoodDoorT>Oak door</WoodDoorT>
+  <WoodDoorD>A fortified oak door will withstand many more strokes than a simple wooden door.</WoodDoorD>
+  <FenceWoodT>Wooden fence</FenceWoodT>
+  <FenceWoodD>A perfect fence for the village house.</FenceWoodD>
+  <DecorativeSignboardT>Beer sign</DecorativeSignboardT>
+  <DecorativeSignboardD>Must hang in the house of every dwarf!</DecorativeSignboardD>
+  
+  <FlourT>Flour</FlourT>
+  <FlourD>A mill turns grain into flour, which is used for cooking pies.</FlourD>
+  <EarthT>Earth</EarthT>
+  <EarthD>If there is no other construction material available, you can use blocks of earth to build walls and protective barriers.</EarthD>
+  <SandT>Sand</SandT>
+  <SandD>Sand is used for construction and making glass. But be careful not to bury your dwarves in blocks of loose sand!</SandD>
+  <StoneT>Stone</StoneT>
+  <StoneD>An accessible, durable building material.</StoneD>
+  <IronT>Iron Ore</IronT>
+  <IronD>The main metal used for weapons, armor, and other tough objects.</IronD>
+  <SilverT>Silver Ore</SilverT>
+  <SilverD>Silver ore is used to make highly durable weapons and doors.</SilverD>
+  <GoldT>Gold Ore</GoldT>
+  <GoldD>A precious metal, used to make magnificent weapons and doors.</GoldD>
+  <CoalT>Coal</CoalT>
+  <CoalD>The main fuel for furnaces and dwarf kitchens.</CoalD>
+  <MithrilT>Mithril Ore</MithrilT>
+  <MithrilD>This incredibly strong rare metal is used to make the best weapons and equipment.</MithrilD>
+  <WoodT>Wood</WoodT>
+  <WoodD>The basic renewable material for construction, used to make furniture and other items.</WoodD>
+  <LeavesT>Leaves</LeavesT>
+  <LeavesD>Tree leaves are used to make the most simple, non-durable items.</LeavesD>
+  <WheatearsT>Wheat</WheatearsT>
+  <WheatearsD>Wheat can be grown to produce seeds. It requires periodic watering in order to grow.</WheatearsD>
+  <ResinT>Resin</ResinT>
+  <ResinD>Resin extracted from pine is used to make a variety of lights.</ResinD>
+  <WoolT>Wool</WoolT>
+  <WoolD>Hunted animal fur is used to make fabric and rope.</WoolD>
+  <EyeT>Eye</EyeT>
+  <EyeD>The eye of an unlucky monster. Used for magic elixirs.</EyeD>
+  <BluediamondT>Blue Crystal</BluediamondT>
+  <BluediamondD>Precious stones for making magic objects and structures.</BluediamondD>
+  <ReddiamondT>Red Crystal</ReddiamondT>
+  <ReddiamondD>Precious stones for making magic objects and structures.</ReddiamondD>
+  <DarkbluediamondT>Dark Crystal</DarkbluediamondT>
+  <DarkbluediamondD>Precious stones for making magic objects and structures.</DarkbluediamondD>
+  <GreendiamondT>Green Crystal</GreendiamondT>
+  <GreendiamondD>Precious stones for making magic objects and structures.</GreendiamondD>
+  <PurplediamondT>Purple Crystal</PurplediamondT>
+  <PurplediamondD>Precious stones for making magic objects and structures.</PurplediamondD>
+  <WaterT>Water</WaterT>
+  <WaterD>Water is widely used for cooking, making potions, and mortar for construction. To collect water, you need to have buckets in your stockpile.</WaterD>
+  <ZombiebrainT>Zombie Brain</ZombiebrainT>
+  <ZombiebrainD>An infected zombie brain is good for making alchemical potions with.</ZombiebrainD>
+  <RootT>Roots</RootT>
+  <RootD>Some plant roots can be used to make potions and spices.</RootD>
+  <SlimeT>Slime</SlimeT>
+  <SlimeD>This substance from slugs can be used to make special lights and potions.</SlimeD>
+  <NeedlecrystalT>Needle Crystal</NeedlecrystalT>
+  <NeedlecrystalD>Crystals are sometimes formed underground, when certain conditions are met.</NeedlecrystalD>
+  <CoinT>Coin</CoinT>
+  <CoinD>Sometimes you'll find coins, which can be used to buy rare and necessary items in the dwarves' store.</CoinD>
+  <BoardsT>Planks</BoardsT>
+  <BoardsD>Treated wood is a good building material and is widely used in the manufacturing of furniture and other structures.</BoardsD>
+  <GlassT>Glass</GlassT>
+  <GlassD>Glass is used to make windows and lamps as well as glass interior objects such as vases.</GlassD>
+  <SteelT>Steel</SteelT>
+  <SteelD>Steel is used to make highly durable weapons and doors.</SteelD>
+  <ThreadT>Thread</ThreadT>
+  <ThreadD>Thread is used to sew fabric products.</ThreadD>
+  <BonesT>Bones</BonesT>
+  <BonesD>Bones left behind by various creatures can be used to make simple torches.</BonesD>
+  <BrickT>Bricks</BrickT>
+  <BrickD>A durable material made out of clay and used to build walls.</BrickD>
+  <KettleT>Pot</KettleT>
+  <KettleD>An essential item in any kitchen for preparing hot meals.</KettleD>
+  <RopeT>Rope</RopeT>
+  <RopeD>Ropes are used primarily for making weapons and tools.</RopeD>
+  <LockT>Lock</LockT>
+  <LockD>A component of doors and chests.</LockD>
+  <LeatherskinT>Leather</LeatherskinT>
+  <LeatherskinD>Fur that was obtained in the process of hunting can be used to make decorative and/or useful interior objects.</LeatherskinD>
+  <NailT>Nails</NailT>
+  <NailD>Virtually no complex wood construction can be completed without the use of nails.</NailD>
+  <PaintT>Dyes</PaintT>
+  <PaintD>Dyes are used to color various fabrics.</PaintD>
+  <PaperT>Paper</PaperT>
+  <PaperD>Paper is used to create decorations like paintings.</PaperD>
+  <FabricT>Fabric</FabricT>
+  <FabricD>Fabric is used for making clothes and some interior objects.</FabricD>
+  <NeedleT>Needles</NeedleT>
+  <NeedleD>Needles are used when working with fabric.</NeedleD>
+  <GrainT>Grain</GrainT>
+  <GrainD>Grain is extracted from ears of ripe wheat. It can be processed into flour or planted.</GrainD>
+  <ClayT>Clay</ClayT>
+  <ClayD>A building material that can be obtained from literally right under your feet and used for construction and pottery.</ClayD>
+  <OilT>Oil</OilT>
+  <OilD>Oil extracted from berries can be used to make very bright lights.</OilD>
+  <FeatherT>Feather</FeatherT>
+  <FeatherD>Bird feathers can be used for making arrows.</FeatherD>
+  <BottleT>Bottle</BottleT>
+  <BottleD>Used to store alchemical potions.</BottleD>
+  <PitcherT>Pitcher</PitcherT>
+  <PitcherD>A container for storing liquids.</PitcherD>
+  <Block1portalT>First Portal Part</Block1portalT>
+  <Block1portalD>A part used to build a portal between worlds.</Block1portalD>
+  <Block2portalT>Second Portal Part</Block2portalT>
+  <Block2portalD />
+  <Block3portalT>Third Portal Part</Block3portalT>
+  <Block3portalD />
+  <Block4portalT>Fourth Portal Part</Block4portalT>
+  <Block4portalD />
+  <Block5portalT>Fifth Portal Part</Block5portalT>
+  <Block5portalD />
+  <StoneknifeT>Stone Knife</StoneknifeT>
+  <StoneknifeD>The simplest knife. Most dwarves have this knife when they appear. A versatile weapon and a tool for getting resources.</StoneknifeD>
+  <StoneaxeT>Stone Ax</StoneaxeT>
+  <StoneaxeD>A simple ax made from scrap materials. For cutting trees down.</StoneaxeD>
+  <IronaxeT>Iron Ax</IronaxeT>
+  <IronaxeD>An improved iron ax, for use cutting trees. Can also be used as a weapon.</IronaxeD>
+  <StonepickaxeT>Stone Pickax</StonepickaxeT>
+  <StonepickaxeD>A simple pickax made from scrap materials. But even a simple pickax is faster at mining than regular tools like knives.</StonepickaxeD>
+  <IronpickaxeT>Iron Pickax</IronpickaxeT>
+  <IronpickaxeD>An advanced pickax for mining rocks.</IronpickaxeD>
+  <SilverPickT>Luxurious Pickax</SilverPickT>
+  <SilverPickD>A luxurious pickax is the perfect tool for mining.</SilverPickD>
+  <IronswordT>Iron Sword</IronswordT>
+  <IronswordD>The iron sword is the basic melee weapon. It also lets you hunt dangerous animals.</IronswordD>
+  <SteelswordT>Steel Sword</SteelswordT>
+  <SteelswordD>A steel sword is a basic melee weapon. It also allows you to hunt dangerous animals.</SteelswordD>
+  <YataganswordT>Yatagan</YataganswordT>
+  <YataganswordD>This curved sword is simple to make, but it's a dangerous weapon in the right hands.</YataganswordD>
+  <BatonT>Club</BatonT>
+  <BatonD>The club is simple to make and can help a dwarf fight off enemies, as long as they're not too tough.</BatonD>
+  <SteelbatonT>Iron Club</SteelbatonT>
+  <SteelbatonD>It's not scary to take a walk through a wild forest when you have a club like this.</SteelbatonD>
+  <WoodenbowT>Wooden Bow</WoodenbowT>
+  <WoodenbowD>The wooden bow is the simplest ranged weapon. It has an unlimited supply of regular wooden arrows.</WoodenbowD>
+  <LongbowT>Longbow</LongbowT>
+  <LongbowD>An improved bow for long-range battles. Deals more damage.</LongbowD>
+  <WizardsstaffT>Wizard's Staff</WizardsstaffT>
+  <WizardsstaffD>This staff allows its owner (a dwarf) to use prepared magic spell potions in battle.</WizardsstaffD>
+  <SimplearrowT>Simple Arrows</SimplearrowT>
+  <SimplearrowD>Simple arrows deal minor damage. Dwarves have a practically unlimited supply of these arrows. They are used whenever the more powerful arrows run out.</SimplearrowD>
+  <FirearrowT>Fire Arrows</FirearrowT>
+  <FirearrowD>Fire arrows cause significant damage. To make dwarves use fire arrows instead of plain arrows, select them in the Equip panel.</FirearrowD>
+  <SilverarrowT>Silver Arrows</SilverarrowT>
+  <SilverarrowD>Silver arrows are the product of elven knowledge and are extraordinarily effective in combat.</SilverarrowD>
+  <BucketT>Bucket</BucketT>
+  <BucketD>Buckets are used for collecting water. The more buckets you have, the more water your dwarves can carry at a time.</BucketD>
+  <FishingrodT>Fishing Rod</FishingrodT>
+  <FishingrodD>Fishing gear. Dwarves get fishing rods from your stockpile by themselves when they have to catch fish. The more rods you have, the more dwarves can go fishing at a time.</FishingrodD>
+  <WoodenwallT>Wooden Wall</WoodenwallT>
+  <WoodenwallD>Wooden walls have a simple structure and are essential for building a rudimentary shelter.</WoodenwallD>
+  <BrickwallT>Brick Wall</BrickwallT>
+  <BrickwallD>Thick brick walls are one of the best obstacles against advancing enemies.</BrickwallD>
+  <StonewallT>Stone Wall</StonewallT>
+  <StonewallD>Built from stones, this simple wall is nice and tough.</StonewallD>
+  <VenetianstuccoT>Venetian Stucco</VenetianstuccoT>
+  <VenetianstuccoD>Venetian stucco, for wall finishing.</VenetianstuccoD>
+  <LadderT>Ladder</LadderT>
+  <LadderD>Ladders increase the speed of dwarves' movement and prevent them from falling.</LadderD>
+  <StonestepsT>Stone Steps</StonestepsT>
+  <StonestepsD>Although dwarves are good jumpers and climbers, they are much happier when they have some steps to use.</StonestepsD>
+  <WoodenstepsT>Wooden Steps</WoodenstepsT>
+  <WoodenstepsD>Although dwarves are good jumpers and climbers, they will be very happy if they could use steps.</WoodenstepsD>
+  <IronfenceT>Iron Fence</IronfenceT>
+  <IronfenceD>A fence slows down the enemy's advance.</IronfenceD>
+  <FenceT>Simple Fence</FenceT>
+  <FenceD>The simplest of fences. Slows down the enemy's advance a little bit.</FenceD>
+  <BrickfenceT>Brick Fence</BrickfenceT>
+  <BrickfenceD>A fence slows down the enemy's advance.</BrickfenceD>
+  <WoodendoorT>Wooden Door</WoodendoorT>
+  <WoodendoorD>A simple wooden door, like any other door, completes a shelter and closes its entrance to outsiders.</WoodendoorD>
+  <IrondoorT>Iron Door</IrondoorT>
+  <IrondoorD>The reinforced iron door can keep unexpected guests out for longer.</IrondoorD>
+  <SteeldoorT>Steel Door</SteeldoorT>
+  <SteeldoorD>The strongest of all doors.</SteeldoorD>
+  <WoodenhatchT>Wooden Hatch</WoodenhatchT>
+  <WoodenhatchD>A wooden hatch is the simplest way to limit access into a house. You can open and close hatches to block some of the dwarves' paths.</WoodenhatchD>
+  <IronhatchT>Iron Hatch</IronhatchT>
+  <IronhatchD>A reinforced metal hatch.</IronhatchD>
+  <StonecolumnT>Stone Column</StonecolumnT>
+  <StonecolumnD>A decorative column for ceremonial halls.</StonecolumnD>
+  <AntiquecolumnT>Ancient Column</AntiquecolumnT>
+  <AntiquecolumnD>An ancient column that some dwarves found in the abandoned dungeons.</AntiquecolumnD>
+  <SpireT>Spire</SpireT>
+  <SpireD>The highest part of castle towers.</SpireD>
+  <StoneloopholeT>Stone Loophole</StoneloopholeT>
+  <StoneloopholeD>This add-on to the castle walls allows dwarves to attack from behind cover.</StoneloopholeD>
+  <FlowerbedT>Flowerbed</FlowerbedT>
+  <FlowerbedD>Decorative flowers next to the house.</FlowerbedD>
+  <FountainT>Fountain</FountainT>
+  <FountainD>A decorative piece for outdoors.</FountainD>
+  <WoodentrapT>Wooden Trap</WoodentrapT>
+  <WoodentrapD>A simple trap for animals and weak monsters. Set it on paths they might walk along.</WoodentrapD>
+  <SteeltrapT>Iron Trap</SteeltrapT>
+  <SteeltrapD>Replacement for a regular wooden trap. Drains more health from animals and monsters.</SteeltrapD>
+  <ZombiecagewoodenT>Wooden Cage</ZombiecagewoodenT>
+  <ZombiecagewoodenD>This wooden cage can hold some monsters for a short time, allowing dwarves to attack them without being in danger.</ZombiecagewoodenD>
+  <ZombiecageironT>Iron Cage</ZombiecageironT>
+  <ZombiecageironD>A metal cage able to reliably hold several monsters, rendering them completely helpless.</ZombiecageironD>
+  <LogbridgeT>Log Bridge</LogbridgeT>
+  <LogbridgeD>A temporary bridge—the easiest to make, but not very reliable.</LogbridgeD>
+  <WoodenbridgeT>Wooden Bridge</WoodenbridgeT>
+  <WoodenbridgeD>This simple, yet sufficiently durable and quick to build wooden bridge will provide a reliable crossing.</WoodenbridgeD>
+  <StonebridgeT>Stone Bridge</StonebridgeT>
+  <StonebridgeD>A durable stone bridge can be made with some simple technology.</StonebridgeD>
+  <TotemT>Totem</TotemT>
+  <TotemD>Creates an aura around the house that protects it from monsters.</TotemD>
+  <Relief1T>Flowers Relief</Relief1T>
+  <Relief1D>A type of a wall decoration.</Relief1D>
+  <Relief2T>Expanse Relief</Relief2T>
+  <Relief2D>A type of a wall decoration.</Relief2D>
+  <ShingledroofT>Shingled Roof</ShingledroofT>
+  <ShingledroofD>A shingled roof is a perfect material for decorating your home.</ShingledroofD>
+  <RoofofleavesT>Roof of Leaves</RoofofleavesT>
+  <RoofofleavesD>The simplest roof, made out of leaves, protects you from precipitation.</RoofofleavesD>
+  <AnvilwithahammerT>Forge</AnvilwithahammerT>
+  <AnvilwithahammerD>A forge is required in order to make complex metal objects.</AnvilwithahammerD>
+  <WorkshopT>Workshop</WorkshopT>
+  <WorkshopD>A workshop can process stone into intricate shapes.</WorkshopD>
+  <WorkbenchT>Workbench</WorkbenchT>
+  <WorkbenchD>A workbench is necessary for processing wood to make complex items with.</WorkbenchD>
+  <MagiccauldronT>Lab</MagiccauldronT>
+  <MagiccauldronD>A magic cauldron used for preparing magic potions that dwarves can use on their own.</MagiccauldronD>
+  <MillT>Mill</MillT>
+  <MillD>Millstones can grind grain to make flour.</MillD>
+  <ElevatorT>Elevator</ElevatorT>
+  <ElevatorD>An elevator is installed in the vertical shaft and can quickly transport several dwarves between floors at a time.</ElevatorD>
+  <RailsT>Rails</RailsT>
+  <RailsD>You can now build a railroad. Place rails on several blocks in a row and then place at least one wagon.</RailsD>
+  <WagonT>Cart</WagonT>
+  <WagonD>This cart can be placed on the railroad and allows dwarves to move down the track quickly.</WagonD>
+  <RailroadswitchT>Railroad Switch</RailroadswitchT>
+  <RailroadswitchD>So that dwarves can get into the carts at places other than the beginning and end of the line, install these switches at intermediate stations.</RailroadswitchD>
+  <TeslatowerT>Tesla Tower</TeslatowerT>
+  <TeslatowerD>This tower strikes attacking enemies with lightning. It can be upgraded up to level 3 by building additional sections on top of it.</TeslatowerD>
+  <WoodenchestT>Wooden Chest</WoodenchestT>
+  <WoodenchestD>A more durable metal chest that can hold useful items.</WoodenchestD>
+  <MetalchestT>Metal Chest</MetalchestT>
+  <MetalchestD>A more durable metal chest that can hold useful items.</MetalchestD>
+  <GargoylestatueT>Gargoyle Statue</GargoylestatueT>
+  <GargoylestatueD>A decoration for gates and castle walls.</GargoylestatueD>
+  <SquarewindowT>Square Window</SquarewindowT>
+  <SquarewindowD>A simple window for lighting up a house.</SquarewindowD>
+  <RoundwindowT>Round Window</RoundwindowT>
+  <RoundwindowD>A small round window.</RoundwindowD>
+  <Stained-glasswindowT>Stained Glass Window</Stained-glasswindowT>
+  <Stained-glasswindowD>Stained glass windows are used like regular windows in the main hall.</Stained-glasswindowD>
+  <RoundstainedglassT />
+  <RoundstainedglassD>Round Stained Glass Window</RoundstainedglassD>
+  <StainedglasswithsplashesT>Stained Glass Insets</StainedglasswithsplashesT>
+  <StainedglasswithsplashesD>A decorative item for walls.</StainedglasswithsplashesD>
+  <LancetwindowT>Lancet Window</LancetwindowT>
+  <LancetwindowD>A classic wooden window.</LancetwindowD>
+  <StonechairT>Stone Chair</StonechairT>
+  <StonechairD>There are no trees underground, so sometimes you have to use stones to build furniture.</StonechairD>
+  <WoodenchairT>Wooden Chair</WoodenchairT>
+  <WoodenchairD>A simple chair for a dining room.</WoodenchairD>
+  <TextilechairT>Textile Chair</TextilechairT>
+  <TextilechairD>A simple fabric chair.</TextilechairD>
+  <LeatherchairT>Leather Chair</LeatherchairT>
+  <LeatherchairD>A comfortable leather chair.</LeatherchairD>
+  <SofaT>Sofa</SofaT>
+  <SofaD>A sofa can significantly increase the comfort of any home.</SofaD>
+  <WallcarpetT>Wall Carpet</WallcarpetT>
+  <WallcarpetD>A wall carpet for interior decoration.</WallcarpetD>
+  <CabinetwithshelvesT>Shelved Cabinet</CabinetwithshelvesT>
+  <CabinetwithshelvesD>A cabinet with shelves.</CabinetwithshelvesD>
+  <RoundmirrorT>Round Mirror</RoundmirrorT>
+  <RoundmirrorD>Even for dwarves, it doesn't hurt to occasionally look after your appearance.</RoundmirrorD>
+  <DecorativemirrorT>Decorative Mirror</DecorativemirrorT>
+  <DecorativemirrorD>An exquisite framed mirror. For interior decoration.</DecorativemirrorD>
+  <PaintingwithsightsT>Landscape Painting</PaintingwithsightsT>
+  <PaintingwithsightsD>A beautiful nature scene.</PaintingwithsightsD>
+  <AbstractpaintingT>Portrait</AbstractpaintingT>
+  <AbstractpaintingD>Portraits of famous dwarves. Plus some not so famous ones.</AbstractpaintingD>
+  <RedpennantT>Black and White Pennant</RedpennantT>
+  <RedpennantD>Pennant. For interior decoration.</RedpennantD>
+  <BlackandwhitepennantT>Black and White Pennant</BlackandwhitepennantT>
+  <BlackandwhitepennantD>Pennant. For interior decoration.</BlackandwhitepennantD>
+  <BedT>Wooden Bed</BedT>
+  <BedD>A great place for dwarves to recover their strength.</BedD>
+  <Bed2T>Comfortable Bed</Bed2T>
+  <Bed2D>A comfortable bed, great for a good night's sleep.</Bed2D>
+  <BedofleavesT>Bed of Leaves</BedofleavesT>
+  <BedofleavesD>This bed is not very comfortable, but it's easy to make.</BedofleavesD>
+  <LuxurybedT>Luxury Bed</LuxurybedT>
+  <LuxurybedD>A bed of kings! Not just a place to sleep but also a beautiful decoration that brightens the whole house.</LuxurybedD>
+  <WoodentableT>Wooden Table</WoodentableT>
+  <WoodentableD>A simple table where food for dwarves can be placed.</WoodentableD>
+  <LargetableT>Large Table</LargetableT>
+  <LargetableD>This table can accommodate a large number of various dishes.</LargetableD>
+  <TablewithatableclothT>Table with Tablecloth</TablewithatableclothT>
+  <TablewithatableclothD>An exquisite table with a tablecloth.</TablewithatableclothD>
+  <CabinetwithglassdoorsT>Glass Cabinet</CabinetwithglassdoorsT>
+  <CabinetwithglassdoorsD>A carved cabinet with glass doors.</CabinetwithglassdoorsD>
+  <BookshelfT>Bookshelf</BookshelfT>
+  <BookshelfD>A piece of home furniture.</BookshelfD>
+  <FireplaceT>Fireplace</FireplaceT>
+  <FireplaceD>A fireplace for interiors.</FireplaceD>
+  <CrockT>Clay Crock Pot</CrockT>
+  <CrockD>A good crock pot that can be placed next to your bed at night.</CrockD>
+  <GlassvaseT>Glass Vase</GlassvaseT>
+  <GlassvaseD>A sophisticated glass vase.</GlassvaseD>
+  <WallskinrugT>Wall Skin Rug</WallskinrugT>
+  <WallskinrugD>A hunting trophy to decorate the walls.</WallskinrugD>
+  <ShieldwithskullT>Skull Shield</ShieldwithskullT>
+  <ShieldwithskullD />
+  <BarrelT>Barrel</BarrelT>
+  <BarrelD>Barrels are used to make and store strong drink.</BarrelD>
+  <WinebarrelT>Wine Barrel</WinebarrelT>
+  <WinebarrelD>Barrels full of old, good wine make dwarves happy.</WinebarrelD>
+  <Plantinapot2T>Potted Palm</Plantinapot2T>
+  <Plantinapot2D>Decorations for inside and around the house.</Plantinapot2D>
+  <PlantinapotT>Potted Flowers</PlantinapotT>
+  <PlantinapotD />
+  <AquariumT>Aquarium</AquariumT>
+  <AquariumD>Fish can not only be fried in a frying pan but also put in an aquarium. They can please both the stomach and the eyes!</AquariumD>
+  <Cuckoo-clockT>Cuckoo Clock</Cuckoo-clockT>
+  <Cuckoo-clockD>There are no days and nights underground, so everyone needs a clock.</Cuckoo-clockD>
+  <PendulumclockT>Pendulum Clock</PendulumclockT>
+  <PendulumclockD>A massive floor clock, for interior decoration.</PendulumclockD>
+  <BirdcageT>Caged Bird</BirdcageT>
+  <BirdcageD>An angry bird in a cage. It amuses the dwarves.</BirdcageD>
+  <AppleT>Apple</AppleT>
+  <AppleD>Cones and apples found by dwarves cutting down trees can be eaten as soon as they are found.</AppleD>
+  <ConeT>Cone</ConeT>
+  <ConeD>Cones and apples found by dwarves cutting down trees can be eaten as soon as they are found.</ConeD>
+  <HamT>Meat</HamT>
+  <HamD>Meat can be obtained by hunting wild animals. But dwarves don't eat raw meat, so it needs to be cooked.</HamD>
+  <GrilledmeatT>Grilled Meat</GrilledmeatT>
+  <GrilledmeatD>Meat from the hunt can be cooked over charcoal.</GrilledmeatD>
+  <BerriesT>Berries</BerriesT>
+  <BerriesD>A versatile ingredient used in dishes, potions, and dyes.</BerriesD>
+  <CoconutT>Coconut</CoconutT>
+  <CoconutD>Coconut juice and pulp are good for restoring strength.</CoconutD>
+  <EggT>Egg</EggT>
+  <EggD>You can't cook an omelet without breaking some eggs.</EggD>
+  <StewT>Stew</StewT>
+  <StewD>In addition to grilled meat, stew can be cooked from hunted wildlife.</StewD>
+  <BunT>Bun</BunT>
+  <BunD>An appetizing bun made with a simple recipe.</BunD>
+  <ApplepieT>Apple Pie</ApplepieT>
+  <ApplepieD>Pie is not easy to cook, but it's enough to feed several mouths.</ApplepieD>
+  <BreadT>Bread</BreadT>
+  <BreadD>Bread is a staple dish made from wheat.</BreadD>
+  <MixedgreenssaladT>Mixed Greens Salad</MixedgreenssaladT>
+  <MixedgreenssaladD>If food choices are limited, but everyone is hungry, you can prepare a simple salad from fresh greens.</MixedgreenssaladD>
+  <GrilledfishT>Grilled Fish</GrilledfishT>
+  <GrilledfishD>The easiest way to cook fish you've caught is to grill it on some charcoal.</GrilledfishD>
+  <FishstewT>Fish Stew</FishstewT>
+  <FishstewD>Several servings of stew can be prepared from fish with a simple recipe.</FishstewD>
+  <FishT>Fish</FishT>
+  <FishD>A renewable source of food that can be used to cook a lot of different dishes. Fishing rod required.</FishD>
+  <TorchT>Torch</TorchT>
+  <TorchD>Torches illuminate dungeons and scare off some of the smaller creatures.</TorchD>
+  <WalllampT>Wall Lamp</WalllampT>
+  <WalllampD>A simple oil lamp for your home.</WalllampD>
+  <LightingstandT>Lighting Stand</LightingstandT>
+  <LightingstandD>A decorative lighting lantern.</LightingstandD>
+  <MinerslampT>Miner's Lamp</MinerslampT>
+  <MinerslampD>A miner's lamp can be placed anywhere on the floor as a light source. It is well-suited for use in mines—after an area has been mined, the lamp can be moved to a different location.</MinerslampD>
+  <SimplehatT>Simple Hat</SimplehatT>
+  <SimplehatD>A simple hat protects from rain and sun, but not from hits to the head.</SimplehatD>
+  <HoodedhatT>Hooded Hat</HoodedhatT>
+  <HoodedhatD>New dwarves are coming to you in these hoods, hoping that you will provide them with more reliable gear.</HoodedhatD>
+  <IronhelmetT>Iron Helmet</IronhelmetT>
+  <IronhelmetD>This iron helmet has a simple structure and good durability.</IronhelmetD>
+  <DivinghelmetT>Diving Helmet</DivinghelmetT>
+  <DivinghelmetD>A diving helmet allows dwarves to work underwater without time limits.</DivinghelmetD>
+  <LeatherhelmetT>Leather Helmet</LeatherhelmetT>
+  <LeatherhelmetD>A simple helmet you can use to protect your head in battle.</LeatherhelmetD>
+  <GoldenhelmetT>Luxurious Helmet</GoldenhelmetT>
+  <GoldenhelmetD>This exquisite, durable gilded helmet provides good protection.</GoldenhelmetD>
+  <LeatherbootsT>Leather Boots</LeatherbootsT>
+  <LeatherbootsD>The most common dwarven footwear.</LeatherbootsD>
+  <IronbootsT>Iron Boots</IronbootsT>
+  <IronbootsD>Metal armor for protecting your feet.</IronbootsD>
+  <LeathershirtT>Leather Armor</LeathershirtT>
+  <LeathershirtD>More durable than a fabric shirt and provides additional protection.</LeathershirtD>
+  <GoldarmorT>Luxurious Armor</GoldarmorT>
+  <GoldarmorD>Only elder dwarves can afford gilded armor.</GoldarmorD>
+  <CampfirewithpotT>Cooking Campfire</CampfirewithpotT>
+  <CampfirewithpotD>The simplest tool for cooking hot food.</CampfirewithpotD>
+  <PotbellystoveT>Potbelly Kitchen Stove</PotbellystoveT>
+  <PotbellystoveD>A simple stove for cooking.</PotbellystoveD>
+  <StonestoveT>Stone Kitchen Stove</StonestoveT>
+  <StonestoveD>A simple stone stove.</StonestoveD>
+  <LargestoveT>Large Oven</LargestoveT>
+  <LargestoveD>A large cooking space for a chef.</LargestoveD>
+  <ScaffoldingT>Scaffolding</ScaffoldingT>
+  <ScaffoldingD>Dwarves can climb on scaffolds to do work up high. You can instantly install and remove scaffolding when you wish.</ScaffoldingD>
+  <TeaT>Tea</TeaT>
+  <TeaD>Tea invigorates the dwarves, letting them run more quickly.</TeaD>
+  <BeerT>Beer</BeerT>
+  <BeerD>Dwarves' productivity will improve after a mug of foamy beer.</BeerD>
+  <CasttheportalT>Portal Spell</CasttheportalT>
+  <CasttheportalD>Opens a portal to the stockpile. The dwarves can use it to get there and back.</CasttheportalD>
+  <CastthelightT>Magic Light</CastthelightT>
+  <CastthelightD>This light illuminates the selected area for a short time.</CastthelightD>
+  <CastthefireballT>Fireball</CastthefireballT>
+  <CastthefireballD>Deals damage to several creatures in the target area.</CastthefireballD>
+  <CasttheforestT>Magic Forest</CasttheforestT>
+  <CasttheforestD>This spell causes several trees to grow instantly in the target area.</CasttheforestD>
+  <CastthecompasT>Compass Spell</CastthecompasT>
+  <CastthecompasD>The compass points to the closest secret room.</CastthecompasD>
+  <CastthehornT>Horn Spell</CastthehornT>
+  <CastthehornD>This spell calls dwarves to gather in a specific place, to attack or defend something together, for example.</CastthehornD>
+  <CasttherainT>Rain or Snow</CasttherainT>
+  <CasttherainD>This spell summons ordinary rain or snow on the surface, depending on the current season.</CasttherainD>
+  <MigiccollectresourcesT>Magic Collect</MigiccollectresourcesT>
+  <MigiccollectresourcesD>This spell collects resources located within a small radius and sends them to the stockpile.</MigiccollectresourcesD>
+  <CasttheimpsT>Imps Summon</CasttheimpsT>
+  <CasttheimpsD>Summon several imps to help collect resources.</CasttheimpsD>
+  <ManaElixirT>Mana Elixir</ManaElixirT>
+  <ManaElixirD>Use an elixir to regenerate a few mana points.</ManaElixirD>
+  <WebT>Web</WebT>
+  <WebD>An ingredient of alchemical elixirs.</WebD>
+  <QuartzT>Quartz</QuartzT>
+  <QuartzD>An extremely useful crystal for building Tesla towers.</QuartzD>
+  <PinkCrystalT>Pink Crystal</PinkCrystalT>
+  <PinkCrystalD>A precious stone that can be found at the deepest levels.</PinkCrystalD>
+  <GreyMushroomT>Grey Mushroom</GreyMushroomT>
+  <GreyMushroomD>An ingredient of alchemical elixirs.</GreyMushroomD>
+  <PinkMushroomT>Pink Mushroom</PinkMushroomT>
+  <PinkMushroomD>An ingredient of alchemical elixirs.</PinkMushroomD>
+  <DragonEggT>Dragon Egg</DragonEggT>
+  <DragonEggD>A rare and hard to obtain alchemical ingredient.</DragonEggD>
+  <WheelfortrolleyT>Metal Wheel</WheelfortrolleyT>
+  <WheelfortrolleyD>An essential part of mining carts.</WheelfortrolleyD>
+  <StonecollumnT>Black Column</StonecollumnT>
+  <StonecollumnD />
+  <FlagT>Flag</FlagT>
+  <FlagD>A decorative item. Also used to build extra stockpile camps. </FlagD>
+  <WarehouseT>Stockpile</WarehouseT>
+  <WarehouseD>Building additional stockpiles allows your dwarves to spend less time carrying items back and forth.</WarehouseD>
+  <DeadlockT>Deadlock</DeadlockT>
+  <DeadlockD />
+  <CasewithclothesT>Wardrobe</CasewithclothesT>
+  <CasewithclothesD>Furniture increases the level of comfort in a home, allowing your dwarves to regain their health more quickly.</CasewithclothesD>
+  <DecorativeShieldT>Decorative Shield</DecorativeShieldT>
+  <DecorativeShieldD>For interior decoration.</DecorativeShieldD>
+  <StatueT>Statue of Rorry Stoneskin</StatueT>
+  <StatueD>A statue of a legendary hero of the dwarves and the patron saint of miners. According to legend, his spirit still roams the abandoned mines and helps lost dwarves find their way home. Gives miners +5 skill.</StatueD>
+  <GunnarT>Gunnar Ironfist Statue</GunnarT>
+  <GunnarD>The statue of a legendary general, hero of the war with the North Clan goblins. He was also famed for his drunkenness and rowdiness, but we try not to remember that.... This statue gives a +5 skill bonus to all swordsmen.</GunnarD>
+  <HoneyT>Honey</HoneyT>
+  <HoneyD />
+  <ChandelierSmallT>Small Chandelier</ChandelierSmallT>
+  <ChandelierSmallD>Lights increase a house's comfort.</ChandelierSmallD>
+  <LanternT>Lantern</LanternT>
+  <LanternD>A sturdy light to illuminate the area around the shelter and notice any approaching danger before it's too late.</LanternD>
+  <TinkersHatT>Tinker's Hat</TinkersHatT>
+  <TinkersHatD>Rudimentary clothing, worn by all new dwarves when they appear.</TinkersHatD>
+  <WoodmansHatT>Feathered Hat</WoodmansHatT>
+  <WoodmansHatD />
+  <OrdinaryshirtT>Ordinary Shirt</OrdinaryshirtT>
+  <OrdinaryshirtD />
+  <SteelChainArmorT>Iron Armor</SteelChainArmorT>
+  <SteelChainArmorD>Good armor made of ordinary metal.</SteelChainArmorD>
+  <BewareT>Beware Sign</BewareT>
+  <BewareD>Place a sign to keep your dwarves from going a certain way. For example, you might want to do this if an area is full of monsters too tough for them to handle.</BewareD>
+  <MigicexplosionT>Magic Explosion</MigicexplosionT>
+  <MigicexplosionD>Destroys nearby blocks and deals serious damage to creatures.</MigicexplosionD>
+  <HealthElixirT>Health Elixir</HealthElixirT>
+  <HealthElixirD>Use this elixir in the equipment window to heal the selected dwarf.</HealthElixirD>
+  <ElixiroffireballT>Elixir of Fire</ElixiroffireballT>
+  <ElixiroffireballD>Make a supply of this elixir for your dwarf mages so that they can launch fireballs with their staffs.</ElixiroffireballD>
+  <LoggerSkillT>Logger's Book</LoggerSkillT>
+  <LoggerSkillD>Increases the speed at which trees can be cut down.</LoggerSkillD>
+  <MinnerSkillT>Miner's Book</MinnerSkillT>
+  <MinnerSkillD>Increases the speed at which blocks of earth and rock are excavated.</MinnerSkillD>
+  <FisherSkillT>Fisher's Book</FisherSkillT>
+  <FisherSkillD>Increases the speed at which fish are caught.</FisherSkillD>
+  <MeleeSkillT>Warrior's Book</MeleeSkillT>
+  <MeleeSkillD>Increases the damage inflicted by melee weaponry in close combat.</MeleeSkillD>
+  <ArcherSkillT>Archer's Book</ArcherSkillT>
+  <ArcherSkillD>Increases the damage and accuracy of ranged weapons.</ArcherSkillD>
+  <CookSkillT>Cook Book</CookSkillT>
+  <CookSkillD>13th edition, revised and expanded. Also, the poisonous mushrooms and berries erroroneously included in the previous edition have been removed!</CookSkillD>
+  <SmithSkillT>Smithing Book</SmithSkillT>
+  <SmithSkillD>Increases the speed at which objects are made from metal.</SmithSkillD>
+  <CarpenterSkillT>Carpenter's Book</CarpenterSkillT>
+  <CarpenterSkillD>Increases the speed at which wooden objects are made.</CarpenterSkillD>
+  <MageSkillT>Mage's Book</MageSkillT>
+  <MageSkillD>Teaches you how to turn flies into elephants. And other spells.</MageSkillD>
+  <MillerSkillT>Miller's Book</MillerSkillT>
+  <MillerSkillD>Increases the speed at which grain is ground into flour.</MillerSkillD>
+  <HunterSkillT>Hunter's Book</HunterSkillT>
+  <HunterSkillD>Learn how to catch dinner instead of becoming dinner! Study this to hunt more effectively.</HunterSkillD>
+  <ClimberSkillT>Climber's Book</ClimberSkillT>
+  <ClimberSkillD>Increases your skill moving up vertical mines and cliffs so that you fall less frequently.</ClimberSkillD>
+  <SwimmerSkillT>Swimmer's Book</SwimmerSkillT>
+  <SwimmerSkillD>Increases the time you can hold your breath underwater.</SwimmerSkillD>
+  <RecipeT>Recipe:</RecipeT>
+  <RecipeD />
+  <SilverAxeT>Luxurious Ax</SilverAxeT>
+  <SilverAxeD />
+  <SilverSwordT>Steel Sword</SilverSwordT>
+  <SilverSwordD>The steel sword does more damage than the iron sword.</SilverSwordD>
+  <SlimetorchT>Slime Torch</SlimetorchT>
+  <SlimetorchD>Dwarves don't store items just to let them gather dust. Even slime and skeleton bones have their uses!</SlimetorchD>
+  <MithrilAxeT>Mithril Ax</MithrilAxeT>
+  <MithrilAxeD />
+  <MithrilPickT>Mithril Pickax</MithrilPickT>
+  <MithrilPickD />
+  <MithrilSwordT>Mithril Sword</MithrilSwordT>
+  <MithrilSwordD>Luxurious weaponry decorated with precious metal.</MithrilSwordD>
+  <MithrilHammerT>Mithril Hammer</MithrilHammerT>
+  <MithrilHammerD />
+  <WoodHelmetT>Wooden Helmet</WoodHelmetT>
+  <WoodHelmetD>The simplest of helmets, made from scrap materials.</WoodHelmetD>
+  <SilverHelmetT>Steel Helmet</SilverHelmetT>
+  <SilverHelmetD>Steel helmet is much stronger and more efficient than iron helmet.</SilverHelmetD>
+  <MithrilHelmetT>Mithril Helmet</MithrilHelmetT>
+  <MithrilHelmetD />
+  <WoodArmorT>Wooden Armor</WoodArmorT>
+  <WoodArmorD>The simplest of armor, made from scrap materials.</WoodArmorD>
+  <SilverArmorT>Steel Armor</SilverArmorT>
+  <SilverArmorD>Steel armor is much stronger and more efficient than iron.</SilverArmorD>
+  <MithrilArmorT>Mithril Armor</MithrilArmorT>
+  <MithrilArmorD>Luxurious equipment decorated with precious metal.</MithrilArmorD>
+  <SnowT>Snow</SnowT>
+  <SnowD />
+  <IceT>Ice</IceT>
+  <IceD>Can be melted into usable water.</IceD>
+  <FatT>Lard</FatT>
+  <FatD>Can be used for food.</FatD>
+  <IcewallT>Ice Wall</IcewallT>
+  <IcewallD>An improvised wall available on winter levels.</IcewallD>
+  <WinterbootsT>Winter Boots</WinterbootsT>
+  <WinterbootsD>Not exactly nice felt boots, but better than nothing.</WinterbootsD>
+  <WinterhatT>Winter Hat</WinterhatT>
+  <WinterhatD />
+  <SantaArmorT>Santa's Coat</SantaArmorT>
+  <SantaArmorD>Santa's magical coat.</SantaArmorD>
+  <SantaHatT>Santa's Hat</SantaHatT>
+  <SantaHatD>Santa's magical hat.</SantaHatD>
+  <SilverIngotT>Silver Ingot</SilverIngotT>
+  <SilverIngotD>A chunk of metal, ready to be worked and used to make items.</SilverIngotD>
+  <GoldIngotT>Gold Ingot</GoldIngotT>
+  <GoldIngotD>A chunk of metal, ready to be worked and used to make items.</GoldIngotD>
+  <MithrilIngotT>Mithril Ingot</MithrilIngotT>
+  <MithrilIngotD>A chunk of metal, ready to be worked and used to make items.</MithrilIngotD>
+  <WizardsstaffMistT>Mithril Wizard's Staff</WizardsstaffMistT>
+  <WizardsstaffMistD>The Mithril Wizard's Staff increases the effectiveness of magic spells.</WizardsstaffMistD>
+  <WoodenspikesT>Wooden Spikes</WoodenspikesT>
+  <WoodenspikesD>Wooden Spikes delay and damage attacking monsters.</WoodenspikesD>
+  <IcespikesT>Ice Spikes</IcespikesT>
+  <IcespikesD>Ice Spikes delay and damage attacking monsters.</IcespikesD>
+  <WoodenbigchairT>Big Chair</WoodenbigchairT>
+  <WoodenbigchairD>A big, solid chair for kitchens and living rooms.</WoodenbigchairD>
+  <IcetableT>Ice Table</IcetableT>
+  <IcetableD>A table made of ice. Not for use in warm places.</IcetableD>
+  <IcestatueT>Ice Statue</IcestatueT>
+  <IcestatueD>A sculpture made of ice.</IcestatueD>
+  <ScrambledeggsT>Fried Eggs</ScrambledeggsT>
+  <ScrambledeggsD>You can’t make an omelet without breaking some eggs.</ScrambledeggsD>
+  <FrostlingbowT>Frostling Bow</FrostlingbowT>
+  <FrostlingbowD>A small bow which Frostlings use to hunt with.</FrostlingbowD>
+  <FrostlingspearT>Frostling Spear</FrostlingspearT>
+  <FrostlingspearD>A short spear.</FrostlingspearD>
+  <RustyskeletonmaceT>Skeleton's Rusty Mace</RustyskeletonmaceT>
+  <RustyskeletonmaceD>Skeletons do not take care of their weapons, so this mace is very rusty.</RustyskeletonmaceD>
+  <RustyskeletonheavymaceT>Skeleton's Mace</RustyskeletonheavymaceT>
+  <RustyskeletonheavymaceD>Some soldiers do not part with their weapons, even after death.</RustyskeletonheavymaceD>
+  <RustyskeletonsaberT>Skeleton's Saber</RustyskeletonsaberT>
+  <RustyskeletonsaberD>An old rusty saber.</RustyskeletonsaberD>
+  <RustymummysaberT>Mummy's Saber</RustymummysaberT>
+  <RustymummysaberD>An old rusty saber.</RustymummysaberD>
+  <GobllinspearT>Goblin Spear</GobllinspearT>
+  <GobllinspearD>A short spear.</GobllinspearD>
+  <RustyskeletonhelmetT>Rusty Helmet</RustyskeletonhelmetT>
+  <RustyskeletonhelmetD>A skeleton's rusted helmet.</RustyskeletonhelmetD>
+  <ChitinT>Chitin</ChitinT>
+  <ChitinD>Remains of a chitin shell.</ChitinD>
+  <SteelpickaxeT>Steel Pickax</SteelpickaxeT>
+  <SteelpickaxeD>An excellent pickax for ore mining.</SteelpickaxeD>
+  <AxeSteelT>Steel Ax</AxeSteelT>
+  <AxeSteelD>An excellent tool for cutting down trees. Can also be used as a weapon.</AxeSteelD>
+  <HeavybowT>Heavy Bow</HeavybowT>
+  <HeavybowD>A mechanical bow for long-range combat. Shoots three arrows at a time.</HeavybowD>
+  <GoldbootsT>Luxurious Boots</GoldbootsT>
+  <GoldbootsD>Beautiful, strong gilded boots.</GoldbootsD>
+  <MithrilbootsT>Mithril Boots</MithrilbootsT>
+  <MithrilbootsD>The best boots ever!</MithrilbootsD>
+  <DesertbootsT>Desert Boots</DesertbootsT>
+  <DesertbootsD />
+  <DeserthatT>Turban</DeserthatT>
+  <DeserthatD>An indispensable item when traveling through the desert.</DeserthatD>
+  <WoodenstaffT>Wooden Staff</WoodenstaffT>
+  <WoodenstaffD>A simple magic staff.</WoodenstaffD>
+  <ElixirofsparkT>Lightning Elixir</ElixirofsparkT>
+  <ElixirofsparkD>Provides an unlimited source of lightning for magic staffs.</ElixirofsparkD>
+  <Backpack1T>Backpack</Backpack1T>
+  <Backpack1D>Increases the number of items a dwarf can carry by %1.</Backpack1D>
+  <Backpack2T>Tough Backpack</Backpack2T>
+  <Backpack2D />
+  <SawT>Handsaw</SawT>
+  <SawD>Increases the efficiency of the logger and carpenter skills.</SawD>
+  <MinerLampT>Portable Lamp</MinerLampT>
+  <MinerLampD>Increases the efficiency of the miner skill.</MinerLampD>
+  <BucketOfWormsT>Bucket of Worms</BucketOfWormsT>
+  <BucketOfWormsD>Increases the efficiency of the fisher skill.</BucketOfWormsD>
+  <GrindingStoneT>Grinding Stone</GrindingStoneT>
+  <GrindingStoneD>Increases the efficiency of the warrior skill.</GrindingStoneD>
+  <ArcherGloveT>Archer's Glove</ArcherGloveT>
+  <ArcherGloveD>Increases the efficiency of the archer skill.</ArcherGloveD>
+  <ServingSpoonT>Serving Spoon</ServingSpoonT>
+  <ServingSpoonD>Increases the efficiency of the cook skill.</ServingSpoonD>
+  <SmithApronT>Smithing Apron</SmithApronT>
+  <SmithApronD>Increases the efficiency of the smithing skill.</SmithApronD>
+  <AlchemistBagT>Bag of Elixirs</AlchemistBagT>
+  <AlchemistBagD>Increases the efficiency of the mage skill.</AlchemistBagD>
+  <SieveT>Sieve</SieveT>
+  <SieveD>Increases the efficiency of the miller skill.</SieveD>
+  <ClimbingCatsT>Climbing Shoes</ClimbingCatsT>
+  <ClimbingCatsD>Increases the efficiency of the climber skill.</ClimbingCatsD>
+  <FloatT>Float</FloatT>
+  <FloatD>Increases the efficiency of the swimmer skill.</FloatD>
+  <WoodtowerT>Wooden Tower</WoodtowerT>
+  <WoodtowerD>The most basic defense tower. It shoots arrows at monsters automatically.</WoodtowerD>
+  <IcearrowelexirT>Elixir of Ice Arrow</IcearrowelexirT>
+  <IcearrowelexirD>With this elixir, dwarf mages can shoot ice arrows to slow down a group of enemies for a short time.</IcearrowelexirD>
+  <TransformelexirT>Elixir of Transfiguration</TransformelexirT>
+  <TransformelexirD>This elixir can turn several monsters into snails.</TransformelexirD>
+  <JasonMaskT>Jason Mask</JasonMaskT>
+  <JasonMaskD>This mask makes a terrifying impression even on monsters.</JasonMaskD>
+  <PumpkinT>Pumpkin</PumpkinT>
+  <PumpkinD>Ominous pumpkins with glowing eyes appear on the eve of Halloween. You can use them as lights.</PumpkinD>
+  <GargoyleySpawnerT>Fossilized Gargoyle</GargoyleySpawnerT>
+  <GargoyleySpawnerD>Gargoyles are nocturnal creatures and can't take the sunlight, which turns them into stone.</GargoyleySpawnerD>
+  <FarmFenceT>Farm Fence</FarmFenceT>
+  <FarmFenceD>Place several fences one by one until a farmhouse appears.</FarmFenceD>
+  <ScissorsT>Scissors</ScissorsT>
+  <ScissorsD>Scissors are needed to cut sheep wool.</ScissorsD>
+  <AnimalTrapT>Trap</AnimalTrapT>
+  <AnimalTrapD>Place traps in animal habitats to catch the animals.</AnimalTrapD>
+  <PistolT>Pistol</PistolT>
+  <PistolD>This firearm is effective at close distances but lacking in firepower.</PistolD>
+  <RifleT>Rifle</RifleT>
+  <RifleD>A middle-powered firearm.</RifleD>
+  <HeavyrifleT>High-Powered Rifle</HeavyrifleT>
+  <HeavyrifleD>A long-range, powerful rifle with high accuracy.</HeavyrifleD>
+  <AmmoT>Simple Ammo</AmmoT>
+  <AmmoD>This ammo is weak but unlimited.</AmmoD>
+  <AmmoSteelT>Steel Ammo</AmmoSteelT>
+  <AmmoSteelD>Inflict significant damage.</AmmoSteelD>
+  <AmmoFireT>Incendiary Ammo</AmmoFireT>
+  <AmmoFireD>Inflict the most damage possible.</AmmoFireD>
+  <GunpowderT>Gunpowder</GunpowderT>
+  <GunpowderD>A component for making firearms.</GunpowderD>
+  <SulfurT>Sulfur</SulfurT>
+  <SulfurD>A component for making explosives.</SulfurD>
+  <TrunkT>Gun Muzzle</TrunkT>
+  <TrunkD>A major component of a firearm.</TrunkD>
+  <TriggerMechT>Trigger Mechanism</TriggerMechT>
+  <TriggerMechD>Part of a firearm.</TriggerMechD>
+  <SteelwallT>Steel Wall</SteelwallT>
+  <SteelwallD>A hard, durable wall from the dwarves' forges.</SteelwallD>
+  <SteelLadderT>Steel Ladder</SteelLadderT>
+  <SteelLadderD>Steel ladders significantly increase the dwarves' mobility and make their houses more comfortable.</SteelLadderD>
+  <ForgetElixirT>Elixir of Obliteration</ForgetElixirT>
+  <ForgetElixirD>Causes a dwarf to forget all his skills.</ForgetElixirD>
+  <RoomdoorT>Interior Door</RoomdoorT>
+  <RoomdoorD>An interior door that doesn't count as a shelter boundary.</RoomdoorD>
+  <PickCaveGoblinT>Cave Goblin Pickax</PickCaveGoblinT>
+  <PickCaveGoblinD>These goblins sure know how to dig fast! The chelicerae of a giant worm make digging earth as fast as cutting butter with a knife.</PickCaveGoblinD>
+  <HitinBootsT>Chitin Boots</HitinBootsT>
+  <HitinBootsD>Leather boots strengthened with chitin plating.</HitinBootsD>
+  <HitinHelmetT>Chitin Helmet</HitinHelmetT>
+  <HitinHelmetD>A leather helmet strengthened with chitin plating. It doesn't look very good, but it makes the helmet much stronger.</HitinHelmetD>
+  <SilverbootsT>Steel Boots</SilverbootsT>
+  <SilverbootsD>These boots are strong enough and make a great match for steel armor.</SilverbootsD>
+  <HitinArmorT>Chitin Armor</HitinArmorT>
+  <HitinArmorD>What about strengthening leather armor with chitin plating? You'll end up with uncomfortable but strong armor.</HitinArmorD>
+  <CavegoblinSaberT>Cave Goblin Saber</CavegoblinSaberT>
+  <CavegoblinSaberD>A rough weapon made out of bones and teeth.</CavegoblinSaberD>
+  <CaveGobllinspearT>Cave Goblin Spear</CaveGobllinspearT>
+  <CaveGobllinspearD>A simple but effective thrusting weapon. Usable until you can craft something better.</CaveGobllinspearD>
+  <MushroomT>Mushroom</MushroomT>
+  <MushroomD>A new ingredient that can be used for various dishes.</MushroomD>
+  <MushDryT>Dried Mushrooms</MushDryT>
+  <MushDryD>You can dry and eat the mushrooms you gather.</MushDryD>
+  <MushSalatT>Mushroom Salad</MushSalatT>
+  <MushSalatD>A simple salad with fresh greens and mushrooms.</MushSalatD>
+  <MushSoupT>Mushroom Soup</MushSoupT>
+  <MushSoupD>A tasty mushroom soup.</MushSoupD>
+  <MushPiesT>Mushroom Pies</MushPiesT>
+  <MushPiesD>You'll be surprised by how many dishes can be made out of mushrooms!</MushPiesD>
+  <TrickyTokiT>Tricky Toki Statue</TrickyTokiT>
+  <TrickyTokiD>The odious hero of all the dwarves' stories, Toki, is fabulously rich and just as fabulously clever! A statue of this character can magically lift the tribe's mood and increase your chances of finding gold coins!</TrickyTokiD>
+  <ElvenspearT>Elven halberd</ElvenspearT>
+  <ElvenspearD>Ice Biome Elf main weapon.</ElvenspearD>
+  <ElvenbowT>Elven bow</ElvenbowT>
+  <ElvenbowD>Ice Biome Elf bow.</ElvenbowD>
+  <ElvenHelmetT>Elven helmet</ElvenHelmetT>
+  <ElvenHelmetD>Ice Biome Elf helmet.</ElvenHelmetD>
+  <ElvenbootsT>Elven boots</ElvenbootsT>
+  <ElvenbootsD>Ice Biome Elf boots.</ElvenbootsD>
+  <ElvenArmorT>Elven armor</ElvenArmorT>
+  <ElvenArmorD>Ice Biome Elf armor.</ElvenArmorD>
+  <ElvenFlagT>Elven flag</ElvenFlagT>
+  <ElvenFlagD>Ice Biome Elf decoration.</ElvenFlagD>
+  <ElvenShieldT>Elven shield</ElvenShieldT>
+  <ElvenShieldD>Ice Biome Elf shield.</ElvenShieldD>
+  <SoulKeepT>Soul Keeper</SoulKeepT>
+  <SoulKeepD>Keeps the souls of dead dwarves for possible resurrection.</SoulKeepD>
+  <RevivalElixirT>Potion of resurrection</RevivalElixirT>
+  <RevivalElixirD>Resurrects a dead dwarf. Use it on the ghost at the inventory screen.</RevivalElixirD>
+  <WarehouseUpgradeT>Improved portal</WarehouseUpgradeT>
+  <WarehouseUpgradeD>Can open portals to biomes and multiplayer games using a special spell.</WarehouseUpgradeD>
+  <BiomePortalPvpT>Multiplayer game</BiomePortalPvpT>
+  <BiomePortalPvpD>Opens a portal to a biome for a multiplayer game.</BiomePortalPvpD>
+  <!--<BiomePortalCoopT>Cooperative mode</BiomePortalCoopT>
+  <BiomePortalCoopD>Opens portal to the biome in cooperative mode.</BiomePortalCoopD>-->
+  <KnightSwordT>Sword of the Dark Lord</KnightSwordT>
+  <KnightSwordD>The sword of a Lord that was once great. Restores the life energy of the owner when used.</KnightSwordD>
+  <ZombiespearT>Dark Lord Servant’s halberd</ZombiespearT>
+  <ZombiespearD>A simple and reliable melee weapon.</ZombiespearD>
+  <ShamanCloakT>Goblin Shaman’s hat</ShamanCloakT>
+  <ShamanCloakD>The hat makes magical attacks stronger and provides relatively good protection from rain.</ShamanCloakD>
+  <ShamanStaffT>Shaman’s Staff</ShamanStaffT>
+  <ShamanStaffD>So much magic saturates this staff that it stings the hands of those that hold it! It provides the ability to attack 4 targets simultaneously and improves the skill of the mage.</ShamanStaffD>
+  <EnchantedBerriesT>Enchanted berries</EnchantedBerriesT>
+  <EnchantedBerriesD>The magic of the ancestors does wonders! These berries don’t just satisfy hunger – they restore health as well!</EnchantedBerriesD>
+  <Broth_of_combat_madnessT>Battle frenzy infusion</Broth_of_combat_madnessT>
+  <Broth_of_combat_madnessD>Orc’s blood, blue mold extract and powdered cave beast tooth. This infusion is a great stimulant! It increases movement and attack speed for a short time.</Broth_of_combat_madnessD>
+  <KnightHelmetT>Knight’s horned helmet</KnightHelmetT>
+  <KnightHelmetD>The horns are on this helmet to inspire fear in the enemy.</KnightHelmetD>
+  <KnightBootsT>Armored boots of the Dark Lord</KnightBootsT>
+  <KnightBootsD>You’re guaranteed to have a heavy step.</KnightBootsD>
+  <KnightArmorT>Cuirass of the Dark Lord</KnightArmorT>
+  <KnightArmorD>What a great cuirass! Here’s hoping that the odor of tombs will air out at some point.</KnightArmorD>
+  <PoisonArrowT>Poison Arrow</PoisonArrowT>
+  <PoisonArrowD>Temporarily poisons the enemy.</PoisonArrowD>
+  <NecklaceT>Pincer Necklace</NecklaceT>
+  <NecklaceD>Doubles warrior's skill </NecklaceD>
+  <ChitinRingT>The Ring of Speed</ChitinRingT>
+  <ChitinRingD>Ring makes the dwarf move 30% faster</ChitinRingD>
+  <BeatlePoisonousClubT>"Poisonous Thorn" Mace</BeatlePoisonousClubT>
+  <BeatlePoisonousClubD>This mace is covered with poisonous thorns of beetles.</BeatlePoisonousClubD>
+  <WorkerInStoneT>Beetle in a stone</WorkerInStoneT>
+  <WorkerInStoneD>An excellent decoration for a cozy home.</WorkerInStoneD>
+  <ParachuteT>Parachute</ParachuteT>
+  <ParachuteD>They say the orcs from the dangerous caves were the first ones to use parachutes. A parachute will protect a dwarf when falling from a great height.</ParachuteD>
+  <LaddersKitT>Quick Ladder Pack</LaddersKitT>
+  <LaddersKitD>This pack allows a dwarf to set up several temporary ladder sections in order to reach a target location.</LaddersKitD>
+  <WoodShieldItemT>Wooden Shield</WoodShieldItemT>
+  <WoodShieldItemD>This shield absorbs a portion of damage. The warrior’s skill increases the chance of blocking.</WoodShieldItemD>
+  <IronShieldItemT>Iron Shield</IronShieldItemT>
+  <GoldShieldItemT>Luxurious Shield</GoldShieldItemT>
+  <BasiliskHouseT>Frogolisk House</BasiliskHouseT>
+  <BasiliskHouseD>This house allows you to train a pet that helps the dwarves defend their home.</BasiliskHouseD>
+  <CatHouseT>Owlcat House</CatHouseT>
+  <EliteWallSetT>Luxurious Wall Set</EliteWallSetT>
+  <EliteWallSetD>Decorative panels for finishing interior walls.</EliteWallSetD>
+  <StoneWallSetT>Stone Wall Set</StoneWallSetT>
+  <WoodWallSetT>Wooden Wall Set</WoodWallSetT>
+  <WineT>Homemade Wine</WineT>
+  <WineD>A noble homemade drink.</WineD>
+  <CatapultTowerT>Mechanized Catapult</CatapultTowerT>
+  <CatapultTowerD>A heavy long-range defensive weapon. It is intended to be used against waves of monsters and inflicts significant damage to a large area.</CatapultTowerD>
+  <BiomePortalSingleT>Open the portal to the biome</BiomePortalSingleT>
+  <BiomePortalSingleD>Send a dwarf expedition to the biome</BiomePortalSingleD>
+  <DemonHunterT>Demon Hunter Hat</DemonHunterT>
+  <DemonHunterD>A stylish hat that improves the wearer's shooting skills.</DemonHunterD>
+  <WitchHatT>Beautiful Witch Hat</WitchHatT>
+  <WitchHatD>More appropriate for lovely ladies. Improves the wearer's mastery of magic.</WitchHatD>
+  <CripCatHouseT>The house of an old friend</CripCatHouseT>
+  <CripCatHouseD>Straight from the pet cemetery!</CripCatHouseD>
+  <FunnySceletonHelmetT>Funny Skeleton Helmet</FunnySceletonHelmetT>
+  <FunnySceletonShoesT>Funny Skeleton Shoes</FunnySceletonShoesT>
+  <FunnySceletonCuirassT>Funny Skeleton Cuirass</FunnySceletonCuirassT>
+  <FunnySceletonCuirassD>Part of the Funny Skeleton kit. Good protection plus style!</FunnySceletonCuirassD>
+  <FunnySceletonShieldT>Funny Skeleton Shield</FunnySceletonShieldT>
+  <FunnySceletonShieldD>A strong shield made of bones.</FunnySceletonShieldD>
+  <FunnySceletonClubT>Funny Skeleton Mace</FunnySceletonClubT>
+  <FunnySceletonClubD>Breaks up boredom and bones! Inflicts more damage on skeletons and zombies.</FunnySceletonClubD>
+  <SkullCookiesT>Skull buns</SkullCookiesT>
+  <SkullCookiesD>Buns with powdered sugar</SkullCookiesD>
+  <PunchT>Punch</PunchT>
+  <PunchD>What's Halloween without punch?</PunchD>
+  <SpiderPieT>Spider Nest Pie</SpiderPieT>
+  <SpiderPieD>A delicious pie with a spiderweb made of icing and a spider of dark chocolate.</SpiderPieD>
+  <WitchFingersT>Witch Finger Cookies</WitchFingersT>
+  <WitchFingersD>Especially tasty with green icing!</WitchFingersD>
+  <AngelNimbusT>Angel Halo</AngelNimbusT>
+  <AngelNimbusD>Pit yourself against evil!</AngelNimbusD>
+  <BatHatT>Bat Ears</BatHatT>
+  <BatHatD>A festive accessory for Halloween.</BatHatD>
+  <DemonHornsT>Demon Horns</DemonHornsT>
+  <DemonHornsD>Comes with demon wings.</DemonHornsD>
+  <PiratHatT>Pirate Hat</PiratHatT>
+  <PumpkinHatT>Pumpkin Head Helmet</PumpkinHatT>
+  <PumpkinHatD>It won't protect you very well, but it looks funny.</PumpkinHatD>
+  <ScreamMaskT>Scream Mask</ScreamMaskT>
+  <BrainInJarT>Brain in a Jar</BrainInJarT>
+  <BrainInJarD>An excellent choice for your holiday decorations!</BrainInJarD>
+  <HalloweenPictureT>Halloween Picture</HalloweenPictureT>
+  <HalloweenPictureD>Small sketches from the world of stereotypical horror.</HalloweenPictureD>
+  <BedMultistoreyT>Many-tier Bed</BedMultistoreyT>
+  <BedMultistoreyD>These beds can be placed on each other up to 4 tiers.</BedMultistoreyD>
+  <SpawnCubeZombieT>Zombie Spawner</SpawnCubeZombieT>
+  <SpawnCubeSkeletonT>Skeleton Spawner</SpawnCubeSkeletonT>
+  <SpawnCubeGargoylyT>Gargoyle Spawner</SpawnCubeGargoylyT>
+  <SpawnCubeD>A long time ago masters of these lands used spawning cubes to fill their dungeons with various monsters. But it was so long ago so nobody remembers even their names…</SpawnCubeD>
+  <SpawnCubeZombieArmorBreakerT>Zombie Armor-Breaker Spawner</SpawnCubeZombieArmorBreakerT>
+  <SpawnCubeArcherT>Skeleton Archer Spawner</SpawnCubeArcherT>
+  <ACH_GIFTED_RESEARCHER>Pennant of Military Researcher</ACH_GIFTED_RESEARCHER>
+  <ACH_FORTRESS_KEEPER>Pennant of Castle Defender</ACH_FORTRESS_KEEPER>
+  <ACH_GREAT_DONATOR>Pennant of Major Supplier</ACH_GREAT_DONATOR>
+  <AchivPennantD>Corresponding pennants become available after you get some of the achievements.</AchivPennantD>
+  <FTPCraftT>Workbench</FTPCraftT>
+  <FTPCraftD>It is used for crafting simple tools and items.</FTPCraftD>
+  <FTPCraft2T>Workplace</FTPCraft2T>
+  <ManaGeneratorT>Mana Generator</ManaGeneratorT>
+  <ManaGeneratorD>This device increases mana regeneration by 300%.</ManaGeneratorD>
+  <ManaExpanderT>Mana Storage</ManaExpanderT>
+  <ManaExpanderD>This device increases maximum mana by 20.</ManaExpanderD>
+  <StaticPortalT>Portal Gate</StaticPortalT>
+  <StaticPortalD>Gate keeps portal open permanently by using mana. Switch gate off to save mana.</StaticPortalD>
+  <WarriorTrainingSimpleT>Training Dummy</WarriorTrainingSimpleT>
+  <WarriorTrainingSimpleD>Select a dwarf with the warrior skill and send him to the dummy to increase his skill level.</WarriorTrainingSimpleD>
+  <WarriorTrainingT>Mechanical Training Dummy</WarriorTrainingT>
+  <WarriorTrainingD>This dummy allows you to use more cunning tricks and train the warrior skill more quickly.</WarriorTrainingD>
+  <ArcherTrainingSimpleT>Target</ArcherTrainingSimpleT>
+  <ArcherTrainingSimpleD>Archers can increase their accuracy a little here.</ArcherTrainingSimpleD>
+  <ArcherTrainingT>Shooting Range</ArcherTrainingT>
+  <ArcherTrainingD>Shooting at moving targets provides better training.</ArcherTrainingD>
+  <Woodtower2T>Heavy Shooting Tower</Woodtower2T>
+  <Woodtower2D>This shooting tower encased in metal will give monsters even more trouble.</Woodtower2D>
+  <RegenRindT>Life Ring</RegenRindT>
+  <RegenRindD>This ring gradually recovers a dwarf's health.</RegenRindD>
+  <SkillsRindT>Skills Ring</SkillsRindT>
+  <SkillsRindD>This ring increases all skills at the same time.</SkillsRindD>
+  <UndeadAmuletT>Zombie Ring</UndeadAmuletT>
+  <UndeadAmuletD>This ring reduces damage from zombies.</UndeadAmuletD>
+  <MinerAmuletT>Miner's Ring</MinerAmuletT>
+  <MinerAmuletD>This ring gives you a chance to get more ore when mining.</MinerAmuletD>
+  <ManaPylonT>Magic Crystal</ManaPylonT>
+  <ManaPylonD>This crystal reduces the degree to which spells consume more mana when cast further from the main stockpile.</ManaPylonD>
+  <MagicanTrainingSimpleT>Magic Sphere</MagicanTrainingSimpleT>
+  <MagicanTrainingSimpleD>This sphere safely absorbs the energy from combat spells when training a wizard.</MagicanTrainingSimpleD>
+  <MagicanTrainingT>Magic Shooting Range</MagicanTrainingT>
+  <MagicanTrainingD>This shooting range allows wizards to study all the subtleties of combat spells.</MagicanTrainingD>
+  <RuneT>Rune</RuneT>
+  <RuneD>This stone tablet is a part of some kind of mechanism. Could it be a key?</RuneD>
+  <NewYearTreeT>Christmas Tree</NewYearTreeT>
+  <NewYearTreeD>Ho ho ho! Merry Christmas!</NewYearTreeD>
+  <ChristmasTreeToyT>Christmas Tree Ornament</ChristmasTreeToyT>
+  <ChristmasTreeToyD>It's so beautiful! Just make sure you don't break it…</ChristmasTreeToyD>
+  <CabelsT>Wires</CabelsT>
+  <CabelsD>They can be used to weave lovely garlands.</CabelsD>
+  <RudolfT>Rudolph Statue</RudolfT>
+  <RudolfD>A Christmas decoration for home.</RudolfD>
+  <GarlandT>Garland</GarlandT>
+  <GarlandD>New Year house decoration.</GarlandD>
+  <ChristmasWreathT>A Christmas wreath.</ChristmasWreathT>
+  <ChristmasWreathD>New Year house decoration.</ChristmasWreathD>
+  <GingerbreadCookiesT>Gingerbread Men</GingerbreadCookiesT>
+  <GingerbreadCookiesD>A holiday treat.</GingerbreadCookiesD>
+  <ACH_FINISH_FIRST_LEVEL>Sovereign Pennant</ACH_FINISH_FIRST_LEVEL>
+  <ACH_HARDCORE_GAME>Hardcore Gamer Pennant</ACH_HARDCORE_GAME>
+  <ACH_IMMORTAL>Invincible Pennant</ACH_IMMORTAL>
+  <ACH_GIANT_WORM_KILER>Worm Hunter Pennant</ACH_GIANT_WORM_KILER>
+  <ACH_GREAT_EXPLORER>Great Explorer Pennant</ACH_GREAT_EXPLORER>
+  <StonecutterSkillT>Stonemason's Book</StonecutterSkillT>
+  <StonecutterSkillD>Study it to increase the speed at which objects are made from stone.</StonecutterSkillD>
+  <DragonWarriorHelmetT>Dragon Warrior's Helmet</DragonWarriorHelmetT>
+  <DragonWarriorHelmetD>This helmet provides good protection and stuns foes with its magnificent craftsmanship.</DragonWarriorHelmetD>
+  <DragonWarriorCuirassT>Dragon Warrior's Cuirass</DragonWarriorCuirassT>
+  <DragonWarriorCuirassD>A magnificent cuirass made by a master craftsman from a distant eastern empire.</DragonWarriorCuirassD>
+  <DragonWarriorBootsT>Dragon Warrior's Boots</DragonWarriorBootsT>
+  <DragonWarriorBootsD>Sturdy leather boots with gold inserts.</DragonWarriorBootsD>
+  <SwordDaoT>Dragon Warrior's Sword</SwordDaoT>
+  <SwordDaoD>A heavy sword for inflicting heavy wounds.</SwordDaoD>
+  <FlashlightT>Festive Lantern</FlashlightT>
+  <FlashlightD>Feel the festive atmosphere, my friends!</FlashlightD>
+  <FireworksT>Festive Fireworks</FireworksT>
+  <FireworksD>Instructions: 1) Place in an open area. 2) Light after sundown. 3) Run away.</FireworksD>
+</locals>

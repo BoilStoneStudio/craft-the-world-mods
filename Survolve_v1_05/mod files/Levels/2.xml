@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Парамметры генерации уровня -->
+<!-- Раздел 'level' -->
+<!-- 'startpoint' область стартовой точки от центра, как в процентах так и в абсолютных значениях. Например, '20%' - означает +-20% от центра  -->
+<!-- Раздел 'Blocks' -->
+<!-- 'name' имя блока в 'blocks.xml' -->
+<!-- 'points' кол-во пятен данного вида ресурса(блока) -->
+<!-- 'count' диапазон количества блоков в пятне -->
+<!-- 'range' диапазон расположения пятен по оси Y. Отрицательные значения - ниже уровня земли. Значения как в абсолютном, так и в процентном виде -->
+<!-- 'dheight' перепад высоты -->
+<!-- 'maxwidth' максимальная ширина пятна. Значение 1 - для деревьев -->
+<!-- 'onblock' имя блока, на котором может располагаться пятно. Опять же параметр для деревьев. -->
+
+<root>
+  <level horizont="45" startpoint="20%" name="%Level3Name" id="level3">
+    <params>
+      <difficulty value="normal" />      <!--very_easy,easy,normal,hard,very_hard,nightmare-->
+      <planetType value="usual_cold"/>
+      <vegetationTemplate value="usual_cold"/>
+      <sizeTemplate value="normal"/>
+      <humidityTemplate value="normal"/>
+      <lanscapeTemplate value="mountains"/>      <!--plain,hills,mountains-->
+      <temperatureTemplate value="cold"/>      <!--cold,normal,hot-->
+      <faunaTemplate value="snow"/>
+
+      <coastline value="3-15"/>      <!--береговая линия x-y, отступ слева x- низ, y-вверх -->
+      <newTreeParam value="10"/>            <!--параметр для формулы расчета времени новых деревьев -->
+      <caveArea value="5%"/>                <!--процент площади пещер от площади уровня-->
+      <caveHeight value="3-6"/>             <!--высота пещер-->
+      <caveWidth value="5-15"/>             <!--ширина пещер-->
+      <caveNoStoneNumber value="2"/>        <!--каждая n-ная пещера с не каменным дном-->
+      <caveDirtFloor value="10-50"/>        <!--диапазон процента земляных и песчаных блоков в не каменных пещерах-->
+      <caveStalactite value="66%"/>         <!--процент содержания сталактитов на потолке пещеры-->
+      <monsterHealt value="1%"/>            <!--процент увеличения жизни монстра на одну клетку удаления от базового склада-->
+      <monsterStrength value="0.5%"/>       <!--процент увеличения урона монстра на одну клетку удаления от базового склада-->
+      <!--<waterPondsArea value="20%"/>         --><!--процент длины водоемов от длины уровня--><!--
+      <waterPondHeight value="2-4"/>        --><!--максимальная глубина --><!--
+      <waterPondWidth value="5-10"/>        --><!--максимальная ширина -->
+      <movesArea value="3%"/>               <!--процент от площади уровня -->
+      <movesLength value="5-15"/>           <!--длина хода -->
+      <plantsLevelCoef value="10"/>         <!--коэф. уровня для формулы роста кустарника-->
+      <plantHarmlessDeep value="3"/>        <!--макс. глубина от поверхности земли для безвредного кустарника-->
+      <plantHarmlessMaxPoints value="5"/>   <!--максимальное кол-во точек роста безвредного кустарника-->
+      <plantPredatorMaxPoints value="10"/>  <!--максимальное кол-во точек роста хищного кустарника-->
+      <plantPredatorAttack value="10%"/>    <!--сила атаки хищного кустарника как процент от базового урона гнома-->
+      <plantPredatorSpawnTime value="150"/> <!--время появления места для роста хищного куста-->
+      <plantHarmlessSpawnTime value="150"/> <!--время появления места для роста безвредного куста-->
+      <minGraves value="2-3"/>              <!--минимальное кол-во надгробий в кладбище-->
+      <graveyards value="3"/>               <!--кол-во кладбищь на уровне-->
+      
+      <!--волны монстров-->      
+      <monstersWaveTime value="5"/>         <!--время в днях между волнами монстров, 5-->
+      <monstersWaveLevel value="4"/>        <!--уровень, при котором начинаются волны монстров, 4-->
+      <monstersWavePortalOffset value="20-30"/>      <!--расстояние от главного склада до портала-->
+      <monstersWaveCount value="10"/>       <!--начальное количество монстров, 10-->
+
+      <!--параметры волн разных цветов земли-->
+      <dirtWaveFreq value="4"/>      <!--частота 4 -->
+      <dirtWaveSlope value="0"/>      <!--крутизна +-  30-->
+      <dirtWaveWidth value="5"/>      <!--ширина волны, не исп.-->
+      <dirtWaveAmp value="3"/>      <!--амплитуда-->
+      <dirtWaveNoise value="3"/>      <!--уровень шума 4-->
+
+      <mountainsSpace value="20-40"/>     <!--промежуток между горами и холмами-->
+
+      <!-- коэф. k1 в формуле расчета количества кристалов и грибов при генерации уровня: count = worldSizeX * worldSizeY / k1 -->
+      <crystalAndMushroomsRatio value="1000"/>  <!--по умолчанию: 1000-->
+      
+      <crystalAndMushroomsDistance value="5"/>  <!-- расстояние между кристалами и грибами, по умолчанию 5-->
+      <crystalAndMushroomsTimer value="30"/>      <!-- интвервал времени между появлениями грибов и кристалов, по умолчанию 30с-->
+      <crystalAndMushroomsIterMax value="20"/>    <!-- максимальное кол0во итераций поиска точки, по умолчанию 20-->
+
+    </params>
+    <dirtLayers>
+      <dirt/>
+      <dirt1/>
+      <dirt2/>
+      <dirt3/>
+      <dirt4/>
+    </dirtLayers>
+    <blocks>
+      <block name="roots" points="70%" count="1" range="0,-15%" dheight="1" maxwidth="0"/>
+      <block name="iron" points="25%" count="10-15" range="-6%,-43%" dheight="2" maxwidth="0"/>
+      <block name="coal" points="30%" count="10-20" range="-6%,-53%" dheight="2" maxwidth="0"/>
+      <block name="silver" points="15%" count="10-15" range="-35%,-58%" dheight="2" maxwidth="0"/>
+      <block name="gold" points="10%" count="10-15" range="-40%,-76%" dheight="2" maxwidth="0"/>
+      <block name="mithril" points="6%" count="10-15" range="-58%,-99%" dheight="2" maxwidth="0"/>
+      <block name="diamond" points="12%" count="3-8" range="-73%,-99%" dheight="2" maxwidth="0"/>
+
+      <block name="sand" points="10%" count="5-10" range="4,0" dheight="1" maxwidth="0"/>
+      <block name="sand" points="10%" count="5-10" range="-6%,-53%" dheight="1" maxwidth="0"/>
+      <block name="stone" points="12%" count="5-10" range="4,0" dheight="1" maxwidth="0"/>
+	  <block name="clay" points="35%" count="5-10" range="3,-25%" dheight="1" maxwidth="0"/>
+    </blocks>
+  </level>
+</root>
