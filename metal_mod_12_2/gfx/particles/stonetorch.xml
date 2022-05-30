@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<emitter Name="stonetorch" FramesToPreload="50" color="11|0|0">
+    <Shape Type="point" In="1" Out="1" />
+    <Life>
+        <Point x="0" y="40" />
+    </Life>
+    <Number>
+        <Point x="0" y="10" />
+    </Number>
+    <Size>
+        <Point x="0" y="100" />
+    </Size>
+    <Velocity>
+        <Point x="0" y="100" />
+    </Velocity>
+    <Weight>
+        <Point x="0" y="100" />
+    </Weight>
+    <Spin>
+        <Point x="0" y="100" />
+    </Spin>
+    <MotionRand>
+        <Point x="0" y="100" />
+    </MotionRand>
+    <Zoom>
+        <Point x="0" y="100" />
+    </Zoom>
+    <Visibility>
+        <Point x="0" y="100" />
+    </Visibility>
+    <TintStrength>
+        <Point x="0" y="0" />
+    </TintStrength>
+    <EmissionAngle>
+        <Point x="0" y="39.433949" />
+    </EmissionAngle>
+    <EmissionRange>
+        <Point x="0" y="180.245285" />
+    </EmissionRange>
+    <Angle>
+        <Point x="0" y="0" />
+    </Angle>
+    <X>
+        <Point x="0" y="10" />
+    </X>
+    <Y>
+        <Point x="0" y="50" />
+    </Y>
+    <ParticleSystem Name="stonetorch" Texture="stonetorch3" SingleParticle="1" ref="1|-10">
+        <ParticleAngle Type="specify" />
+        <Colors ColorType="0" AlphaType="0">
+            <Color Time="0" color="255|255|255" />
+            <Alpha Time="0" a="255" />
+        </Colors>
+        <Visibility>
+            <Point x="0" y="100" />
+        </Visibility>
+        <Life>
+            <Point x="0" y="10" />
+        </Life>
+        <LifeVariation>
+            <Point x="0" y="0" />
+        </LifeVariation>
+        <Number>
+            <Point x="0" y="1" />
+        </Number>
+        <NumberVariation>
+            <Point x="0" y="0" />
+        </NumberVariation>
+        <Size>
+            <Point x="0" y="83" />
+        </Size>
+        <SizeVariation>
+            <Point x="0" y="0" />
+        </SizeVariation>
+        <SizeOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SizeOverLife>
+        <Velocity>
+            <Point x="0" y="0" />
+        </Velocity>
+        <VelocityVariation>
+            <Point x="0" y="0" />
+        </VelocityVariation>
+        <VelocityOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </VelocityOverLife>
+        <Weight>
+            <Point x="0" y="0" />
+        </Weight>
+        <WeightVariation>
+            <Point x="0" y="0" />
+        </WeightVariation>
+        <WeightOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </WeightOverLife>
+        <Spin>
+            <Point x="0" y="0" />
+        </Spin>
+        <SpinVariation>
+            <Point x="0" y="0" />
+        </SpinVariation>
+        <SpinOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SpinOverLife>
+        <MotionRand>
+            <Point x="0" y="0" />
+        </MotionRand>
+        <MotionRandVariation>
+            <Point x="0" y="0" />
+        </MotionRandVariation>
+        <MotionRandOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </MotionRandOverLife>
+    </ParticleSystem>
+    <ParticleSystem Name="flames" Texture="blobs_anim" drawOffset="0|-7" Intense="1">
+        <ParticleAngle Type="random" Range="360" />
+        <Colors ColorType="0" AlphaType="0">
+            <Color Time="0" color="235|153|47" />
+            <Color Time="0.822709" color="163|8|8" />
+            <Alpha Time="0" a="7" />
+            <Alpha Time="0.117530" a="255" />
+            <Alpha Time="0.482072" a="255" />
+            <Alpha Time="0.830677" a="0" />
+            <Alpha Time="1" a="1" />
+        </Colors>
+        <Visibility>
+            <Point x="0" y="100" />
+        </Visibility>
+        <Life>
+            <Point x="0" y="75" />
+        </Life>
+        <LifeVariation>
+            <Point x="0" y="0" />
+        </LifeVariation>
+        <Number>
+            <Point x="0" y="19" />
+        </Number>
+        <NumberVariation>
+            <Point x="0" y="0" />
+        </NumberVariation>
+        <Size>
+            <Point x="0" y="70" />
+        </Size>
+        <SizeVariation>
+            <Point x="0" y="0" />
+        </SizeVariation>
+        <SizeOverLife>
+            <Point x="0" y="23.076920" />
+            <Point x="0.338798" y="96.703300" />
+            <Point x="0.473588" y="96.153854" />
+            <Point x="0.735885" y="43.956070" />
+            <Point x="0.994837" y="0" />
+        </SizeOverLife>
+        <Velocity>
+            <Point x="0" y="1" />
+        </Velocity>
+        <VelocityVariation>
+            <Point x="0" y="0" />
+        </VelocityVariation>
+        <VelocityOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </VelocityOverLife>
+        <Weight>
+            <Point x="0" y="-6.890114" />
+        </Weight>
+        <WeightVariation>
+            <Point x="0" y="0" />
+        </WeightVariation>
+        <WeightOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </WeightOverLife>
+        <Spin>
+            <Point x="0" y="0" />
+        </Spin>
+        <SpinVariation>
+            <Point x="0" y="0" />
+        </SpinVariation>
+        <SpinOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SpinOverLife>
+        <MotionRand>
+            <Point x="0" y="0" />
+        </MotionRand>
+        <MotionRandVariation>
+            <Point x="0" y="0" />
+        </MotionRandVariation>
+        <MotionRandOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </MotionRandOverLife>
+    </ParticleSystem>
+    <ParticleSystem Name="flame_smoke" Texture="very_dim_cloud" drawOffset="0|-5">
+        <ParticleAngle Type="random" Range="360" />
+        <Colors ColorType="0" AlphaType="0">
+            <Color Time="0" color="255|255|255" />
+            <Color Time="1" color="8|7|7" />
+            <Alpha Time="0" a="0" />
+            <Alpha Time="0.129482" a="255" />
+            <Alpha Time="0.486056" a="255" />
+            <Alpha Time="0.661355" a="1" />
+            <Alpha Time="1" a="9" />
+        </Colors>
+        <Visibility>
+            <Point x="0" y="100" />
+        </Visibility>
+        <Life>
+            <Point x="0" y="41.571445" />
+        </Life>
+        <LifeVariation>
+            <Point x="0" y="9" />
+        </LifeVariation>
+        <Number>
+            <Point x="0" y="5.505491" />
+        </Number>
+        <NumberVariation>
+            <Point x="0" y="0" />
+        </NumberVariation>
+        <Size>
+            <Point x="0" y="70" />
+        </Size>
+        <SizeVariation>
+            <Point x="0" y="5" />
+        </SizeVariation>
+        <SizeOverLife>
+            <Point x="0" y="59.890068" />
+            <Point x="0.644809" y="200" />
+            <Point x="1" y="30.219778" />
+        </SizeOverLife>
+        <Velocity>
+            <Point x="0" y="0" />
+        </Velocity>
+        <VelocityVariation>
+            <Point x="0" y="0" />
+        </VelocityVariation>
+        <VelocityOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </VelocityOverLife>
+        <Weight>
+            <Point x="0" y="-21.978018" />
+        </Weight>
+        <WeightVariation>
+            <Point x="0" y="0" />
+        </WeightVariation>
+        <WeightOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </WeightOverLife>
+        <Spin>
+            <Point x="0" y="0" />
+        </Spin>
+        <SpinVariation>
+            <Point x="0" y="20" />
+        </SpinVariation>
+        <SpinOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SpinOverLife>
+        <MotionRand>
+            <Point x="0" y="8.791225" />
+        </MotionRand>
+        <MotionRandVariation>
+            <Point x="0" y="0" />
+        </MotionRandVariation>
+        <MotionRandOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </MotionRandOverLife>
+    </ParticleSystem>
+    <ParticleSystem Name="glow" Texture="sparkle" drawOffset="0|-5" Intense="1" SingleParticle="1" ref="3|4">
+        <ParticleAngle Type="specify" />
+        <Colors ColorType="0" AlphaType="0">
+            <Color Time="0" color="219|177|11" />
+            <Alpha Time="0" a="198" />
+        </Colors>
+        <Visibility>
+            <Point x="0" y="50.848217" />
+        </Visibility>
+        <Life>
+            <Point x="0" y="10" />
+        </Life>
+        <LifeVariation>
+            <Point x="0" y="0" />
+        </LifeVariation>
+        <Number>
+            <Point x="0" y="1" />
+        </Number>
+        <NumberVariation>
+            <Point x="0" y="0" />
+        </NumberVariation>
+        <Size>
+            <Point x="0" y="140" />
+        </Size>
+        <SizeVariation>
+            <Point x="0" y="0" />
+        </SizeVariation>
+        <SizeOverLife>
+            <Point x="0" y="100" />
+            <Point x="0.469945" y="117.582420" />
+            <Point x="1" y="100" />
+        </SizeOverLife>
+        <Velocity>
+            <Point x="0" y="0" />
+        </Velocity>
+        <VelocityVariation>
+            <Point x="0" y="0" />
+        </VelocityVariation>
+        <VelocityOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </VelocityOverLife>
+        <Weight>
+            <Point x="0" y="0" />
+        </Weight>
+        <WeightVariation>
+            <Point x="0" y="0" />
+        </WeightVariation>
+        <WeightOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </WeightOverLife>
+        <Spin>
+            <Point x="0" y="0" />
+        </Spin>
+        <SpinVariation>
+            <Point x="0" y="0" />
+        </SpinVariation>
+        <SpinOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SpinOverLife>
+        <MotionRand>
+            <Point x="0" y="0" />
+        </MotionRand>
+        <MotionRandVariation>
+            <Point x="0" y="0" />
+        </MotionRandVariation>
+        <MotionRandOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </MotionRandOverLife>
+    </ParticleSystem>
+    <ParticleSystem Name="flame" Texture="flame_anim" Intense="1" SingleParticle="1" Animated="1" AnimSpeed="19" ref="-6|74">
+        <ParticleAngle Type="specify" Specify="-7" />
+        <Colors ColorType="0" AlphaType="0">
+            <Color Time="0" color="255|166|0" />
+            <Alpha Time="0" a="255" />
+        </Colors>
+        <Visibility>
+            <Point x="0" y="0" />
+        </Visibility>
+        <Life>
+            <Point x="0" y="10" />
+        </Life>
+        <LifeVariation>
+            <Point x="0" y="0" />
+        </LifeVariation>
+        <Number>
+            <Point x="0" y="1" />
+        </Number>
+        <NumberVariation>
+            <Point x="0" y="0" />
+        </NumberVariation>
+        <SizeX>
+            <Point x="0" y="35" />
+        </SizeX>
+        <SizeXVariation>
+            <Point x="0" y="0" />
+        </SizeXVariation>
+        <SizeXOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SizeXOverLife>
+        <SizeY>
+            <Point x="0" y="40" />
+        </SizeY>
+        <SizeYVariation>
+            <Point x="0" y="0" />
+        </SizeYVariation>
+        <SizeYOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SizeYOverLife>
+        <Velocity>
+            <Point x="0" y="0" />
+        </Velocity>
+        <VelocityVariation>
+            <Point x="0" y="0" />
+        </VelocityVariation>
+        <VelocityOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </VelocityOverLife>
+        <Weight>
+            <Point x="0" y="0" />
+        </Weight>
+        <WeightVariation>
+            <Point x="0" y="0" />
+        </WeightVariation>
+        <WeightOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </WeightOverLife>
+        <Spin>
+            <Point x="0" y="0" />
+        </Spin>
+        <SpinVariation>
+            <Point x="0" y="0" />
+        </SpinVariation>
+        <SpinOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </SpinOverLife>
+        <MotionRand>
+            <Point x="0" y="0" />
+        </MotionRand>
+        <MotionRandVariation>
+            <Point x="0" y="0" />
+        </MotionRandVariation>
+        <MotionRandOverLife>
+            <Point x="0" y="100" />
+            <Point x="1" y="100" />
+        </MotionRandOverLife>
+    </ParticleSystem>
+</emitter>

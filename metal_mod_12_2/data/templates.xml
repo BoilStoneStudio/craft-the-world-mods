@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--типы планет-->
+  <planets>
+    <planet id="2" name="usual_medium" default="true" local="MediumPlanet" temp="normal" fauna="normal" landscape="hills"/>
+    <planet id="3" name="usual_cold" default="true" local="IcePlanet" temp="cold" fauna="snow" landscape="mountains"/>
+    <planet id="1" name="usual_desert" default="true" local="DesertPlanet" temp="hot" fauna="desert" landscape="plain"/>
+    <planet id="4" name="underground" default="true" local="UndergroudPlanet" temp="normal" fauna="underground" landscape="mountains"/>
+    <planet id="5" name="biome1" default="true" local="BiomPlanet" temp="normal" fauna="biome1" landscape="plain" show="false"/>
+    <planet id="6" name="biome_usual_medium" default="true" local="MediumPlanet" temp="normal" fauna="normal" landscape="hills" use="usual_medium" show="false"/>
+    <planet id="7" name="biome_underground" default="true" use="underground" show="false" local="UndergroudPlanet" temp="normal" fauna="underground" landscape="mountains"/>
+    <planet id="8" name="biome_beetles" default="true" show="false" local="BeetlesPlanet" temp="normal" fauna="biome_beetles" landscape="plain"/>
+    <planet id="85" name="orc_world" default="true" local="OrcPlanet" temp="normal" fauna="orc_world" landscape="plain"/>
+    <planet id="86" name="plane" default="true" local="PlanePlanet" temp="hot" fauna="plane" landscape="plain"/>
+    <planet id="87" name="plains" default="true" local="PlainsPlanet" temp="normal" fauna="plains" landscape="mountains"/>
+    <planet id="89" name="swamp" default="true" local="SwampPlanet" temp="normal" fauna="swamp" landscape="plain"/>
+  </planets>
+
+  <block_replace>
+    <underground>
+      <dirt to="dirt_under"/>
+      <dirt1 to="dirt1_under"/>
+      <dirt2 to="dirt2_under"/>
+      <dirt_stalactite to="dirt_stalactite_under"/>
+      <dirt_stalagmite to="dirt_stalagmite_under"/>
+      <dirt_seed to="dirt_under_seed"/>
+      <dirt_roots to="dirt_under_roots"/>
+    </underground>
+    <biome1>
+      <dirt to="dirt_biome1"/>
+      <dirt1 to="dirt_biome2"/>
+      <dirt2 to="dirt_biome3"/>
+      <!--<dirt_stalactite to="ice_stalactite3"/>-->
+      <!--<dirt_stalagmite to="dirt_stalagmite_under"/>-->
+      <!--<dirt_roots to="dirt_biome1_roots"/>-->
+    </biome1>
+    <biome_beetles>
+      <dirt to="biome_spider_dirt1"/>
+      <dirt1 to="biome_spider_dirt2"/>
+      <dirt2 to="biome_spider_dirt3"/>
+      <dirt_roots to="biome_spider_dirt1_roots"/>
+    </biome_beetles>
+	
+	 <orc_world>
+      <dirt to="dirt_orc"/>
+      <dirt1 to="dirt1_orc"/>
+      <dirt2 to="dirt2_orc"/>
+      <dirt_stalactite to="dirt_stalactite_under"/>
+      <dirt_stalagmite to="dirt_stalagmite_under"/>
+      <dirt_seed to="dirt_orc_seed"/>
+	  <dirt_roots to="dirt_orc_roots"/>
+	  
+	  <sand to="sand_ork"/>
+    </orc_world>
+	
+	<plains>
+      <lava to="turtille"/>
+	  
+      
+    </plains>
+	
+	<swamp>
+      <dirt to="dirt_swamp"/>
+	  <dirt1 to="dirt1_swamp"/>
+	  <dirt2 to="dirt2_swamp"/>
+	  <dirt3 to="dirt3_swamp"/>
+	  <dirt4 to="dirt4_swamp"/>
+	  
+	  <dirt_seed to="dirt_swamp_seed"/>
+	  <dirt_riceseed to="dirt_swamp_riceseed"/>
+      <dirt_roots to="dirt_swamp_roots"/>
+	  <dirt_stalactite to="dirt_swamp"/>
+      <dirt_stalagmite to="dirt_swamp"/>
+	  
+	  <sand to="sand_swamp"/>
+	  <stone to="stone_swamp"/>
+    </swamp>
+	
+  </block_replace>
+  
+ 
+  
+  <!--шаблоны для растительности от типа планеты-->
+  <vegetation>
+    <usual_medium>
+      <!--<item name="tree_cactus" points="5%" height="1-3" />-->
+      <item name="tree" points="5%" height="1-4" />
+      <item name="tree_pine" points="8%" height="1-5" />
+      <item name="tree_white" points="5%" height="1-4" />
+      <item name="tree_fir" points="5%" height="1-2" />
+      <item name="bush" points="9%" height="1" />
+      <item name="wheat" points="2%" width="3-5" />
+	  <item name="onion" points="10%" height="1" width="1-3" />
+	  <item name="potato" points="1%" height="1" width="1-3" />
+    </usual_medium>
+    <usual_cold>
+      <item name="tree_pine" points="9%" height="1-5" />
+      <item name="tree_black" points="9%" height="1-5" />
+      <item name="tree_fir" points="5%" height="1-2" />
+      <item name="bush_snow" points="4%" height="1" />
+      <item name="bush_snow2" points="4%" height="1" />
+	   <item name="onion" points="10%" height="1" width="1-3" />
+    </usual_cold>
+    <usual_desert>
+      <item name="tree_cactus" points="4%" height="1-2" />
+      <item name="tree_cactus2" points="4%" height="1-2" />
+      <item name="tree_cactus3" points="4%" height="1-2" />
+      <item name="tree_palm" points="5%" height="1-4" />
+      <item name="tree_palm2" points="5%" height="1-4" />
+      <item name="bush_desert" points="2%" height="1" />
+      <item name="bush_desert1" points="2%" height="1" />
+      <item name="bush_desert2" points="2%" height="1" />
+      <item name="bush_desert3" points="2%" height="1" />
+      <item name="bush_desert4" points="2%" height="1" />
+      <item name="bush_desert_wood" points="9%" height="1" />
+	   <item name="onion" points="10%" height="1" width="1-3" />
+    </usual_desert>
+    <underground>
+      <item name="tree_mushroom1" points="10%" height="1-3" />
+      <item name="tree_mushroom2" points="8%" height="1-6" />
+      <item name="tree_mushroom3" points="8%" height="1-5" />
+      <item name="tree_mushroom4" points="8%" height="1-5" />
+      <item name="tree_mushroom5" points="8%" height="1-5" />
+      <item name="bush_und1" points="3%" height="1" />
+      <item name="bush_und2" points="3%" height="1" />
+      <item name="bush_und3" points="3%" height="1" />
+      <item name="wheat" points="2%" width="3-5" />
+	   <item name="onion" points="10%" height="1" width="1-3" />
+	  
+    </underground>
+	<orc_world>
+      <!--<item name="tree_cactus" points="5%" height="1-3" />-->
+	  
+	  <item name="tree_ork2" points="20%" height="1-2" />
+	  <item name="tree_ork1" points="20%" height="1-5" />
+	  
+      <item name="orctree1" points="20%" height="1-4" />
+      
+      <item name="orctree2" points="20%" height="1-4" />
+	  
+      <item name="orc_bush" points="5%" height="1" />
+      
+      <item name="wheat" points="2%" width="3-5" />
+	  <item name="onion" points="10%" height="1" width="1-3" />
+	  <item name="potato" points="1%" height="1" width="1-3" />
+    </orc_world>
+	<plane>
+	  <item name="tree" points="20%" height="1-4" />
+      <item name="plane_palm" points="2%" height="1-4" />
+      <item name="plane_palm2" points="2%" height="1-4" />
+      <item name="bush_desert" points="3%" height="1" />
+      <item name="bush" points="3%" height="1" />
+	  <item name="cane" points="6%" height="1" width="4-10" />
+	  <item name="onion" points="10%" height="1" width="1-3" />
+	  <item name="potato" points="1%" height="1" width="1-3" />
+    </plane>
+	<plains>
+      <!--<item name="tree_cactus" points="5%" height="1-3" />-->
+      <item name="tree" points="5%" height="1-4" />
+      <item name="tree_pine" points="8%" height="1-5" />
+      <item name="tree_white" points="5%" height="1-4" />
+      <item name="tree_fir" points="5%" height="1-2" />
+      <item name="bush" points="9%" height="1" />
+      <item name="wheat" points="2%" width="3-5" />
+	  <item name="onion" points="10%" height="1" width="1-3" />
+	  <item name="potato" points="1%" height="1" width="1-3" />
+    </plains>
+	
+	<swamp>
+      <!--<item name="tree" points="5%" height="1-4" />
+      
+      <item name="tree_white" points="5%" height="1-4" />
+      <item name="tree_fir" points="5%" height="1-2" />-->
+	  
+	  <item name="swamptree1" points="1%" height="1-3" />
+      
+      <item name="swamptree2" points="1%" height="1-3" />
+	  
+	  <item name="tree_swamp1" points="1%" height="1-3" />
+	  <item name="tree_swamp2" points="1%" height="1-3" />
+	  <item name="tree_swamp3" points="1%" height="1-2" />
+	  <item name="tree_swamp" points="1%" height="1-2" />
+      <item name="posion_bush" points="10%" height="1" />
+	  
+	  <item name="reed1" points="20%" height="1" width="1-10" />
+	  <item name="cane" points="25%" height="1" width="1-3" />
+	  <item name="wrice" points="1%" height="1" width="1-3" />
+	  <item name="onion" points="10%" height="1" width="1-3" />
+	  <item name="potato" points="1%" height="1" width="1-3" />
+	  
+	  <item name="mushrum" points="5%" height="1" width="4-10" />
+	  <item name="mushrumb" points="5%" height="1" width="4-10" />
+	  
+	  <item name="stump1" points="3%" height="1" width="1" />
+	  <item name="stump2" points="2%" height="1" width="1" />
+	  <item name="stump3" points="1%" height="1" width="1" />
+	  <!--<item name="reed2" points="12%" height="1" width="1-10" />
+	  <item name="reed3" points="12%" height="1" width="1-10" />
+	  <item name="reed4" points="12%" height="1" width="1-10" />-->
+      
+	  
+	 
+    </swamp>
+    <biome1>
+      <item name="biome1_bush1" points="10%" height="1" />
+      <item name="biome1_bush2" points="10%" height="1" />
+      <item name="biome1_bush3" points="10%" height="1" />
+      <item name="biome1_bush4" points="10%" height="1" />
+      <item name="biome1_bush5" points="15%" height="1" />
+      <item name="biome1_bush6" points="15%" height="1" />
+      <item name="biome1_bush7" points="15%" height="1" />
+      <item name="biome1_bush8" points="15%" height="1" />
+      <item name="biome1_tree1" points="20%" height="1-6" />
+    </biome1>
+  <biome_beetles>
+      <item name="beetle_biome_bush1" points="10%" height="1" />
+      <item name="beetle_biome_bush2" points="10%" height="1-2" />
+      <item name="beetle_biome_bush3" points="10%" height="1-2" />
+      <item name="beetle_biome_bush4" points="10%" height="1-2" />
+  </biome_beetles>
+  </vegetation>
+  
+  <!--генерация поверхностного слоя песка или снега-->
+  <!--<generateSand planets="usual_desert,usual_medium" humidity="low" range="1-5" oasis="20%" oasisRange="5-15" block="sand"/>-->
+  <generateSand planets="usual_desert" range="2-5" oasis="20%" oasisRange="5-15" block="sand"/>
+  <generateSnow planets="usual_cold" range="2-4" block="snow" />
+  
+
+  <!--размеры уровня-->
+  <sizes>
+    <!--<small value="100,80" local="SizeSmall"/>-->
+    <small value="200,100" local="SizeSmall" exclude="underground,plane,plains"/>
+    <normal value="250,140" local="SizeMedium" exclude="underground,plane,plains"/>
+    <large value="320,160" local="SizeLarge" exclude="underground,plane,plains"/>
+	<smallland value="90,200" local="LandSmall" include="plane"/>
+	<plane1 value="440,80" local="PlaneSmall" include="plains"/>
+	<maxlarge value="500,500" local="MaxLarge" exclude="underground,plane,plains"/>
+    <large_vertical value="200,250" local="SizeLarge" include="underground"/>
+    <biome value="100,50" local="SizeSmall" exclude="all"/>
+    <l1_pvp value="120,60" local="SizeSmall" exclude="all"/>
+    <biome_pvp value="120,50" local="SizeSmall" exclude="all"/>
+    <l4_mp value="120,90" local="SizeLarge" exclude="all"/>
+    <biome_beetles value="120,50" local="SizeSmall" exclude="all"/>
+  </sizes>
+
+  <!--влажность-->
+  <humidity>
+    <low local="HumLow">
+      <rainInterval value="100-500"/>      <!--интервал между дождями-->
+      <rainDuration value="10-30"/>      <!--продолжительность дождя-->
+      <mrain value="65%"/>      <!--вероятность грибного дождя-->
+      <rain value="30%"/>      <!--вероятность обычного дождя-->
+      <storm value="5%"/>      <!--вероятность шторма-->
+      <waterAbsorb value="200"/>      <!--базовое время впитывания воды в формуле-->
+      <smallWARatio value="0.2"/>      <!--коэф. для базового времени впитывания воды в формуле для одной полоски воды-->
+      <waterPondsArea value="5%"/>      <!--процент длины водоемов от длины уровня-->
+      <waterPondHeight value="2-4"/>      <!--максимальная глубина -->
+      <waterPondWidth value="5-10"/>      <!--максимальная ширина -->
+    </low>
+    <normal local="HumNormal">
+      <rainInterval value="60-300"/>      <!--интервал между дождями-->
+      <rainDuration value="20-50"/>      <!--продолжительность дождя-->
+      <mrain value="60%"/>      <!--вероятность грибного дождя-->
+      <rain value="30%"/>      <!--вероятность обычного дождя-->
+      <storm value="10%"/>      <!--вероятность шторма-->
+      <waterAbsorb value="300"/>      <!--базовое время впитывания воды в формуле-->
+      <smallWARatio value="0.33"/>      <!--коэф. для базового времени впитывания воды в формуле для одной полоски воды-->
+      <waterPondsArea value="13%"/>      <!--процент длины водоемов от длины уровня-->
+      <waterPondHeight value="2-5"/>      <!--максимальная глубина -->
+      <waterPondWidth value="5-10"/>      <!--максимальная ширина -->
+    </normal>
+    <high local="HumHigh">
+      <rainInterval value="40-200"/>      <!--интервал между дождями-->
+      <rainDuration value="25-60"/>      <!--продолжительность дождя-->
+      <mrain value="40%"/>      <!--вероятность грибного дождя-->
+      <rain value="30%"/>      <!--вероятность обычного дождя-->
+      <storm value="30%"/>      <!--вероятность шторма-->
+      <waterAbsorb value="350"/>      <!--базовое время впитывания воды в формуле-->
+      <smallWARatio value="0.33"/>      <!--коэф. для базового времени впитывания воды в формуле для одной полоски воды-->
+      <waterPondsArea value="25%"/>      <!--процент длины водоемов от длины уровня-->
+      <waterPondHeight value="2-5"/>      <!--максимальная глубина -->
+      <waterPondWidth value="5-10"/>      <!--максимальная ширина -->
+    </high>
+	
+	<verhigh local="VeryHigh">
+      <rainInterval value="0"/>      <!--интервал между дождями-->
+      <rainDuration value="99"/>      <!--продолжительность дождя-->
+      <mrain value="1%"/>      <!--вероятность грибного дождя-->
+      <rain value="1%"/>      <!--вероятность обычного дождя-->
+      <storm value="92%"/>      <!--вероятность шторма-->
+      <waterAbsorb value="350"/>      <!--базовое время впитывания воды в формуле-->
+      <smallWARatio value="0.33"/>      <!--коэф. для базового времени впитывания воды в формуле для одной полоски воды-->
+      <waterPondsArea value="25%"/>      <!--процент длины водоемов от длины уровня-->
+      <waterPondHeight value="2-5"/>      <!--максимальная глубина -->
+      <waterPondWidth value="5-10"/>      <!--максимальная ширина -->
+    </verhigh>
+	
+	
+	
+  </humidity>
+  
+  
+
+  <!--замена монстров в зависимости от типа планеты-->
+  <creatures>
+    <usual_cold>
+      <zombie bind="yeti" chance="60%"/>  <!--меняем зомби на йети для холодной планеты-->
+      <zombie_boss bind="yeti_boss"/>      <!--меняем зомби на йети для холодной планеты-->
+      <chicken bind="lizard" />
+      <yak bind="ice_beast"/>
+    </usual_cold>
+    <usual_desert>
+      <zombie bind="mummy" />
+      <zombie_boss bind="mummy_boss" />
+      <yak bind="buffalo"/>
+      <sheep bind="lama"/>
+      <chicken bind="chick" />
+    </usual_desert>
+    <underground>
+      <sheep bind="caterpillar"/>
+      <yak bind="cave_beast"/>
+      <zombie bind="orc" />
+      <zombie_boss bind="orc_boss" />
+      <slug bind="slug2" />
+      <little_dragon bind="little_dragon_black"/>
+    </underground> 
+	<orc_world>
+      <zombie bind="orc" />
+      <zombie_boss bind="orc_boss" />
+	  
+	  <skeleton bind="orc_skeleton" />
+	  
+	  
+      <skeleton_boss bind="orc_boss_skeleton" />
+      <slug bind="slug2" />
+      <little_dragon bind="little_dragon_black"/>
+    </orc_world> 
+	<plane>
+      <yak bind="buffalo"/>
+    </plane>
+	<swamp>
+      <slug bind="slug2" />
+      <sheep bind="shamanmashroom"/>
+	  <chicken bind="swamp_chicken" />
+	  
+    </swamp> 
+  </creatures>
+
+  <backgrounds>
+    <underground>
+      <layers>
+        <!--<layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\sky_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\sky_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0" parallax_ratio="0.1">
+          <day file="gfx\level_tiles\BG\bg_day2"/>
+          <sunset file="gfx\level_tiles\BG\bg_sunset_2"/>
+          <night file="gfx\level_tiles\BG\bg_night._2"/>
+        </layer>-->
+
+
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\sky_4th_world"/>
+          <sunset file="gfx\level_tiles\BG\sky_4th_world"/>
+          <night file="gfx\level_tiles\BG\sky_4th_world_night"/>
+        </layer>
+
+        <layer repeat="true" scale="1" offset="0,300" spine="four_world_bg4" spine_size="1757,784" parallax_ratio="0.02,0.02">
+          <anims>
+            <day anim="day"/>
+            <night anim="night"/>
+            <day_night anim="day_to_night"/>
+            <night_day anim="night_to_day"/>
+          </anims>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,600" spine="four_world_bg3" spine_size="1757,784" parallax_ratio="0.02,0.02">
+          <anims>
+            <day anim="fly_day"/>
+            <night anim="fly_night"/>
+            <day_night anim="fly_day"/>
+            <night_day anim="fly_night"/>
+          </anims>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,160" spine="four_world_bg2" spine_size="1757,784" parallax_ratio="0.08,0.08">
+          <anims>
+            <day anim="day"/>
+            <night anim="night"/>
+            <day_night anim="day_to_night"/>
+            <night_day anim="night_to_day"/>
+          </anims>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,-20" spine="four_world_bg1" spine_size="1757,784" parallax_ratio="0.11,0.11">
+          <anims>
+            <day anim="day"/>
+            <night anim="night"/>
+            <day_night anim="day_to_night"/>
+            <night_day anim="night_to_day"/>
+          </anims>
+        </layer>
+      </layers>
+    </underground>
+    
+    <usual_medium>
+      <layers>
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\sky_day"/>
+          <sunset file="gfx\level_tiles\BG\sky_sunset"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\bg_day2"/>
+          <sunset file="gfx\level_tiles\BG\bg_sunset_2"/>
+          <night file="gfx\level_tiles\BG\bg_night._2"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_1_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_2_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_3_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+    </usual_medium>
+    <usual_cold>
+      <layers>
+        <layer fullscreen="true">
+           <day file="gfx\level_tiles\BG\sky_day_wint"/>
+          <sunset file="gfx\level_tiles\BG\sky_sunset"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\wint_day"/>
+          <sunset file="gfx\level_tiles\BG\wint_evening"/>
+          <night file="gfx\level_tiles\BG\wint_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_1_day_wint"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset_wint"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_2_day_wint"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset_wint"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_3_day_wint"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset_wint"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+    </usual_cold>
+    <usual_desert>
+      <layers>
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\sky_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\sky_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\desert_day"/>
+          <sunset file="gfx\level_tiles\BG\desert_evening"/>
+          <night file="gfx\level_tiles\BG\desert_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_1_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_2_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_3_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+    </usual_desert>
+	<orc_world>
+      <layers>
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\OrcLandsDaySky"/>
+          <sunset file="gfx\level_tiles\BG\OrcLandsSunsetSky"/>
+          <night file="gfx\level_tiles\BG\OrcLandsNigthSky"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\levelOrcsLandDay"/>
+          <sunset file="gfx\level_tiles\BG\levelOrcsLandSunset"/>
+          <night file="gfx\level_tiles\BG\levelOrcsLandNigth"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_1_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_2_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_3_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+    </orc_world>
+    <plane>
+      <layers>
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\sky_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\sky_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\levelIslandDay"/>
+          <sunset file="gfx\level_tiles\BG\levelIslandSunset"/>
+          <night file="gfx\level_tiles\BG\levelIslandNigth"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_1_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_2_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_3_day_desert"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset_desert"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+    </plane>
+    <plains>
+      <layers>
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\sky_day"/>
+          <sunset file="gfx\level_tiles\BG\sky_sunset"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+        <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\levelDiscWorldDay"/>
+          <sunset file="gfx\level_tiles\BG\levelDiscWorldSunset"/>
+          <night file="gfx\level_tiles\BG\levelDiscWorldNigth"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_1_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_2_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\cloud_3_day"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+	</plains>
+	
+	<swamp>
+      <layers>
+        <layer fullscreen="true">
+          <day file="gfx\level_tiles\BG\SwampDaySky"/>
+          <sunset file="gfx\level_tiles\BG\SwampSunsetSky"/>
+          <night file="gfx\level_tiles\BG\sky_night"/>
+        </layer>
+       <layer repeat="true" scale="1" offset="0,0">
+          <day file="gfx\level_tiles\BG\levelSwampDay"/>
+          <sunset file="gfx\level_tiles\BG\levelSwampSunset"/>
+          <night file="gfx\level_tiles\BG\levelSwampNigth"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\swamp_cloud_day_1"/>
+          <sunset file="gfx\level_tiles\BG\cloud_1_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_1_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\swamp_cloud_day_2"/>
+          <sunset file="gfx\level_tiles\BG\cloud_2_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_2_night"/>
+        </layer>
+        <layer velocity="5,15" type="cloud">
+          <day file="gfx\level_tiles\BG\swamp_cloud_day_3"/>
+          <sunset file="gfx\level_tiles\BG\cloud_3_sunset"/>
+          <night file="gfx\level_tiles\BG\cloud_3_night"/>
+        </layer>
+      </layers>
+    </swamp>
+  </backgrounds>
+
+  <parallax>
+    <biome1>
+      <item name="bg1">
+        <layer spine="biome1_bg6" ani="idle" scale="1" factor="0.35"/>
+        <layer spine="biome1_bg5" ani="idle" scale="1" factor="0.25"/>
+        <layer spine="biome1_bg4" ani="idle" scale="1" factor="0.2"/>
+        <layer spine="biome1_bg3" ani="idle" scale="1" factor="0.16"/>
+        <layer spine="biome1_bg2" ani="idle" scale="1" factor="0.13"/>
+        <layer spine="biome1_bg1" ani="idle" scale="1" factor="0.11"/>
+      </item>
+    </biome1>
+    <biome_beetles>
+      <item name="bg1">
+        <layer file="gfx\Spine\environment\backgrounds\underworld_03\3" scale="1" factor="0.35"/>
+        <layer file="gfx\Spine\environment\backgrounds\underworld_03\2" scale="1" factor="0.2"/>
+        <layer file="gfx\Spine\environment\backgrounds\underworld_03\1" scale="1" factor="0.11"/>
+      </item>
+    </biome_beetles>
+    <all>
+      <item name="underground1">
+        <layer spine="under_bg1" ani="day" scale="1" factor="0.15"/>
+        <layer spine="under_stalactites" ani="day" scale="1" factor="0.22"/>
+        <layer spine="under_back1" ani="day" scale="1" factor="0.26"/>
+        <layer spine="under_forw1" ani="day" scale="1" factor="0.27"/>
+      </item>
+      <item name="underground2">
+        <layer spine="under_bg2" ani="day" scale="1" factor="0.15"/>
+        <layer spine="under_stalactites" ani="day" scale="1" factor="0.22"/>
+        <layer spine="under_back2" ani="day" scale="1" factor="0.26"/>
+        <layer spine="under_forw2" ani="day" scale="1" factor="0.27"/>
+      </item>
+      <item name="underground3">
+        <layer spine="under_bg3" ani="day" scale="1" factor="0.15"/>
+        <layer spine="under_stalactites" ani="day" scale="1" factor="0.22"/>
+        <layer spine="under_back3" ani="day" scale="1" factor="0.26"/>
+        <layer spine="under_forw3" ani="day" scale="1" factor="0.27"/>
+      </item>
+    </all>
+  </parallax>
+
+  <underground_layers>
+    <solid file="gfx\level_tiles\tile\background\background"/>
+    <left_top file="gfx\level_tiles\tile\background\corner_1" mask="11010000" empty_mask="00001011"/>
+    <left_bottom file="gfx\level_tiles\tile\background\corner_3" mask="00010110" empty_mask="01101000" />
+    <right_top file="gfx\level_tiles\tile\background\corner_2" mask="01101000" empty_mask="00010110" />
+    <right_bottom file="gfx\level_tiles\tile\background\corner_4" mask="00001011" empty_mask="11010000" />
+
+    <left file="gfx\level_tiles\tile\background\left_" mask="00010000" empty_mask="00101001" properties="draw_align=left,scale_yaxis"/>
+    <right file="gfx\level_tiles\tile\background\right_" mask="00001000" empty_mask="10010100" properties="draw_align=right,scale_yaxis"/>
+    <top file="gfx\level_tiles\tile\background\top1" mask="01000000" empty_mask="00000111" properties="draw_align=up,scale_xaxis"/>
+    <bottom file="gfx\level_tiles\tile\background\bottom1" mask="00000010" empty_mask="11100000" properties="draw_align=down,scale_xaxis"/>
+
+    <left_top_out file="gfx\level_tiles\tile\background\outside_corner_1" mask="10000000" empty_mask="00101111" properties="draw_align=left|up,scale=0.23"/>
+    <right_top_out file="gfx\level_tiles\tile\background\outside_corner_2" mask="00100000" empty_mask="10010111" properties="draw_align=right|up,scale=0.24"/>
+    <left_bottom_out file="gfx\level_tiles\tile\background\outside_corner_3" mask="00000100" empty_mask="11101001" properties="draw_align=left|down,scale=0.24"/>
+    <right_bottom_out file="gfx\level_tiles\tile\background\outside_corner_4" mask="00000001" empty_mask="11110100" properties="draw_align=right|down,scale=0.27"/>
+
+    <left_right file="gfx\level_tiles\tile\background\outside_corners2" mask="10000001" empty_mask="00100100"/>
+    <right_left file="gfx\level_tiles\tile\background\outside_corners1" mask="00100100" empty_mask="10000001"/>
+
+  </underground_layers>
+  
+  <!--шаблоны фауны или монстров, определяется доступность монстров для каждого шаблона-->
+  <fauna>
+    <all enableAll="true"/>   <!--доступны все монстры-->
+    <normal enableAll="false">  <!--доступны все кроме червя-->
+      <creature name="sheep" enabled="true"/>
+      <creature name="yak" enabled="true"/>
+      <creature name="skeleton" enabled="true"/>
+      <creature name="skeleton_shielder" enabled="true"/>
+      <creature name="skeleton_builder" enabled="true"/>
+      <creature name="skeleton_boss" enabled="true"/>
+      <creature name="mite" enabled="true"/>
+      <creature name="slug" enabled="true"/>
+      <creature name="chicken" enabled="true"/>
+      <creature name="beholder" enabled="true"/>
+      <creature name="goblin" enabled="true"/>
+      <creature name="goblin_shaman" enabled="true"/>
+      <creature name="beetle" enabled="true"/>
+      <creature name="gargoyley" enabled="true"/>
+      <creature name="zombie" enabled="true"/>
+      <creature name="zombie_boss" enabled="true"/>
+      <creature name="larva" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="spider" enabled="true"/>
+      <creature name="vampire_guard" enabled="true"/>
+      <creature name="little_dragon" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="ghost" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+    </normal>
+    <snow enableAll="false">
+      <creature name="sheep" enabled="true"/>
+      <creature name="lizard" enabled="true"/>
+      <creature name="ice_beast" enabled="true"/>
+      <creature name="skeleton" enabled="true"/>
+      <creature name="skeleton_shielder" enabled="true"/>
+      <creature name="skeleton_builder" enabled="true"/>
+      <creature name="skeleton_boss" enabled="true"/>
+      <creature name="zombie" enabled="true"/>
+      <creature name="zombie_boss" enabled="true"/>
+      <creature name="mite" enabled="true"/>
+      <creature name="slug" enabled="true"/>
+      <creature name="beholder" enabled="true"/>
+      <creature name="beetle" enabled="true"/>
+      <creature name="gargoyley" enabled="true"/>
+      <creature name="yeti" enabled="true"/>
+      <creature name="yeti_boss" enabled="true"/>
+      <creature name="larva" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="spider" enabled="true"/>
+      <creature name="vampire_guard" enabled="true"/>
+      <creature name="frostling" enabled="true"/>
+      <creature name="frostling_knight" enabled="true"/>
+      <creature name="little_dragon" enabled="true"/>
+      <creature name="worm" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="ghost" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+    </snow>
+    <desert enableAll="false">
+      <creature name="lama" enabled="true"/>
+      <creature name="buffalo" enabled="true"/>
+      <creature name="chick" enabled="true"/>
+      <creature name="skeleton" enabled="true"/>
+      <creature name="skeleton_shielder" enabled="true"/>
+      <creature name="skeleton_builder" enabled="true"/>
+      <creature name="skeleton_boss" enabled="true"/>
+      <creature name="zombie" enabled="true"/>
+      <creature name="zombie_boss" enabled="true"/>
+      <creature name="mite" enabled="true"/>
+      <creature name="slug" enabled="true"/>
+      <creature name="beholder" enabled="true"/>
+      <creature name="beetle" enabled="true"/>
+      <creature name="gargoyley" enabled="true"/>
+      <creature name="mummy" enabled="true"/>
+      <creature name="mummy_boss" enabled="true"/>
+      <creature name="larva" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="spider" enabled="true"/>
+      <creature name="vampire_guard" enabled="true"/>
+      <creature name="little_dragon" enabled="true"/>
+      <creature name="scorpion" enabled="true"/>
+      <creature name="worm" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="ghost" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+    </desert>
+    <underground enableAll="false">
+      <creature name="octopus" enabled="true"/>
+      <creature name="caterpillar" enabled="true"/>
+      <creature name="cave_beast" enabled="true"/>
+      <creature name="cave_beast_invasion" enabled="true"/>
+      <creature name="mite" enabled="true"/>
+      <creature name="slug2" enabled="true"/>
+      <creature name="beholder" enabled="true"/>
+      <creature name="beetle" enabled="true"/>
+      <creature name="gargoyley" enabled="true"/>
+      <creature name="cave_goblin" enabled="true"/>
+      <creature name="cave_goblin_warrior" enabled="true"/>
+      <creature name="larva" enabled="true"/>
+      <creature name="altar_shaman" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="vampire_guard" enabled="true"/>
+      <creature name="little_dragon_black" enabled="true"/>
+      <creature name="dragon_guard" enabled="true"/>
+      <creature name="orc" enabled="true"/>
+      <creature name="orc_skeleton" enabled="true"/>
+      <creature name="orc_boss" enabled="true"/>
+      <creature name="orc_boss_skeleton" enabled="true"/>
+      <creature name="cave_goblin_green" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="ghost" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+
+    </underground>
+	<orc_world enableAll="true">
+	
+      <!--<creature name="zombie" enabled="false"/>
+      <creature name="zombie_boss" enabled="false"/>-->
+      <creature name="frostling" enabled="false"/>
+      <creature name="worm" enabled="true"/>
+      
+      
+	  </orc_world>
+    <plane enableAll="true">
+      <creature name="frostling" enabled="false"/>
+      <creature name="goblin" enabled="false"/>
+      <creature name="worm" enabled="true"/>
+      <creature name="cave_goblin" enabled="false"/>
+      <creature name="cave_beast" enabled="false"/>
+      <creature name="orc" enabled="false"/>
+      <creature name="orc_boss" enabled="false"/>
+      <creature name="orc_skeleton" enabled="false"/>
+      <creature name="orc_boss_skeleton" enabled="false"/>
+      <creature name="octopus" enabled="false"/>
+      <creature name="cave_goblin_green" enabled="false"/>
+      <creature name="cave_beast_invasion" enabled="false"/>
+	</plane>
+	<plains anableAll="true">
+      <creature name="frostling" enabled="false"/>
+      <creature name="scorpion" enabled="false"/>      
+      <creature name="cave_goblin" enabled="false"/>
+      <creature name="cave_beast" enabled="false"/>
+      <creature name="orc" enabled="false"/>
+      <creature name="orc_boss" enabled="false"/>
+      <creature name="orc_skeleton" enabled="false"/>
+      <creature name="orc_boss_skeleton" enabled="false"/>
+      <creature name="octopus" enabled="false"/>
+      <creature name="cave_goblin_green" enabled="false"/>
+      <creature name="cave_beast_invasion" enabled="false"/>
+	  <creature name="worm" enabled="true"/>
+	</plains>
+	
+	<swamp enableAll="true">      
+      <creature name="frostling" enabled="false"/>
+      <creature name="scorpion" enabled="false"/>
+      <creature name="cave_goblin" enabled="false"/>
+      <creature name="cave_beast" enabled="false"/>
+      <creature name="orc" enabled="false"/>
+      <creature name="orc_boss" enabled="false"/>
+      <creature name="orc_skeleton" enabled="false"/>
+      <creature name="orc_boss_skeleton" enabled="false"/>
+      <creature name="octopus" enabled="false"/>
+      <creature name="cave_goblin_green" enabled="false"/>
+      <creature name="cave_beast_invasion" enabled="false"/>
+	  <creature name="worm" enabled="true"/>
+      <creature name="skeleton_shielder" enabled="false"/>
+      <creature name="skeleton_builder" enabled="false"/>
+      <creature name="skeleton_boss" enabled="false"/>
+    </swamp>
+    <biome1 enableAll="false">
+      <creature name="elf_archer" enabled="true"/>
+      <creature name="elf_spearman" enabled="true"/>
+      <creature name="elf_witch" enabled="true"/>
+      <creature name="yeti_biome" enabled="true"/>
+      <creature name="slug" enabled="true"/>
+      <creature name="zombie_boost" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+    </biome1>
+    <biome_usual_medium enableAll="false">
+      <creature name="sheep" enabled="true"/>
+      <creature name="yak" enabled="true"/>
+      <creature name="skeleton" enabled="true"/>
+      <creature name="cave_goblin" enabled="true"/>
+      <creature name="skeleton_shielder" enabled="true"/>
+      <creature name="skeleton_builder" enabled="true"/>
+      <creature name="skeleton_boss" enabled="true"/>
+      <creature name="mite" enabled="true"/>
+      <creature name="slug" enabled="true"/>
+      <creature name="chicken" enabled="true"/>
+      <creature name="zombie" enabled="true"/>
+      <creature name="zombie_boss" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="dead_lord" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+      <creature name="zombie_solder" enabled="true"/>
+      <creature name="zombie_boost" enabled="true"/>
+      <creature name="beetle" enabled="true"/>
+    </biome_usual_medium>
+    <biome_underground enableAll="false">
+      <creature name="orc" enabled="true"/>
+      <creature name="orc_boss" enabled="true"/>
+      <creature name="orc_skeleton" enabled="true"/>
+      <creature name="orc_boss_skeleton" enabled="true"/>
+      <creature name="cave_goblin" enabled="true"/>
+      <creature name="cave_goblin_warrior" enabled="true"/>
+      <creature name="cave_goblin_green" enabled="true"/>
+      <creature name="cave_beast_invasion" enabled="true"/>
+      <creature name="cave_beast" enabled="true"/>
+      <creature name="caterpillar" enabled="true"/>
+      <creature name="little_dragon_black" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="slug2" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+      <creature name="zombie_boost" enabled="true"/>
+      <creature name="dragon_guard" enabled="true"/>
+   </biome_underground>
+    <biome_beetles enableAll="false">
+      <creature name="beetle_queen" enabled="true"/>
+      <creature name="beetle_worker" enabled="true"/>
+      <creature name="beetle_warrior" enabled="true"/>
+      <creature name="slug" enabled="true"/>
+      <creature name="zombie_boost" enabled="true"/>
+      <creature name="black_fluffy" enabled="true"/>
+      <creature name="piranha" enabled="true"/>
+      <creature name="piranha_deep" enabled="true"/>
+      <creature name="fish_red" enabled="true"/>
+      <creature name="fish_yellow" enabled="true"/>
+      <creature name="imp" enabled="true"/>
+      <creature name="beetle_boss_stage1" enabled="true"/>
+      <creature name="beetle_boss_stage2" enabled="true"/>
+    </biome_beetles>
+  </fauna>
+</root>

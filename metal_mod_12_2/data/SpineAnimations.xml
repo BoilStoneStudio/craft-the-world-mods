@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <animations>
+  
+	<posbush path="gfx\Spine\environment\bush" json="posion_bush.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </posbush>
+	
+	
+	<tree_swamp path="gfx\Spine\environment\tree_swamp" json="tree_swamp.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_swamp>
+	
+	
+	<tree_swamp5 path="gfx\Spine\environment\tree_swamp5" json="tree_swamp.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_swamp5>
+	
+	<tree_swamp6 path="gfx\Spine\environment\tree_swamp6" json="tree_swamp.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_swamp6>
+	
+	
+	
+	<tree_swamp1 path="gfx\Spine\environment\tree_swamp1" json="tree_swamp1.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_swamp1>
+	<tree_swamp2 path="gfx\Spine\environment\tree_swamp2" json="tree_swamp1.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_swamp2>
+	
+	<reed1 path="gfx\Spine\environment\reed1" json="reed1.json" scale="0.4">
+      <mixing all="true" time="0.2f" />
+    </reed1>
+	
+	<reed2 path="gfx\Spine\environment\reed2" json="tree_swamp1.json" scale="1">
+      <mixing all="true" time="0.2f" />
+    </reed2>
+	
+	<reed3 path="gfx\Spine\environment\reed3" json="tree_swamp1.json" scale="1">
+      <mixing all="true" time="0.2f" />
+    </reed3>
+	
+	<reed4 path="gfx\Spine\environment\reed4" json="tree_swamp1.json" scale="1">
+      <mixing all="true" time="0.2f" />
+    </reed4>
+	
+	<tree_swamp3 path="gfx\Spine\environment\tree_swamp3" json="tree_swamp1.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </tree_swamp3>
+	
+	
+	
+	<cane_head path="gfx\Spine\environment\cane" json="reed1.json" scale="0.4">
+      <mixing all="true" time="0.2f" />
+    </cane_head>
+	
+	<cane path="gfx\Spine\environment\cane" json="reed1.json" scale="0.3">
+      <mixing all="true" time="0.2f" />
+    </cane>
+	
+	
+	
+	<rice path="gfx\Spine\environment\rice" json="reed1.json" scale="0.4">
+      <mixing all="true" time="0.2f" />
+    </rice>
+	
+	<wrice path="gfx\Spine\environment\rice" json="reed1.json" scale="0.3">
+      <mixing all="true" time="0.2f" />
+    </wrice>
+	
+	
+	
+	<corn path="gfx\Spine\environment\corn" json="reed1.json" scale="0.5">
+      <mixing all="true" time="0.2f" />
+    </corn>
+	
+	<wcorn path="gfx\Spine\environment\corn" json="reed1.json" scale="0.3">
+      <mixing all="true" time="0.2f" />
+    </wcorn>
+	
+	
+	
+	<grass path="gfx\Spine\environment\grass" json="reed1.json" scale="0.4">
+      <mixing all="true" time="0.2f" />
+    </grass>
+	
+	
+	<tree_ork1 path="gfx\Spine\environment\tree_ork1" json="tree_swamp.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_ork1>
+	
+	<tree_ork2 path="gfx\Spine\environment\tree_ork2" json="tree_swamp1.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree_ork2>
+	
+	<orc_bush path="gfx\Spine\environment\orc_bush" json="bush.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </orc_bush>
+	
+	
+	
+	<swamptree1 path="gfx\Spine\environment\swamptree1" json="tree.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </swamptree1>
+    
+    <swamptree2 path="gfx\Spine\environment\swamptree2" json="tree2.json" scale="0.53">
+      <mixing all="true" time="0.2f" />
+    </swamptree2>
+
+	
+	<orctree1 path="gfx\Spine\environment\orctree1" json="tree.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </orctree1>
+    
+    <orctree2 path="gfx\Spine\environment\orctree2" json="tree2.json" scale="0.53">
+      <mixing all="true" time="0.2f" />
+    </orctree2>
+	
+	
+	
+	
+	<shamanmashroom path="gfx\Spine\characters\shamanmashroom" json="goblin_shaman.json" scale="0.3" mirror="true" >
+      <mixing all="true" />
+    </shamanmashroom>
+    
+    <shamanmashroom_move path="gfx\Spine\characters\shamanmashroom" json="goblin_shaman_walk.json" scale="0.3" mirror="true" >
+      <settings>
+        <walk for_speed="15" />
+      </settings>
+    </shamanmashroom_move>
+
+    <shamanmashroom_ad path="gfx\Spine\characters\shamanmashroom" json="shaman_attack_death.json" scale="0.3" mirror="true" >
+      <mixing all="true" />
+    </shamanmashroom_ad>
+	
+	<swamp_chicken path="gfx\Spine\characters\swamp_chicken" json="chicken.json" scale="0.26" mirror="true" >
+      <settings>
+        <walk_run for_speed="30" />
+        <fly time_scale="2" />
+      </settings>
+      <mixing all="true" />
+    </swamp_chicken>
+	
+	
+	<shamanmashroom1 path="gfx\Spine\characters\shamanmashroom1" json="goblin_shaman.json" scale="0.3" mirror="true" >
+      <mixing all="true" />
+    </shamanmashroom1>
+    
+    <shamanmashroom1_move path="gfx\Spine\characters\shamanmashroom1" json="goblin_shaman_walk.json" scale="0.3" mirror="true" >
+      <settings>
+        <walk for_speed="15" />
+      </settings>
+    </shamanmashroom1_move>
+
+    <shamanmashroom1_ad path="gfx\Spine\characters\shamanmashroom1" json="shaman_attack_death.json" scale="0.3" mirror="true" >
+      <mixing all="true" />
+    </shamanmashroom1_ad>
+    
+    
+    <beetle_berry path="gfx\Spine\environment\spider_biom_berry_plant" json="berry_plant.json" scale="0.19">
+      <mixing all="true" time="0.2f" />
+    </beetle_berry>
+    
+    <beetle_corpse1 path="gfx\Spine\environment\spider_biom_corpse_01" json="corpse_01.json" scale="0.14" mirror="true" offset="0,-425">
+      <mixing all="true" />
+    </beetle_corpse1>
+
+    <beetle_corpse2 path="gfx\Spine\environment\spider_biom_corpse_02" json="corpse_02.json" scale="0.14" mirror="true" offset="0,-420">
+      <mixing all="true" />
+    </beetle_corpse2>
+    
+    <beetle_boss_stage2 path="gfx\Spine\characters\Biom_beatles\greate_mother" json="greate_moter_ground.json" scale="0.32" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="60" />
+      </settings>
+    </beetle_boss_stage2>
+    <beetle_boss path="gfx\Spine\characters\Biom_beatles\greate_mother" json="greate_mother.json" scale="0.4" mirror="true">
+      <mixing all="true" />
+    </beetle_boss>
+
+    <slime path="gfx\Spine\environment\spider_biom_slime" json="slime_01.json" scale="0.18" mirror="true" offset="0,-330">
+      <mixing all="true" />
+    </slime>
+    
+    <beetle_mushroom_01 path="gfx\Spine\environment\spider_biom_mushroom_01" json="mushroom_01.json" scale="0.19">
+      <mixing all="true" time="0.2f" />
+    </beetle_mushroom_01>
+    <beetle_mushroom_02 path="gfx\Spine\environment\spider_biom_mushroom_02" json="mushroom_02.json" scale="0.19">
+      <mixing all="true" time="0.2f" />
+    </beetle_mushroom_02>
+    <beetle_mushroom_03 path="gfx\Spine\environment\spider_biom_mushroom_03" json="mushroom_03.json" scale="0.19">
+      <mixing all="true" time="0.2f" />
+    </beetle_mushroom_03>
+    
+    <beetle_egg path="gfx\Spine\environment\egg" json="egg.json" scale="0.36" mirror="true">
+      <mixing all="true" />
+    </beetle_egg>
+      
+    <beetle_queen path="gfx\Spine\characters\Biom_beatles\mother" json="mother.json" scale="0.36" mirror="true">
+      <mixing all="true" time="0.4" />
+      <settings>
+        <walk_01 for_speed="60" />
+      </settings>
+    </beetle_queen>
+
+    <beetle_worker path="gfx\Spine\characters\Biom_beatles\worker" json="worker.json" scale="0.13" mirror="true">
+      <mixing all="true" />
+    </beetle_worker>
+
+    <beetle_warrior path="gfx\Spine\characters\Biom_beatles\warrior" json="warrior.json" scale="0.2" mirror="false">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="30" />
+        <jump time_scale="1.5" />
+      </settings> 
+    </beetle_warrior>
+    
+    <long_banner path="gfx\Spine\environment\long_banner" json="long_banner.json" scale="0.61">
+      <mixing all="true" />
+    </long_banner>
+    <tomb_chest path="gfx\Spine\environment\tomb_chest" json="tomb_chest.json" scale="0.7">
+      <mixing all="true" />
+    </tomb_chest>
+
+    <goblin_chest path="gfx\Spine\environment\goblin_chest" json="goblin_chest.json" scale="0.5">
+      <mixing all="true" />
+    </goblin_chest>
+
+    <zombie path="gfx\Spine\characters\zombie" json="zombie.json" scale="0.3" mirror="true" >
+      <mixing all="true"/>
+      <events>
+        <event name="eff" frame="18" />
+        <event name="attack" frame="28" />
+        <event name="jump" frame="24" />
+        <event name="step" frame="5" />
+        <event name="step" frame="34"/>
+      </events>
+      <settings>
+        <walk for_speed="20" />
+        <walk2 for_speed="20" />
+        <walk3 for_speed="20" />
+        <walk4 for_speed="20" />
+        <jump time_scale="2" />
+        <solder_walk for_speed="20" />
+        <solder_walk2 for_speed="20" />
+        <solder_walk3 for_speed="20" />
+      </settings>
+    </zombie>
+
+    <vampire_guard path="gfx\Spine\characters\vampire_guard_02" json="vampire_guard.json" scale="0.48" mirror="true" >
+      <settings>
+        <walk_point for_speed="80" />
+        <dead_lord_walk_point for_speed="80" />
+      </settings>
+      <events>
+        <event name="attack" frame="28" for="attack_01"/>
+        <event name="pre" frame="50"/>
+        <event name="attack" frame="30" for="attack_02"/>
+        <event name="attack" frame="30" for="attack_03"/>
+        <event name="step" frame="3" />
+        <event name="step" frame="21" />
+      </events>
+      <mixing all="true" />
+    </vampire_guard>
+
+    <goblin_horn path="gfx\Spine\environment\goblin_horn" json="goblin_horn.json" scale="0.3">
+      <mixing all="true" />
+    </goblin_horn>
+    
+    <map_button path="gfx/ui/new_interface/main_screen/map" json="map.json" scale="1">
+      <mixing all="true" />
+    </map_button>
+
+    <portal_waiting path="gfx\ui\new_interface\portal_waiting" json="portal_waiting.json" scale="0.18">
+      <mixing all="true" />
+    </portal_waiting>
+
+
+    <!--<message path="gfx\ui\new_interface\dialog_01" json="dialog_01.json" scale="0.3">
+      <mixing all="true" />
+    </message>-->
+
+    <!--<gopnik path="gfx\Spine\characters\bandit" json="bandit.json" scale="0.7">
+      <mixing all="true" />
+    </gopnik>-->
+    <dwarf_spirit path="gfx\Spine\characters\dwarf_spirit" json="dwarf_spirit.json" scale="0.3">
+      <mixing all="true" />
+    </dwarf_spirit>
+
+    <soul_keep path="gfx\Spine\buildings\soul_keep" json="soul_keep.json" scale="0.6">
+      <mixing all="true" />
+    </soul_keep>
+
+    <biom_01_plant_01 path="gfx\Spine\environment\biom_01_plant_01" json="biom_01_plant_01.json" scale="0.65">
+      <mixing all="true" time="0.2f" />
+    </biom_01_plant_01>
+
+    <biom_01_plant_02 path="gfx\Spine\environment\biom_01_plant_02" json="biom_01_plant_02.json" scale="0.65">
+      <mixing all="true" time="0.2f" />
+    </biom_01_plant_02>
+
+    <boost_chest path="gfx\Spine\environment\boost_chest" json="boost_chest.json" scale="0.35">
+      <mixing all="true" />
+    </boost_chest>
+
+    <biome1_bg1 path="gfx\Spine\environment\backgrounds\underworld_02" json="1.json" scale="1.3">
+      <mixing all="true" />
+    </biome1_bg1>
+    <biome1_bg2 path="gfx\Spine\environment\backgrounds\underworld_02" json="2.json" scale="1.3">
+      <mixing all="true" />
+    </biome1_bg2>
+    <biome1_bg3 path="gfx\Spine\environment\backgrounds\underworld_02" json="3.json" scale="1.3">
+      <mixing all="true" />
+    </biome1_bg3>
+    <biome1_bg4 path="gfx\Spine\environment\backgrounds\underworld_02" json="4.json" scale="1.4">
+      <mixing all="true" />
+    </biome1_bg4>
+    <biome1_bg5 path="gfx\Spine\environment\backgrounds\underworld_02" json="5.json" scale="1.45">
+      <mixing all="true" />
+    </biome1_bg5>
+    <biome1_bg6 path="gfx\Spine\environment\backgrounds\underworld_02" json="6.json" scale="1.5">
+      <mixing all="true" />
+    </biome1_bg6>
+
+    <liana path="gfx\Spine\environment\liana" json="liana.json" scale="0.6" offset="0,-100">
+      <mixing all="true" />
+    </liana>
+
+    <elf_ice_tower path="gfx\Spine\buildings\elf_ice_tower" json="ice_tower.json" scale="0.53">
+      <mixing all="true" />
+    </elf_ice_tower>
+    <elf_ice_tent path="gfx\Spine\buildings\elf_ice_tent" json="tent.json" scale="0.55">
+      <mixing all="true" />
+    </elf_ice_tent>
+
+    <elfs path="gfx\Spine\characters\elfs" json="elfs.json" scale="0.23">
+      <mixing all="true" />
+      <settings>
+        <archer_walk for_speed="60" />
+        <archer_walk2 for_speed="65" />
+        <walk_spearman for_speed="60" />
+      </settings>
+    </elfs>
+    <prisoned_yetti path="gfx\Spine\characters\prisoned_yetti" json="yetti_prisoned.json" scale="0.22" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk_01 for_speed="35" />
+        <walk_02 for_speed="35" />
+        <walk_carry_01 for_speed="35" />
+        <walk_carry_02 for_speed="35" />
+        <climb_up for_speed="37" />
+        <climb_down for_speed="37" />
+      </settings>
+    </prisoned_yetti>
+    <prisoned_yetti_back path="gfx\Spine\characters\prisoned_yetti" json="prisoned_yetti_back.json" scale="0.22" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <climb_up for_speed="35" />
+        <climb_down for_speed="35" />
+      </settings>
+    </prisoned_yetti_back>
+
+    <biome1_crystal path="gfx\Spine\environment\big_cryst" json="big_cryst.json" scale="1">
+      <mixing all="true" />
+    </biome1_crystal>
+
+    <down_roots path="gfx\Spine\environment\down_roots" json="down_roots.json" scale="0.6" offset="0,-95">
+      <mixing all="true" />
+    </down_roots>
+
+    <under_bg1 path="gfx\Spine\environment\backgrounds\underworld_01" json="background_01.json" scale="0.8">
+      <mixing all="true" />
+    </under_bg1>
+    <under_bg2 path="gfx\Spine\environment\backgrounds\underworld_01" json="background_02.json" scale="1">
+      <mixing all="true" />
+    </under_bg2>
+    <under_bg3 path="gfx\Spine\environment\backgrounds\underworld_01" json="background_03.json" scale="1">
+      <mixing all="true" />
+    </under_bg3>
+
+    <under_back1 path="gfx\Spine\environment\backgrounds\underworld_01" json="ground_back1.json" scale="0.8">
+      <mixing all="true" />
+    </under_back1>
+    <under_back2 path="gfx\Spine\environment\backgrounds\underworld_01" json="ground_back_02.json" scale="1">
+      <mixing all="true" />
+    </under_back2>
+    <under_back3 path="gfx\Spine\environment\backgrounds\underworld_01" json="ground_back_02.json" scale="1">
+      <mixing all="true" />
+    </under_back3>
+
+    <under_forw1 path="gfx\Spine\environment\backgrounds\underworld_01" json="ground_forw_01.json" scale="0.8">
+      <mixing all="true" />
+    </under_forw1>
+    <under_forw2 path="gfx\Spine\environment\backgrounds\underworld_01" json="ground_forw_02.json" scale="1">
+      <mixing all="true" />
+    </under_forw2>
+    <under_forw3 path="gfx\Spine\environment\backgrounds\underworld_01" json="ground_forw_03.json" scale="1">
+      <mixing all="true" />
+    </under_forw3>
+
+    <under_stalactites path="gfx\Spine\environment\backgrounds\underworld_01" json="stalactites.json" scale="0.8">
+      <mixing all="true" />
+    </under_stalactites>
+
+
+    <four_world_bg1 path="gfx\Spine\environment\backgrounds\4th_world\1_plan" json="1_plan.json" scale="1">
+      <mixing all="true" time="2" />
+    </four_world_bg1>
+    <four_world_bg2 path="gfx\Spine\environment\backgrounds\4th_world\2_plan" json="2_plan.json" scale="1">
+      <mixing all="true"  time="2"/>
+    </four_world_bg2>
+    <four_world_bg3 path="gfx\Spine\environment\backgrounds\4th_world\octopus_anim" json="octopus_background.json" scale="0.3">
+      <mixing all="true"  time="2"/>
+    </four_world_bg3>
+    <four_world_bg4 path="gfx\Spine\environment\backgrounds\4th_world\3_plan" json="3_plan.json" scale="1">
+      <mixing all="true"  time="2"/>
+    </four_world_bg4>
+
+    <fern path="gfx\Spine\environment\fern" json="fern.json" scale="0.65">
+      <mixing all="true" />
+    </fern>
+
+    <shop_goblin path="gfx\Spine\buildings\shop_goblin" json="skeleton.json" scale="0.29">
+      <mixing all="true" />
+    </shop_goblin>
+
+    <god_altar path="gfx\Spine\environment\shrine" json="shrine.json" scale="0.5">
+      <mixing all="true" />
+    </god_altar>
+
+    <cave_god path="gfx\Spine\characters\cave_god" json="cave_god.json" scale="0.6">
+      <mixing all="true" />
+    </cave_god>
+
+    <octopus path="gfx\Spine\characters\octopus" json="octopus.json" scale="0.24">
+      <mixing all="true" />
+    </octopus>
+
+    <slug path="gfx\Spine\characters\slug" json="slug.json" scale="0.3">
+      <mixing all="true" />
+      <events>
+        <event name="b" frame="2" />
+        <event name="e" frame="16" />
+      </events>
+      <settings>
+        <walk time_scale="0.5" />
+      </settings>
+    </slug>
+
+    <pistol path="gfx\Spine\characters\dwarf\guns" json="gun1.json" scale="0.24">
+      <mixing all="false" />
+    </pistol>
+    <rifle path="gfx\Spine\characters\dwarf\guns" json="gun2.json" scale="0.24">
+      <mixing all="false" />
+    </rifle>
+    <heavy_rifle path="gfx\Spine\characters\dwarf\guns" json="gun3.json" scale="0.24">
+      <mixing all="false" />
+    </heavy_rifle>
+
+    <parashute path="gfx\Spine\characters\parashute" json="skeleton.json" scale="0.35">
+      <mixing all="true" />
+    </parashute>
+
+    <orc path="gfx\Spine\characters\orcs" json="orcs.json" scale="0.23">
+      <settings>
+        <walk for_speed="60"/>
+        <walk_shielder for_speed="60"/>
+        <run for_speed="70"/>
+        <run2 for_speed="70"/>
+      </settings>
+      <mixing all="true" />
+    </orc>
+
+    <cave_goblin_back path="gfx\Spine\characters\goblins" json="goblins_back.json" scale="0.24">
+      <settings>
+        <walk for_speed="30"/>
+      </settings>
+      <mixing all="true" />
+    </cave_goblin_back>
+
+    <cave_goblin path="gfx\Spine\characters\goblins" json="goblins.json" scale="0.24">
+      <settings>
+        <walk for_speed="45"/>
+        <walk_run for_speed="60"/>
+        <walk_shielder for_speed="45"/>
+        <walk_run_shielder for_speed="60"/>
+        <shaman_walk for_speed="30"/>
+        <shaman_walk_run for_speed="60"/>
+      </settings>
+      <mixing all="true" />
+    </cave_goblin>
+
+    <cave_goblins_camp path="gfx\Spine\buildings\cave_gobl_buildings" json="cave_goblin_camp.json" scale="0.66">
+      <mixing all="true" />
+    </cave_goblins_camp>
+
+
+    <cave_goblins_hatch1 path="gfx\Spine\buildings\cave_gobl_buildings" json="hatch_01.json" scale="0.66">
+      <mixing all="true" />
+    </cave_goblins_hatch1>
+    <cave_goblins_hatch2 path="gfx\Spine\buildings\cave_gobl_buildings" json="hatch_02.json" scale="0.66">
+      <mixing all="true" />
+    </cave_goblins_hatch2>
+    <cave_goblins_hatch3 path="gfx\Spine\buildings\cave_gobl_buildings" json="hatch_03.json" scale="0.66">
+      <mixing all="true" />
+    </cave_goblins_hatch3>
+
+
+    <mushroom_05 path="gfx\Spine\environment\mushroom_03" json="mushroom_03_03.json" scale="0.65">
+      <mixing all="true" time="0.2f" />
+    </mushroom_05>
+
+    <mushroom_04 path="gfx\Spine\environment\mushroom_03" json="mushroom_03_02.json" scale="0.65">
+      <mixing all="true" time="0.2f" />
+    </mushroom_04>
+
+    <mushroom_03 path="gfx\Spine\environment\mushroom_03" json="mushroom_03.json" scale="0.65">
+      <mixing all="true" time="0.2f" />
+    </mushroom_03>
+
+    <mushroom_02 path="gfx\Spine\environment\mushroom_02" json="mushroom_02.json" scale="0.64">
+      <mixing all="true" time="0.2f" />
+    </mushroom_02>
+
+    <mushroom_01 path="gfx\Spine\environment\mushroom_01" json="mushroom_01.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </mushroom_01>
+
+    <cave_beast path="gfx\Spine\characters\cave_beast" json="cave_beast.json" scale="0.30" offset="-30,0">
+      <mixing all="true" />
+      <settings>
+        <walk_01 for_speed="30" />
+        <walk_02 for_speed="40" />
+      </settings>
+    </cave_beast>
+
+    <caterpillar path="gfx\Spine\characters\caterpillar" json="caterpillar.json" scale="0.25" offset="-60,0">
+      <mixing all="true" />
+      <settings>
+        <walk_01_point for_speed="30" />
+      </settings>
+    </caterpillar>
+
+    <ui_dwarf_ipad path="gfx\Spine\interface\dwarf_with_ipad" json="dwarf_with_ipad.json" scale="1">
+      <mixing all="true" />
+    </ui_dwarf_ipad>
+
+
+    <farm path="gfx\Spine\buildings\farm" json="farm.json" scale="0.66">
+      <mixing all="true" />
+    </farm>
+
+    <animal_bag_prof path="gfx\Spine\characters\animal_bag" json="animal_bag_prof.json" scale="0.27">
+      <mixing all="true" />
+    </animal_bag_prof>
+    <animal_bag_back path="gfx\Spine\characters\animal_bag" json="animal_bag_back.json" scale="0.27">
+      <mixing all="true" />
+    </animal_bag_back>
+
+    <animal_trap path="gfx\Spine\buildings\animal_trap" json="skeleton.json" scale="0.66">
+      <mixing all="true" />
+    </animal_trap>
+
+    <lamb path="gfx\Spine\characters\lamb_02" json="lamb.json" scale="0.3" mirror="true" >
+      <settings>
+        <walk for_speed="20" />
+        <jump_up time_scale="2.5" />
+      </settings>
+      <events>
+        <event name="jump" frame="24" />
+      </events>
+      <mixing all="true" />
+    </lamb>
+
+    <gargoyley path="gfx\Spine\characters\Gorgoyle" json="Gorgoyle.json" scale="0.25" time_scale="1" mirror="true">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="24" />
+        <event name="attack" frame="45" for="attack_super"/>
+        <event name="attack" frame="45" for="attack_super_02"/>
+      </events>
+    </gargoyley>
+
+    <pumpkin path="gfx\Spine\environment\pumpkin" json="pumpkin_free.json" scale="0.5">
+      <mixing all="true" />
+    </pumpkin>
+    <pumpkin_pot path="gfx\Spine\environment\pumpkin" json="pumpkin_pot.json" scale="0.5">
+      <mixing all="true" />
+    </pumpkin_pot>
+
+    <bird path="gfx\Spine\characters\bird" json="bird.json" scale="0.5">
+      <mixing all="true" />
+    </bird>
+
+    <traps path="gfx\Spine\buildings\traps" json="traps.json" scale="0.62">
+      <mixing all="true" />
+    </traps>
+
+    <aqua_red_fish path="gfx\Spine\buildings\aqua\red_fish" json="aqua_wish_red_fish.json" scale="0.76">
+      <mixing all="true" />
+    </aqua_red_fish>
+    <aqua_blue_fish path="gfx\Spine\buildings\aqua\blue_fish" json="aqua_wish_blue_fish.json" scale="0.76">
+      <mixing all="true" />
+    </aqua_blue_fish>
+    <aqua_glow_fish path="gfx\Spine\buildings\aqua\glow_fish" json="aqua_wish_glow_fish.json" scale="0.76">
+      <mixing all="true" />
+    </aqua_glow_fish>
+
+    <clock_ground path="gfx\Spine\buildings\clock_ground" json="clock_ground.json" scale="0.38">
+      <mixing all="true" time="0.2f" />
+    </clock_ground>
+    <clock_wall path="gfx\Spine\buildings\clock_wall" json="clock_wall.json" scale="0.62">
+      <mixing all="true" time="0.2f" />
+    </clock_wall>
+
+    <spider path="gfx\Spine\characters\spider" json="spider.json" scale="0.39" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="10" />
+      </settings>
+      <events>
+        <event name="attack" frame="25" />
+      </events>
+    </spider>
+
+    <desert_bush path="gfx\Spine\environment\bush" json="desert_bush.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </desert_bush>
+    <desert_bush_berry path="gfx\Spine\environment\bush" json="desert_bush_berry.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </desert_bush_berry>
+    <desert_bush_berry2 path="gfx\Spine\environment\bush" json="desert_bush_berry2.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </desert_bush_berry2>
+    <desert_bush_berry3 path="gfx\Spine\environment\bush" json="desert_bush_berry3.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </desert_bush_berry3>
+    <desert_bush2 path="gfx\Spine\environment\bush" json="desert_bush2.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </desert_bush2>
+    <desert_bush3 path="gfx\Spine\environment\bush" json="desert_bush3.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </desert_bush3>
+
+    <snow_bush path="gfx\Spine\environment\bush" json="snow_bush.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </snow_bush>
+    <snow_bush2 path="gfx\Spine\environment\bush" json="snow_bush2.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </snow_bush2>
+
+
+    <bird_cell path="gfx\Spine\characters\bird" json="bird_cage.json" scale="0.5">
+      <mixing all="true" />
+    </bird_cell>
+
+    <scabbler_workshop path="gfx\Spine\buildings\scabbler_workshop" json="scabbler_workshop.json" scale="0.48">
+      <mixing all="true" />
+    </scabbler_workshop>
+    <millstone path="gfx\Spine\buildings\millstone" json="mill.json" scale="0.8">
+      <mixing all="true" />
+    </millstone>
+
+    <control_button path="gfx/ui/new_interface/dwarf_menu" json="dwarf_menu_control.json" scale="1">
+      <mixing all="true" />
+    </control_button>
+    <eat_button path="gfx/ui/new_interface/dwarf_menu" json="dwarf_menu_eat.json" scale="1">
+      <mixing all="true" />
+    </eat_button>
+    <rest_button path="gfx/ui/new_interface/dwarf_menu" json="dwarf_menu_sleep.json" scale="1">
+      <mixing all="true" />
+    </rest_button>
+    <equip_button path="gfx/ui/new_interface/dwarf_menu" json="dwarf_menu_equip.json" scale="1">
+      <mixing all="true" />
+    </equip_button>
+
+
+    <equip1_button path="gfx/ui/new_interface/main_screen/equip" json="equip.json" scale="1">
+      <mixing all="true" />
+    </equip1_button>
+    <inv_button path="gfx/ui/new_interface/main_screen/craft" json="craft.json" scale="1">
+      <mixing all="true" />
+    </inv_button>
+
+    <siege_mode_button path="gfx/ui/new_interface/main_screen/siege_mode" json="siege.json" scale="1">
+      <mixing all="true" />
+    </siege_mode_button>
+
+    <marks_button path="gfx/ui/new_interface/main_screen/markers" json="markers.json" scale="1">
+      <mixing all="true" />
+    </marks_button>
+
+    <diary_button path="gfx/ui/new_interface/main_screen/dairy" json="dairy.json" scale="1">
+      <mixing all="true" />
+    </diary_button>
+
+    <ctree_button path="gfx/ui/new_interface/main_screen/tech_tree" json="tech_tree.json" scale="1">
+      <mixing all="true" />
+    </ctree_button>
+
+    <craft_button path="gfx/ui/new_interface/crafting/animation" json="button_craft.json" scale="1">
+      <mixing all="true" />
+    </craft_button>
+
+    <craft_table path="gfx/ui/new_interface/crafting/animation" json="craft_table.json" scale="1">
+      <mixing all="true" />
+    </craft_table>
+
+    <pyr_wiz path="gfx\Spine\buildings\stat" json="wizard.json" scale="0.7">
+      <mixing all="true" />
+    </pyr_wiz>
+
+    <pyr_trap path="gfx\Spine\environment\trap" json="trap.json" scale="0.48">
+      <mixing all="true" />
+    </pyr_trap>
+
+
+    <dwarf_base path="gfx\Spine\buildings\dwarf_base" json="dwarf_base.json" scale="0.55">
+      <mixing all="true" />
+      <events>
+        <event name="e" frame="90" for="arrival"/>
+        <event name="e" frame="60" for="new_dwarf"/>
+        <event name="p" frame="120" for="arrival"/>
+        <event name="p" frame="90" for="new_dwarf"/>
+      </events>
+    </dwarf_base>
+
+
+    <joiner_workbench path="gfx\Spine\buildings\joiner_workbench" json="joiner_workbench.json" scale="0.48">
+      <mixing all="true" />
+    </joiner_workbench>
+    <joiner_workbench_front path="gfx\Spine\buildings\joiner_workbench" json="joiner_workbench_front.json" scale="0.48">
+      <mixing all="true" />
+    </joiner_workbench_front>
+
+    <smithy path="gfx\Spine\buildings\smithy" json="smithy.json" scale="0.61">
+      <mixing all="true" />
+    </smithy>
+    <smithy_front path="gfx\Spine\buildings\smithy" json="smithy_front.json" scale="0.61">
+      <mixing all="true" />
+    </smithy_front>
+
+    <glow_fish path="gfx\Spine\characters\glow_fish" json="glow_fish.json" scale="0.40" mirror="true" >
+      <mixing all="true" />
+    </glow_fish>
+
+    <fish_blue path="gfx\Spine\characters\fish_blue" json="blue_fish.json" scale="0.45" mirror="true" >
+      <mixing all="true" />
+    </fish_blue>
+
+    <fish_red path="gfx\Spine\characters\fish_red" json="red_fish.json" scale="0.45" mirror="true" >
+      <mixing all="true" />
+    </fish_red>
+
+    <tesla_tower1 path="gfx\Spine\buildings\tesla_tower" json="tesla1.json" scale="0.38">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="25"/>
+      </events>
+    </tesla_tower1>
+    <tesla_tower2 path="gfx\Spine\buildings\tesla_tower" json="tesla2.json" scale="0.38">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="25"/>
+      </events>
+    </tesla_tower2>
+    <tesla_tower3 path="gfx\Spine\buildings\tesla_tower" json="tesla3.json" scale="0.38">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="25"/>
+      </events>
+    </tesla_tower3>
+
+    <wood_tower path="gfx\Spine\buildings\wooden_tower" json="wood_tower.json" scale="0.28">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="22"/>
+      </events>
+    </wood_tower>
+
+    <lab path="gfx\Spine\buildings\lab" json="laboratory.json" scale="0.61">
+      <mixing all="true" />
+    </lab>
+    <lab_table path="gfx\Spine\buildings\lab" json="front_table.json" scale="0.61">
+      <mixing all="true" />
+    </lab_table>
+
+    <scorpion path="gfx\Spine\characters\scorpion" json="scorpion.json" scale="0.20" mirror="true" >
+      <settings>
+        <walk for_speed="15" />
+      </settings>
+      <events>
+        <event name="attack" frame="20" />
+      </events>
+      <mixing all="true" />
+    </scorpion>
+
+    <buffalo path="gfx\Spine\characters\buffalo" json="buffalo.json" scale="0.47" mirror="true" >
+      <settings>
+        <walk for_speed="15" />
+        <jump_up time_scale="2.5" />
+      </settings>
+      <events>
+        <event name="jump" frame="20" />
+        <event name="attack" frame="33" />
+      </events>
+      <mixing all="true" />
+    </buffalo>
+
+    <lama path="gfx\Spine\characters\lama" json="lama.json" scale="0.26" mirror="true" >
+      <settings>
+        <walk_point for_speed="30" />
+        <walk_point_02 for_speed="50" />
+        <jump_up time_scale="2.5" />
+      </settings>
+      <events>
+        <event name="jump" frame="10" />
+      </events>
+      <mixing all="true" />
+    </lama>
+
+    <larva path="gfx\Spine\characters\larva" json="larva.json" scale="0.22" time_scale="1" mirror="true" >
+      <mixing>
+        <mix from="walk_point" to="climb_01_point" />
+        <mix from="walk_point" to="main" />
+        <mix from="walk_point" to="main_02" />
+        <mix to="walk_point" from="main" />
+        <mix to="walk_point" from="main_02" />
+      </mixing>
+      <events>
+        <event name="attack" frame="23" />
+      </events>
+      <settings>
+        <walk_point for_speed="40"/>
+        <climb_01_point for_speed="40"/>
+        <climb_02_point for_speed="60"/>
+      </settings>
+    </larva>
+
+    <flag path="gfx\Spine\buildings\flag" json="skeleton.json" scale="0.61"/>
+
+    <frostling_camp path="gfx\Spine\buildings\Frostling_camp" json="snow_camp.json" scale="0.46">
+      <mixing all="true" />
+    </frostling_camp>
+
+    <ice_knight path="gfx\Spine\characters\Frostlings" json="ice_knight.json" scale="0.15" time_scale="1" mirror="true" >
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="27" for="attack"/>
+        <event name="attack" frame="45" for="attack_02"/>
+      </events>
+      <settings>
+        <walk for_speed="10"/>
+      </settings>
+    </ice_knight>
+
+    <snow_archer_main path="gfx\Spine\characters\Frostlings" json="snowflake_archer_main.json" scale="0.19" time_scale="1" >
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="41" />
+      </events>
+    </snow_archer_main>
+
+    <snow_archer_prof path="gfx\Spine\characters\Frostlings" json="snowflake_archer_prof.json" scale="0.19" time_scale="1" >
+      <mixing all="true" />
+      <settings>
+        <run_point for_speed="50"/>
+        <run_point2 for_speed="50"/>
+        <run_point3 for_speed="50"/>
+        <climb_down_point for_speed="35"/>
+        <climb_up_point for_speed="30"/>
+      </settings>
+    </snow_archer_prof>
+
+    <plant1 path="gfx\Spine\environment\plant1" json="plant1.json" scale="0.6">
+      <mixing all="true"/>
+    </plant1>
+    <plant2 path="gfx\Spine\environment\plant2" json="plant2.json" scale="0.6">
+      <mixing all="true"/>
+    </plant2>
+
+
+    <menu_twit_face path="gfx\Spine\interface\twit_face" json="twitter_facebook.json" scale="1">
+      <mixing all="true" />
+    </menu_twit_face>
+
+    <menu_goblin path="gfx\Spine\interface\exit" json="gobl_with_tabl.json" scale="1">
+      <mixing all="true" />
+    </menu_goblin>
+
+    <main_menu path="gfx\Spine\interface\main_menu" json="main_menu.json" scale="1">
+      <mixing all="false" />
+    </main_menu>
+
+    <chicken path="gfx\Spine\characters\chicken" json="chicken.json" scale="0.26" mirror="true" >
+      <settings>
+        <walk_run for_speed="30" />
+        <fly time_scale="2" />
+      </settings>
+      <mixing all="true" />
+    </chicken>
+
+    <tree1 path="gfx\Spine\environment\tree1" json="tree.json" scale="0.48">
+      <mixing all="true" time="0.2f" />
+    </tree1>
+
+    <tree2 path="gfx\Spine\environment\tree2" json="tree2.json" scale="0.53">
+      <mixing all="true" time="0.2f" />
+    </tree2>
+
+    <tree3 path="gfx\Spine\environment\tree3" json="tree.json" scale="0.6">
+      <mixing all="true" time="0.2f" />
+    </tree3>
+
+    <tree4 path="gfx\Spine\environment\tree4" json="tree4.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </tree4>
+
+    <tree5 path="gfx\Spine\environment\bush" json="bush.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </tree5>
+
+
+    <tree_wint path="gfx\Spine\environment\tree_wint" json="tree1_wint.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </tree_wint>
+
+    <imp path="gfx\Spine\characters\imp" json="imp.json" scale="0.38" time_scale="1.3" mirror="true">
+      <mixing all="true" />
+    </imp>
+
+    <wheat path="gfx\Spine\environment\wheat" json="wheat.json" scale="0.4">
+      <mixing all="true" />
+    </wheat>
+
+    <cactus1 path="gfx\Spine\environment\cactus" json="cactus_01.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </cactus1>
+    <cactus2 path="gfx\Spine\environment\cactus" json="cactus_02.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </cactus2>
+    <cactus3 path="gfx\Spine\environment\cactus" json="cactus_03.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </cactus3>
+
+    <tree_palm path="gfx\Spine\environment\palm" json="palm_01.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </tree_palm>
+
+    <tree_palm2 path="gfx\Spine\environment\palm" json="palm_02.json" scale="0.61">
+      <mixing all="true" time="0.2f" />
+    </tree_palm2>
+
+    <totem path="gfx\Spine\buildings\totem" json="totem.json" scale="0.5">
+      <mixing all="true" />
+    </totem>
+
+    <shop path="gfx\Spine\buildings\shop" json="shop.json" scale="0.45">
+      <mixing all="true" />
+    </shop>
+
+    <goblins_camp path="gfx\Spine\buildings\goblin_camp" json="goblin_camp.json" scale="0.64">
+      <mixing all="true" />
+    </goblins_camp>
+
+    <beholder path="gfx\Spine\characters\Beholder" json="Beholder.json" scale="0.24" time_scale="1.2" mirror="true">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="29" />
+      </events>
+    </beholder>
+
+    <dwarf_back path="gfx\Spine\characters\dwarf" json="dwarf_back.json" scale="0.24" time_scale="1.2">
+      <mixing all="true" />
+      <settings>
+        <ladder_climb_end_point time_scale="1.5"/>
+        <rock-climber for_speed="20"/>
+        <ladder_climb for_speed="45"/>
+        <rock-climber_down for_speed="20"/>
+        <ladder_climb_down for_speed="45"/>
+      </settings>
+    </dwarf_back>
+
+    <dwarf_main path="gfx\Spine\characters\dwarf" json="dwarf_main.json" scale="0.24" time_scale="1.2">
+      <mixing all="true" />
+      <settings>
+        <archery time_scale="1.8" />
+      </settings>
+      <events>
+        <event name="load" frame="10" />
+        <event name="attack" frame="55" for="archery" />
+        <event name="attack" frame="55" for="archery_high" />
+        <event name="attack" frame="55" for="archery_down" />
+        <event name="attack" frame="90" for="archery_heavy" />
+
+        <event name="gun_reload" frame="50" for="gun_shoot" />
+        <event name="gun_reload" frame="50" for="gun_shoot_down" />
+        <event name="gun_reload" frame="50" for="gun_shoot_high" />
+        <event name="gun_reload" frame="50" for="rifle_shoot" />
+        <event name="gun_reload" frame="50" for="rifle_shoot_down" />
+        <event name="gun_reload" frame="50" for="rifle_shoot_high" />
+      </events>
+    </dwarf_main>
+
+    <dwarf path="gfx\Spine\characters\dwarf" json="dwarf_prof.json" scale="0.24" time_scale="1.2">
+      <mixing all="true" />
+      <settings>
+        <!--<rock-climber_down for_speed="20" />
+        <rock-climber for_speed="20" />-->
+        <run for_speed="70" />
+        <run_to_battle for_speed="70" />
+        <walk for_speed="40" />
+        <walk_pistol for_speed="40" />
+        <walk_rifle for_speed="40" />
+
+        <run_attack_pistol for_speed="70" />
+        <run_attack_rifle for_speed="70" />
+        <escape_pistol for_speed="70" />
+        <escape_rifle for_speed="70" />
+
+        <walk_02 for_speed="40" />
+        <walk_03 for_speed="40" />
+        <walk_carry for_speed="35" />
+        <walk_happy for_speed="40" />
+        <walk_sad for_speed="35" />
+        <jump time_scale="1.7" />
+        <attack_02_sword_dagger time_scale="1.4" />
+        <attack_03_sword time_scale="1.4" />
+        <attack_sword time_scale="1.4" />
+      </settings>
+      <events>
+        <event name="eff" frame="17" />
+        <!--<event name="attack" frame="20" for="attack_02_sword_dagger"/>-->
+
+        <event name="attack" frame="22" for="attack_spear"/>
+
+
+        <event name="attack" frame="10" for="attack_04_dagger"/>
+        <event name="attack" frame="28" for="attack_04_mining_heavy_weapon"/>
+        <event name="attack" frame="28" for="attack_upper"/>
+        <event name="attack" frame="30" for="attack_sword"/>
+        <event name="attack" frame="28" for="attack_jump"/>
+        <event name="attack" frame="22" for="attack_spear_02"/>
+        <event name="load" frame="10" for="attack_02_staff_cast"/>
+        <event name="attack" frame="42" for="attack_02_staff_cast"/>
+        <event name="attack" frame="28" for="attack_mining_down"/>
+        <event name="attack" frame="28" for="attack_mining_high"/>
+        <!--<event name="attack" frame="15" for="attack_mining_with_dagger"/>-->
+        <event name="fall" frame="50" for="death"/>
+        <event name="jump" frame="25" for="jump" />
+        <event name="take_fish_pole" frame="22" for="fishing"/>
+        <event name="step" frame="3" for="run"/>
+        <event name="step" frame="18" for="run"/>
+        <event name="step" frame="3" for="run_to_battle"/>
+        <event name="step" frame="18" for="run_to_battle"/>
+        <event name="step" frame="3" for="runaway"/>
+        <event name="step" frame="18" for="runaway"/>
+        <event name="step" frame="3" for="walk"/>
+        <event name="step" frame="19" for="walk"/>
+        <event name="step" frame="3" for="walk_carry"/>
+        <event name="step" frame="24" for="walk_carry"/>
+        <event name="step" frame="3" for="walk_sad"/>
+        <event name="step" frame="24" for="walk_sad"/>
+        <event name="step" frame="3" for="walk_happy"/>
+        <event name="step" frame="19" for="walk_happy"/>
+
+        <event name="step" frame="4" for="walk_03"/>
+        <event name="step" frame="22" for="walk_03"/>
+        <event name="step" frame="2" for="walk_02"/>
+        <event name="step" frame="23" for="walk_02"/>
+
+        <event name="attack" frame="16" for="crafting_short"/>
+        <event name="attack" frame="16" for="crafting_long"/>
+        <event name="attack" frame="50" for="crafting_long"/>
+        <event name="attack" frame="60" for="crafting_long"/>
+        <event name="attack" frame="86" for="crafting_long"/>
+        <event name="attack" frame="96" for="crafting_long"/>
+        <event name="attack" frame="20" for="crafting_cyclic"/>
+        <event name="attack" frame="30" for="crafting_cyclic"/>
+        <event name="attack" frame="56" for="crafting_cyclic"/>
+        <event name="attack" frame="67" for="crafting_cyclic"/>
+        <event name="step" frame="30" for="sweem"/>
+        <event name="attack" frame="32" for="water_gather"/>
+
+        <event name="soul" frame="75"/>
+        <event name="fall" frame="40" for="sliping"/>
+      </events>
+    </dwarf>
+
+    <ice_beast path="gfx\Spine\characters\ice_beast" json="ice_beast.json" scale="0.33" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="10" />
+        <jump time_scale="1.5" />
+      </settings>
+      <events>
+        <event name="eff" frame="17" />
+        <event name="attack" frame="26" />
+      </events>
+    </ice_beast>
+
+    <mummy path="gfx\Spine\characters\mummy" json="mummy.json" scale="0.31" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="18" />
+        <jump time_scale="2" />
+      </settings>
+      <events>
+        <event name="eff" frame="25" />
+        <event name="attack" frame="30" />
+        <event name="jump" frame="19" />
+      </events>
+    </mummy>
+
+    <mummy_boss path="gfx\Spine\characters\king_mummy" json="king_mummy.json" scale="0.37" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="18" />
+        <jump time_scale="2" />
+      </settings>
+      <events>
+        <event name="eff" frame="25" />
+        <event name="attack" frame="35" />
+        <event name="jump" frame="34" />
+      </events>
+    </mummy_boss>
+
+    <tick path="gfx\Spine\characters\tick" json="tick.json" scale="0.26" mirror="true">
+      <mixing all="true" />
+      <events>
+        <event name="eff" frame="15" />
+        <event name="attack" frame="20" />
+      </events>
+    </tick>
+
+    <snail path="gfx\Spine\characters\snail" json="snail.json" scale="0.26" mirror="true">
+      <mixing all="true" />
+      <events>
+        <event name="b" frame="28" />
+        <event name="e" frame="55" />
+      </events>
+    </snail>
+
+    <zombie_boss path="gfx\Spine\characters\big_zombie" json="big_zombie.json" scale="0.23" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk for_speed="18" />
+        <jump time_scale="2" />
+      </settings>
+      <events>
+        <event name="eff" frame="15" />
+        <!--<event name="attack" frame="20" />-->
+        <!--<event name="attack" frame="33" />-->
+        <!--<event name="jump" frame="34" />-->
+        <event name="step" frame="5" />
+        <event name="step" frame="49"/>
+      </events>
+    </zombie_boss>
+
+    <ice_lizard path="gfx\Spine\characters\ice_lizard" json="ice_lizard.json" scale="0.26" mirror="true">
+      <mixing all="true" />
+      <settings>
+        <walk_run for_speed="30" />
+        <fly time_scale="2" />
+      </settings>
+    </ice_lizard>
+
+    <skeleton_boss path="gfx\Spine\characters\big_skeleton" json="big_skeleton.json" scale="0.25" mirror="true">
+      <mixing all="true"/>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="36" />
+        <event name="jump" frame="30" />
+        <event name="step" frame="5" />
+        <event name="step" frame="34"/>
+      </events>
+      <settings>
+        <walk for_speed="30" />
+        <jump time_scale="2" />
+      </settings>
+    </skeleton_boss>
+
+    <black_fluffy path="gfx\Spine\characters\black_fluffy" json="black_fluffy.json" scale="0.3" offset="0, -90">
+      <mixing all="true" />
+      <events>
+        <event name="eff" frame="30" />
+        <event name="attack" frame="40" />
+      </events>
+    </black_fluffy>
+
+    <skeleton path="gfx\Spine\characters\skeleton" json="skeleton.json" scale="0.3" mirror="true" >
+      <mixing all="true"/>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="18" />
+        <event name="jump" frame="30" />
+        <event name="step" frame="5" />
+        <event name="step" frame="34"/>
+      </events>
+      <settings>
+        <walk for_speed="27" />
+        <walk2 for_speed="27" />
+        <walk3 for_speed="27" />
+        <walk4 for_speed="27" />
+        <jump time_scale="2" />
+        <attack time_scale="1.2" />
+      </settings>
+    </skeleton>
+
+    <shield_skeleton path="gfx\Spine\characters\skeleton" json="shield_skeleton.json" scale="0.36" mirror="true" >
+      <mixing all="true"/>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="18" />
+        <event name="jump" frame="30" />
+        <event name="step" frame="5" />
+        <event name="step" frame="34"/>
+      </events>
+      <settings>
+        <walk for_speed="27" />
+        <walk2 for_speed="27" />
+        <walk3 for_speed="27" />
+        <walk4 for_speed="27" />
+        <jump time_scale="2" />
+        <attack time_scale="1.2" />
+      </settings>
+    </shield_skeleton>
+
+    <builder_skeleton path="gfx\Spine\characters\skeleton" json="builder_skeleton.json" scale="0.3" mirror="true" >
+      <mixing all="true"/>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="18" />
+        <event name="jump" frame="30" />
+        <event name="step" frame="5" />
+        <event name="step" frame="34"/>
+        <event name="build" frame="34" for="build"/>
+      </events>
+      <settings>
+        <walk for_speed="27" />
+        <walk2 for_speed="27" />
+        <walk3 for_speed="27" />
+        <walk4 for_speed="27" />
+        <jump time_scale="2" />
+        <attack time_scale="1.2" />
+      </settings>
+    </builder_skeleton>
+
+    <yeti_boss path="gfx\Spine\characters\big_yetti" json="big_yetti.json" scale="0.25" >
+      <mixing all="true"/>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="18" for="attack"/>
+        <event name="attack" frame="15" for="kick"/>
+        <event name="jump" frame="26" />
+      </events>
+      <settings>
+        <walk for_speed="30" />
+      </settings>
+    </yeti_boss>
+
+    <dragon_egg path="gfx\Spine\characters\dragon_egg" json="dragon_egg.json" scale="0.3" >
+      <mixing all="true" />
+    </dragon_egg>
+
+    <beetle path="gfx\Spine\characters\red_tail_bug" json="red_tail_bug.json" scale="0.23" mirror="true" >
+      <settings>
+        <walk for_speed="40" />
+        <jump time_scale="2" />
+      </settings>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="15" />
+        <event name="jump" frame="25" />
+      </events>
+      <mixing all="true" />
+    </beetle>
+
+
+    <shaman path="gfx\Spine\characters\shaman" json="goblin_shaman.json" scale="0.3" mirror="true" >
+      <mixing all="true" />
+    </shaman>
+
+    <shaman_move path="gfx\Spine\characters\shaman" json="goblin_shaman_walk.json" scale="0.3" mirror="true" >
+      <settings>
+        <walk for_speed="15" />
+      </settings>
+    </shaman_move>
+
+    <shaman_ad path="gfx\Spine\characters\shaman" json="shaman_attack_death.json" scale="0.3" mirror="true" >
+      <mixing all="true" />
+    </shaman_ad>
+
+
+    <chick path="gfx\Spine\characters\blue_chick" json="blue_chick_walk_run_main_fly.json" scale="0.2" mirror="true" >
+      <settings>
+        <walk_run for_speed="30" />
+        <fly time_scale="2" />
+      </settings>
+      <mixing all="true" />
+    </chick>
+
+    <goblin_waj path="gfx\Spine\characters\goblin" json="goblin_walk_attack_jump.json" scale="0.1">
+      <settings>
+        <walk for_speed="23"/>
+        <jump time_scale="2" />
+      </settings>
+      <events>
+        <event name="eff" frame="10" />
+        <event name="attack" frame="17" />
+        <event name="jump" frame="25" />
+      </events>
+      <mixing all="true" />
+    </goblin_waj>
+    <goblin_swim path="gfx\Spine\characters\goblin" json="goblin_swim.json" scale="0.1" time_scale="1" />
+    <goblin_back path="gfx\Spine\characters\goblin" json="goblin_back.json" scale="0.1" for_speed="10">
+      <settings>
+        <on_ladder for_speed="25"/>
+        <on_ladder_down for_speed="25"/>
+      </settings>
+    </goblin_back>
+    <goblin_main path="gfx\Spine\characters\goblin" json="goblin_main.json" scale="0.1" time_scale="1" />
+
+    <worm path="gfx\Spine\characters\worm" json="worm.json" scale="0.25" for_speed="96"/>
+    <worm_main path="gfx\Spine\characters\worm\worm_main" json="worm_main.json" scale="0.3" for_speed="96"/>
+
+    <!--<little_dragon path="gfx\Spine\characters\little_dragon\main" json="little_dragon_main.json" scale="0.25" mirror="true">
+      <mixing all="true" />
+    </little_dragon>
+    <little_dragon1 path="gfx\Spine\characters\little_dragon\walk_fly" json="little_dragon_fly.json" scale="0.25" mirror="true">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="15" />
+        <event name="flap" frame="5" />
+        <event name="flap" frame="21" />
+      </events>
+    </little_dragon1>
+    <little_dragon2 path="gfx\Spine\characters\little_dragon\walk_fly" json="little_dragon_walk.json" scale="0.25" mirror="true"/>-->
+
+    <little_dragon_new path="gfx\Spine\characters\little_dragon_02" json="little_dragon_fly.json" scale="0.25" mirror="true">
+      <mixing all="true" />
+      <events>
+        <event name="attack" frame="15" />
+        <event name="flap" frame="5" />
+        <event name="flap" frame="21" />
+      </events>
+    </little_dragon_new>
+
+
+    <ghost path="gfx\Spine\characters\ghost" json="ghost.json" scale="0.3" mirror="true">
+      <mixing all="true" />
+    </ghost>
+
+    <boar path="gfx\Spine\characters\boar" json="boar_walk_main_jump.json" scale="0.3" offset="-90,0" mirror="true" >
+      <settings>
+        <walk for_speed="25" />
+        <jump_up time_scale="2.5" />
+      </settings>
+      <events>
+        <event name="jump" frame="24" />
+        <event name="attack" frame="22" />
+      </events>
+      <mixing all="true" />
+    </boar>
+
+    <yeti_main path="gfx\Spine\characters\yeti" json="yetti_main_main_fist.json" scale="0.25" >
+      <mixing all="true" />
+    </yeti_main>
+    <yeti path="gfx\Spine\characters\yeti" json="yetti_walk_jump_attack.json" scale="0.25">
+      <mixing all="true" />
+      <settings>
+        <!--<attack2 offset="-90,0" />-->
+        <walk for_speed="45" />
+      </settings>
+      <events>
+        <event name="jump" frame="33" />
+        <event name="attack" frame="12" />
+      </events>
+    </yeti>
+
+    <spider_nest path="gfx\Spine\buildings\spider_nest" json="spider_nest.json" scale="0.5"/>
+
+
+
+
+  </animations>
+</root>

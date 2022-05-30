@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="Trees_0" border="1">
+    <list name="Trees_0" size="512|512" count="41">
+        <image path="gfx\Spine\environment\tree_swamp\krona_high.png" x="0" y="0" w="111" h="81" />
+        <image path="gfx\Spine\environment\tree_swamp\l6.png" x="112" y="0" w="89" h="78" />
+        <image path="gfx\Spine\environment\tree_swamp\l7.png" x="202" y="0" w="83" h="78" />
+        <image path="gfx\Spine\environment\tree_swamp\l3.png" x="286" y="0" w="81" h="78" />
+        <image path="gfx\Spine\environment\tree_swamp\l1.png" x="368" y="0" w="81" h="78" />
+		
+        <image path="gfx\Spine\environment\tree_swamp1\stvol_2.png" x="0" y="82" w="44" h="120" />
+		
+        <!--<image path="gfx\Spine\environment\tree_swamp1\stvol_2.png" x="0" y="203" w="44" h="119" />-->
+        <image path="gfx\Spine\environment\tree_swamp1\stvol_1.png" x="0" y="323" w="44" h="113" />
+        <image path="gfx\Spine\environment\tree_swamp2\stvol_1.png" x="45" y="82" w="44" h="113" />
+        <image path="gfx\Spine\environment\tree_swamp\l5.png" x="90" y="82" w="72" h="68" />
+        <image path="gfx\Spine\environment\tree_swamp\l8.png" x="163" y="82" w="71" h="65" />
+		
+        <image path="gfx\Spine\environment\tree_swamp\stvol_ground.png" x="45" y="196" w="44" h="104" />
+		<image path="gfx\Spine\environment\tree_swamp\stvol_ground2.png" x="45" y="196" w="44" h="104" />
+		
+		
+        <image path="gfx\Spine\environment\tree_swamp2\stvol_2.png" x="45" y="301" w="44" h="95" />
+        <image path="gfx\Spine\environment\tree_swamp\v1_r.png" x="235" y="82" w="64" h="65" />
+        <image path="gfx\Spine\environment\tree_swamp\v3_r.png" x="450" y="0" w="62" h="67" />
+        <image path="gfx\Spine\environment\tree_swamp\v6_r.png" x="300" y="82" w="68" h="61" />
+        <image path="gfx\Spine\environment\tree_swamp\l10.png" x="369" y="82" w="69" h="59" />
+        <image path="gfx\Spine\environment\tree_swamp\v2_l.png" x="439" y="82" w="65" h="60" />
+		
+		
+		
+        <image path="gfx\Spine\environment\tree_swamp3\krona.png" x="90" y="151" w="67" h="55" />
+		
+        <image path="gfx\Spine\environment\tree_swamp\l9.png" x="90" y="207" w="55" h="60" />
+		
+        <image path="gfx\Spine\environment\tree_swamp\stvol_1.png" x="0" y="437" w="44" h="73" />
+		<image path="gfx\Spine\environment\tree_swamp\stvol_2.png" x="0" y="437" w="44" h="73" />
+		<image path="gfx\Spine\environment\tree_swamp\stvol_krona.png" x="0" y="437" w="44" h="73" />
+		
+        <image path="gfx\Spine\environment\tree_swamp\v7_l.png" x="90" y="268" w="50" h="60" />
+        <image path="gfx\Spine\environment\tree_swamp\v5_r.png" x="90" y="329" w="56" h="46" />
+        <image path="gfx\Spine\environment\tree_swamp\l4.png" x="90" y="376" w="49" h="48" />
+		
+        <image path="gfx\Spine\environment\tree_swamp3\v2.png" x="90" y="425" w="53" h="44" />
+        <image path="gfx\Spine\environment\tree_swamp3\v9.png" x="90" y="470" w="59" h="38" />
+        <image path="gfx\Spine\environment\tree_swamp3\v11.png" x="158" y="151" w="59" h="38" />
+        <image path="gfx\Spine\environment\tree_swamp3\v1.png" x="158" y="190" w="52" h="43" />
+		
+        <image path="gfx\Spine\environment\tree_swamp\v4_l.png" x="218" y="151" w="64" h="34" />
+		
+        <image path="gfx\Spine\environment\tree_swamp3\v10.png" x="211" y="190" w="53" h="41" />
+        <image path="gfx\Spine\environment\tree_swamp3\v4.png" x="283" y="151" w="57" h="38" />
+        <image path="gfx\Spine\environment\tree_swamp3\v3.png" x="341" y="151" w="57" h="38" />
+        <image path="gfx\Spine\environment\tree_swamp3\v7.png" x="399" y="151" w="56" h="34" />
+        <image path="gfx\Spine\environment\tree_swamp3\v6.png" x="456" y="151" w="52" h="33" />
+		
+        <image path="gfx\Spine\environment\tree_swamp\l2.png" x="45" y="397" w="40" h="42" />
+		
+        <image path="gfx\Spine\environment\tree_swamp3\v8.png" x="158" y="234" w="48" h="34" />
+        <image path="gfx\Spine\environment\tree_swamp3\v5.png" x="158" y="269" w="51" h="29" />
+        <image path="gfx\Spine\environment\tree_swamp_2.png" x="45" y="440" w="32" h="32" />
+        <image path="gfx\Spine\environment\tree_swamp_1.png" x="45" y="473" w="32" h="32" />
+
+        <image path="gfx\Spine\environment\tree_swamp1_2.png" x="158" y="299" w="29" h="31" />
+        <image path="gfx\Spine\environment\tree_swamp1_1.png" x="188" y="299" w="21" h="30" />
+		
+		
+		
+        
+        
+        <image path="gfx\Spine\environment\tree_swamp5\stvol_1.png" x="0" y="203" w="44" h="119" />
+		<image path="gfx\Spine\environment\tree_swamp5\stvol_2.png" x="0" y="203" w="44" h="119" />
+        <image path="gfx\Spine\environment\tree_swamp5\stvol_ground2.png" x="0" y="323" w="44" h="113" />
+        <image path="gfx\Spine\environment\tree_swamp5\stvol_ground.png" x="45" y="82" w="44" h="113" />
+        
+        <image path="gfx\Spine\environment\tree_swamp5\stvol_krona.png" x="45" y="301" w="44" h="95" />
+		
+		
+        
+        <image path="gfx\Spine\environment\tree_swamp6\stvol_krona.png" x="0" y="82" w="44" h="120" />
+        <image path="gfx\Spine\environment\tree_swamp6\stvol_1.png" x="0" y="203" w="44" h="119" />
+		<image path="gfx\Spine\environment\tree_swamp6\stvol_2.png" x="0" y="203" w="44" h="119" />
+        <image path="gfx\Spine\environment\tree_swamp6\stvol_ground2.png" x="0" y="323" w="44" h="113" />
+        <image path="gfx\Spine\environment\tree_swamp6\stvol_ground.png" x="45" y="82" w="44" h="113" />
+        
+        
+    </list>
+	
+	<list name="Trees_1" size="512|512" count="41">
+        <image path="gfx\Spine\environment\tree_ork1\krona_high.png" x="0" y="0" w="111" h="81" />
+        <image path="gfx\Spine\environment\tree_ork1\l6.png" x="112" y="0" w="89" h="78" />
+        <image path="gfx\Spine\environment\tree_ork1\l7.png" x="202" y="0" w="83" h="78" />
+        <image path="gfx\Spine\environment\tree_ork1\l3.png" x="286" y="0" w="81" h="78" />
+        <image path="gfx\Spine\environment\tree_ork1\l1.png" x="368" y="0" w="81" h="78" />
+        <image path="gfx\Spine\environment\tree_ork1\stvol_1.png" x="0" y="82" w="44" h="120" />
+        <image path="gfx\Spine\environment\tree_ork1\stvol_2.png" x="0" y="203" w="44" h="119" />
+        <image path="gfx\Spine\environment\tree_ork1\stvol_ground2.png" x="0" y="323" w="44" h="113" />
+        <image path="gfx\Spine\environment\tree_ork1\stvol_ground.png" x="45" y="82" w="44" h="113" />
+        <image path="gfx\Spine\environment\tree_ork1\l5.png" x="90" y="82" w="72" h="68" />
+        <image path="gfx\Spine\environment\tree_ork1\l8.png" x="163" y="82" w="71" h="65" />
+        <image path="gfx\Spine\environment\tree_ork2\stvol_1.png" x="45" y="196" w="44" h="104" />
+        <image path="gfx\Spine\environment\tree_ork1\stvol_krona.png" x="45" y="301" w="44" h="95" />
+        <image path="gfx\Spine\environment\tree_ork1\v1_r.png" x="235" y="82" w="64" h="65" />
+        <image path="gfx\Spine\environment\tree_ork1\v3_r.png" x="450" y="0" w="62" h="67" />
+        <image path="gfx\Spine\environment\tree_ork1\v6_r.png" x="300" y="82" w="68" h="61" />
+        <image path="gfx\Spine\environment\tree_ork1\l10.png" x="369" y="82" w="69" h="59" />
+        <image path="gfx\Spine\environment\tree_ork1\v2_l.png" x="439" y="82" w="65" h="60" />
+        <image path="gfx\Spine\environment\tree_ork2\krona.png" x="90" y="151" w="67" h="55" />
+        <image path="gfx\Spine\environment\tree_ork1\l9.png" x="90" y="207" w="55" h="60" />
+        <image path="gfx\Spine\environment\tree_ork2\stvol_2.png" x="0" y="437" w="44" h="73" />
+        <image path="gfx\Spine\environment\tree_ork1\v7_l.png" x="90" y="268" w="50" h="60" />
+        <image path="gfx\Spine\environment\tree_ork1\v5_r.png" x="90" y="329" w="56" h="46" />
+        <image path="gfx\Spine\environment\tree_ork1\l4.png" x="90" y="376" w="49" h="48" />
+        <image path="gfx\Spine\environment\tree_ork2\v2.png" x="90" y="425" w="53" h="44" />
+        <image path="gfx\Spine\environment\tree_ork2\v9.png" x="90" y="470" w="59" h="38" />
+        <image path="gfx\Spine\environment\tree_ork2\v11.png" x="158" y="151" w="59" h="38" />
+        <image path="gfx\Spine\environment\tree_ork2\v1.png" x="158" y="190" w="52" h="43" />
+        <image path="gfx\Spine\environment\tree_ork1\v4_l.png" x="218" y="151" w="64" h="34" />
+        <image path="gfx\Spine\environment\tree_ork2\v10.png" x="211" y="190" w="53" h="41" />
+        <image path="gfx\Spine\environment\tree_ork2\v4.png" x="283" y="151" w="57" h="38" />
+        <image path="gfx\Spine\environment\tree_ork2\v3.png" x="341" y="151" w="57" h="38" />
+        <image path="gfx\Spine\environment\tree_ork2\v7.png" x="399" y="151" w="56" h="34" />
+        <image path="gfx\Spine\environment\tree_ork2\v6.png" x="456" y="151" w="52" h="33" />
+        <image path="gfx\Spine\environment\tree_ork1\l2.png" x="45" y="397" w="40" h="42" />
+        <image path="gfx\Spine\environment\tree_ork2\v8.png" x="158" y="234" w="48" h="34" />
+        <image path="gfx\Spine\environment\tree_ork2\v5.png" x="158" y="269" w="51" h="29" />
+        <image path="gfx\Spine\environment\tree_ork2_2.png" x="45" y="440" w="32" h="32" />
+        <image path="gfx\Spine\environment\tree_ork2_1.png" x="45" y="473" w="32" h="32" />
+        <image path="gfx\Spine\environment\tree_ork1_2.png" x="158" y="299" w="29" h="31" />
+        <image path="gfx\Spine\environment\tree_ork1_1.png" x="188" y="299" w="21" h="30" />
+    </list>
+</atlas>

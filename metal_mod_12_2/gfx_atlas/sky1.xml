@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="sky1" border="1">
+    <list name="SwampDaySky" size="1024|1024" count="1">
+        <image path="gfx\level_tiles\BG\SwampDaySky.png" x="0" y="0" w="960" h="640" />        
+    </list>
+	<list name="SwampSunsetSky" size="1024|1024" count="1">
+        <image path="gfx\level_tiles\BG\SwampSunsetSky.png" x="0" y="0" w="960" h="640" />        
+    </list>
+	
+	<list name="OrcLandsDaySky" size="1024|1024" count="1">
+        <image path="gfx\level_tiles\BG\OrcLandsDaySky.png" x="0" y="0" w="960" h="640" />        
+    </list>
+	
+	<list name="OrcLandsNigthSky" size="1024|1024" count="1">
+        <image path="gfx\level_tiles\BG\OrcLandsNigthSky.png" x="0" y="0" w="960" h="640" />        
+    </list>
+	
+	<list name="OrcLandsSunsetSky" size="1024|1024" count="1">
+        <image path="gfx\level_tiles\BG\OrcLandsSunsetSky.png" x="0" y="0" w="960" h="640" />        
+    </list>
+	
+	<list name="GrayClounds" size="1024|1024" count="3">
+        <image path="gfx\level_tiles\BG\swamp_cloud_day_1.png" x="0" y="150" w="334" h="74" />   
+		<image path="gfx\level_tiles\BG\swamp_cloud_day_2.png" x="0" y="290" w="615" h="198" />    
+		<image path="gfx\level_tiles\BG\swamp_cloud_day_3.png" x="0" y="0" w="568" h="157" />    		
+    </list>
+    
+	<list name="levelSwampDay" count="1" path="gfx\level_tiles\BG\levelSwampDay.png" />
+	<list name="levelOrcsLandDay" count="1" path="gfx\level_tiles\BG\levelOrcsLandDay.png" />
+	
+	<list name="levelSwampNigth" count="1" path="gfx\level_tiles\BG\levelSwampNigth.png" />
+	<list name="levelOrcsLandNigth" count="1" path="gfx\level_tiles\BG\levelOrcsLandNigth.png" />
+	
+	<list name="levelSwampSunset" count="1" path="gfx\level_tiles\BG\levelSwampSunset.png" />
+	<list name="levelOrcsLandSunset" count="1" path="gfx\level_tiles\BG\levelOrcsLandSunset.png" />
+	
+	<list name="levelIslandDay" count="1" path="gfx\level_tiles\BG\levelIslandDay.png" />
+	<list name="levelIslandNigth" count="1" path="gfx\level_tiles\BG\levelIslandNigth.png" />
+	<list name="levelIslandSunset" count="1" path="gfx\level_tiles\BG\levelIslandSunset.png" />
+	
+	<list name="LevelDiskWorldDay" count="1" path="gfx\level_tiles\BG\levelDiscWorldDay.png" />
+	<list name="LevelDiskWorldNigth" count="1" path="gfx\level_tiles\BG\levelDiscWorldNigth.png" />
+	<list name="LevelDiskWorldSunset" count="1" path="gfx\level_tiles\BG\levelDiscWorldSunset.png" />
+</atlas>

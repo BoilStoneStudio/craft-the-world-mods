@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="wandt" border="1">
+    <list name="wandt" size="1024|1024" count="22">
+        <image path="gfx\metalmod\trap_on_bord.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\trap_off_bord.png" x="101" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\trap_on.png" x="0" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\trap_off.png" x="101" y="101" w="100" h="100" />
+		
+		<image path="gfx\level_tiles\craft_tools\iron_spear.png" x="0" y="201" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\iron_spear.png" x="109" y="238" w="154" h="28" />
+		
+		<image path="gfx\level_tiles\craft_tools\pick\pick_cuprum.png" x="800" y="600" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\pick_cuprum.png" x="908" y="619" w="90" h="70" />
+		
+		<image path="gfx\level_tiles\craft_tools\axe\axe_cuprum.png" x="800" y="500" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\axe_cuprum.png" x="908" y="542" w="90" h="30" />
+		
+		
+		<image path="gfx\level_tiles\craft_tools\blue_spear.png" x="210" y="299" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\blue_spear.png" x="313" y="346" w="177" h="28" />
+		
+		<image path="gfx\level_tiles\craft_tools\pick\pick_blue.png" x="800" y="300" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\pick_blue.png" x="905" y="319" w="100" h="80" />
+		
+		<image path="gfx\level_tiles\craft_tools\axe\axe_blue.png" x="800" y="400" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\axe_blue.png" x="908" y="442" w="90" h="50" />
+		
+		<image path="gfx\level_tiles\craft_tools\blue_sword.png" x="312" y="397" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\blue_sword.png" x="426" y="424" w="110" h="45" />
+		
+		<image path="gfx\level_tiles\craft_tools\duo_axe.png" x="402" y="699" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\duo_axe" x="504" y="731" w="94" h="47" />
+		
+		
+        <image path="gfx\level_tiles\craft_tools\cuprum_spear.png" x="0" y="401" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\cuprum_spear.png" x="97" y="440" w="170" h="40" />	
+		
+		<image path="gfx\level_tiles\craft_tools\cuprum_sword.png" x="0" y="501" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\cuprum_sword.png" x="120" y="535" w="110" h="30" />	
+		
+		
+		<image path="gfx\metalmod\gateway_hatch.png" x="800" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\gateway_door.png" x="900" y="0" w="100" h="100" />
+		
+		<image path="gfx\metalmod\cell_cuprum.png" x="202" y="102" w="100" h="100" />
+		<image path="gfx\metalmod\cell_cuprum_down.png" x="303" y="101" w="100" h="100" />
+		
+		
+		<image path="gfx\level_tiles\craft_tools\electrypist\electrypist.png" x="301" y="200" w="100" h="100" />
+		<image path="gfx\Spine\characters\dwarf\weapon\electrypist.png" x="400" y="230" w="160" h="100" />
+		
+		<image path="gfx\Spine\characters\dwarf\electrypist\body1_glow.png" x="400" y="235" w="160" h="100" />
+        <image path="gfx\Spine\characters\dwarf\electrypist\body1.png" x="400" y="230" w="160" h="100" />
+		
+		<image path="gfx\ItemsNew\battery_energ.png" x="710" y="694" w="85" h="100" />
+		
+		<image path="gfx\metalmod\bomb.png" x="900" y="198" w="100" h="100" />
+		
+		
+		<image path="gfx\level_tiles\craft_tools\sword_shop.png" x="797" y="697" w="100" h="104" />
+		<image path="gfx\Spine\characters\dwarf\weapon\sword_shop.png" x="878" y="741" w="146" h="40" />
+		
+		<image path="gfx\level_tiles\craft_tools\bow\arbalet.png" x="703" y="100" w="97" h="98" />
+		<image path="gfx\Spine\characters\dwarf\weapon\arbalet.png" x="852" y="125" w="123" h="40" />
+	
+    </list>
+</atlas>

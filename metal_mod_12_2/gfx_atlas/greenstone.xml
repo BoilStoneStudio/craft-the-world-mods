@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="greenstone" border="1">
+    <list name="greenstone" size="1024|1024" count="22">
+        <image path="gfx\greenstone\hedge.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\monument.png" x="100" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_flag1.png" x="200" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_flag2.png" x="300" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_flag3.png" x="400" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\hill_gold.png" x="0" y="100" w="300" h="100" />
+		<image path="gfx\greenstone\green_stone.png" x="300" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\obsidian.png" x="400" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\arkenstone.png" x="500" y="100" w="100" h="100" />		
+    </list>
+	<list name="greenstone1" size="1024|1024" count="22">
+        <image path="gfx\greenstone\red_gold.png" x="0" y="0" w="341" h="682" />
+		<image path="gfx\greenstone\bone_wall.png" x="0" y="682" w="341" h="341" />
+		<image path="gfx\greenstone\scull_wall.png" x="341" y="0" w="341" h="341" />
+		<image path="gfx\greenstone\wood_stone.png" x="682" y="0" w="341" h="341" />
+		<image path="gfx\greenstone\map_round.png" x="341" y="341" w="682" h="682" />		
+    </list>
+	<list name="greenstone2" size="1024|1024" count="22">
+        <image path="gfx\greenstone\miner_shield.png" x="0" y="0" w="341" h="341" />
+		<image path="gfx\greenstone\woodc_11.png" x="341" y="0" w="341" h="341" />		
+		<image path="gfx\greenstone\woodc_12.png" x="682" y="0" w="341" h="341" />	
+		<image path="gfx\greenstone\stucco.png" x="341" y="341" w="341" h="341" />		
+		<image path="gfx\greenstone\wood_center.png" x="682" y="341" w="342" h="341" />
+		<image path="gfx\greenstone\banner_11.png" x="0" y="341" w="170" h="341" />
+		<image path="gfx\greenstone\banner_12.png" x="170" y="341" w="170" h="341" />
+		<image path="gfx\greenstone\banner_13.png" x="0" y="682" w="170" h="341" />
+		<image path="gfx\greenstone\wheat_wall.png" x="341" y="682" w="342" h="341" />
+		<image path="gfx\greenstone\cane_wall.png" x="682" y="682" w="342" h="341" />
+    </list>
+	<list name="greenstone3" size="1024|1024" count="22">
+        <image path="gfx\greenstone\tile_11.png" x="0" y="0" w="341" h="341" />
+		<image path="gfx\greenstone\tile_12.png" x="341" y="0" w="341" h="341" />
+		<image path="gfx\greenstone\tile_13.png" x="682" y="0" w="341" h="341" />
+		<image path="gfx\greenstone\gold_wall.png" x="0" y="341" w="341" h="341" />
+		<image path="gfx\greenstone\sign_round.png" x="341" y="341" w="341" h="341" />	
+		<image path="gfx\greenstone\stonew_11.png" x="0" y="682" w="341" h="341" />
+		<image path="gfx\greenstone\stonew_12.png" x="341" y="682" w="341" h="341" />
+		<image path="gfx\greenstone\window_1.png" x="682" y="341" w="341" h="341" />			
+    </list>
+	<list name="greenstone4" size="1024|1024" count="22">
+        <image path="gfx\greenstone\color_wall_1.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wall_2.png" x="100" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wall_3.png" x="200" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wall_4.png" x="300" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wall_5.png" x="400" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wall_6.png" x="500" y="0" w="300" h="100" />
+		<image path="gfx\greenstone\color_wood_1.png" x="600" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wood_2.png" x="700" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wood_3.png" x="800" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_wood_4.png" x="900" y="0" w="100" h="100" />
+		<image path="gfx\greenstone\color_rwood_1.png" x="800" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\color_rwood_2.png" x="900" y="100" w="100" h="100" />	
+		<image path="gfx\greenstone\wood_corner.png" x="0" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\plank_wall_1.png" x="100" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\plank_wall_2.png" x="200" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\log_wall.png" x="300" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\plank_iron.png" x="400" y="100" w="100" h="100" />
+		<image path="gfx\greenstone\plank_orange.png" x="500" y="100" w="300" h="100" />
+		<image path="gfx\greenstone\cube_wall_1.png" x="0" y="200" w="100" h="100" />
+		<image path="gfx\greenstone\cube_wall_2.png" x="100" y="200" w="100" h="100" />
+		<image path="gfx\greenstone\cube_wall_3.png" x="200" y="200" w="100" h="100" />
+		<image path="gfx\greenstone\grid_wall_1.png" x="300" y="200" w="100" h="100" />
+		<image path="gfx\greenstone\grid_wall_1.png" x="400" y="200" w="100" h="100" />		
+    </list>
+</atlas>

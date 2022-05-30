@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="ItemsNew1" border="1">
+    <list name="ItemsNew1" size="1024|1024" count="22">
+        <image path="gfx\ItemsNew\cane_plate1.png" x="600" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plate2.png" x="701" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plate3.png" x="802" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plate4.png" x="903" y="0" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_lu.png" x="600" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_u.png" x="701" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_ru.png" x="802" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_r.png" x="903" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_plat_l.png" x="903" y="202" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\cane_bord1.png" x="350" y="100" w="100" h="10" />
+		<image path="gfx\ItemsNew\cane_bord2.png" x="470" y="135" w="100" h="10" />
+		<image path="gfx\ItemsNew\cane_bord3.png" x="470" y="95" w="100" h="10" />
+		<image path="gfx\ItemsNew\cane_bord4.png" x="350" y="135" w="100" h="10" />
+		
+		<image path="gfx\ItemsNew\mushrum1.png" x="0" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrumb1.png" x="101" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrum2.png" x="202" y="0" w="80" h="78" />
+		<image path="gfx\ItemsNew\mushrum3.png" x="303" y="0" w="80" h="81" />
+		
+		<image path="gfx\ItemsNew\mushrum4.png" x="25" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrumb2.png" x="121" y="0" w="80" h="81" />
+		<image path="gfx\ItemsNew\mushrum5.png" x="222" y="0" w="80" h="78" />
+		<image path="gfx\ItemsNew\mushrum6.png" x="323" y="0" w="80" h="81" />
+		
+		
+		<image path="gfx\ItemsNew\roof_wheat_left.png" x="355" y="288" w="146" h="112" />
+		<image path="gfx\ItemsNew\roof_wheat_center1.png" x="502" y="288" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_wheat_center2.png" x="603" y="288" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_wheat_right.png" x="704" y="288" w="141" h="112" />
+		
+		<image path="gfx\ItemsNew\lead_wall1.png" x="0" y="201" w="100" h="100" />
+		<image path="gfx\ItemsNew\lead_wall2.png" x="0" y="302" w="100" h="100" />
+		<image path="gfx\ItemsNew\lead_wall3.png" x="101" y="201" w="100" h="100" />
+		<image path="gfx\ItemsNew\lead_wall4.png" x="101" y="302" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\lead_wall_prev.png" x="202" y="302" w="100" h="90" />
+		
+		<image path="gfx\ItemsNew\lead_bord1.png" x="202" y="210" w="100" h="21" />
+		<image path="gfx\ItemsNew\lead_bord2.png" x="202" y="232" w="100" h="21" />
+		<image path="gfx\ItemsNew\lead_bord3.png" x="202" y="257" w="100" h="21" />
+		<image path="gfx\ItemsNew\lead_bord4.png" x="202" y="279" w="100" h="21" />
+		
+		<image path="gfx\ItemsNew\cane_chair.png" x="0" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_table.png" x="101" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\cane_bed.png" x="202" y="101" w="130" h="100" />
+		
+		<image path="gfx\ItemsNew\food_fish.png" x="0" y="404" w="100" h="90" />
+		<image path="gfx\ItemsNew\food_meat.png" x="101" y="404" w="100" h="90" />
+		
+		
+		<image path="gfx\Spine\environment\rice\colos.png" x="32" y="500" w="64" h="100" />
+		<image path="gfx\Spine\environment\rice\colos2.png" x="135" y="515" w="45" h="85" />
+		<image path="gfx\Spine\environment\rice\colos3.png" x="237" y="540" w="21" h="60" />
+		
+		
+		<image path="gfx\ItemsNew\rice.png" x="750" y="205" w="100" h="70" />
+		<image path="gfx\ItemsNew\wh_rice.png" x="900" y="500" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\boil_rice.png" x="720" y="518" w="60" h="50" />
+		
+		<image path="gfx\ItemsNew\onion_dirt.png" x="400" y="500" w="100" h="100" />		
+		<image path="gfx\ItemsNew\onion.png" x="500" y="0" w="90" h="88" />
+		
+		<image path="gfx\ItemsNew\fish_onion.png" x="720" y="425" w="60" h="45" />
+		<image path="gfx\ItemsNew\meat_onion.png" x="810" y="420" w="75" h="54" />
+		
+		<image path="gfx\ItemsNew\potato.png" x="390" y="0" w="110" h="76" />
+		<image path="gfx\ItemsNew\potato_dirt.png" x="300" y="499" w="100" h="100" />	
+
+		<image path="gfx\Spine\environment\corn\colos.png" x="30" y="610" w="45" h="90" />	
+		<image path="gfx\Spine\environment\corn\colos2.png" x="130" y="625" w="44" h="74" />	
+		<image path="gfx\Spine\environment\corn\colos3.png" x="232" y="660" w="40" h="39" />
+
+		<image path="gfx\ItemsNew\water_eat.png" x="300" y="602" w="100" h="90" />
+		
+		<image path="gfx\ItemsNew\roof_metall_left.png" x="9" y="911" w="146" h="112" />
+		<image path="gfx\ItemsNew\roof_metall_center2.png" x="156" y="911" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_metall_center1.png" x="257" y="911" w="100" h="112" />
+		<image path="gfx\ItemsNew\roof_metall_right.png" x="358" y="911" w="146" h="112" />
+		
+		<image path="gfx\ItemsNew\stone_window.png" x="901" y="901" w="100" h="100" />
+		<image path="gfx\ItemsNew\nightstand.png" x="627" y="936" w="51" h="64" />
+		
+		<image path="gfx\ItemsNew\x_shield.png" x="901" y="800" w="100" h="100" />
+		<image path="gfx\particles\streetlight.png" x="805" y="795" w="100" h="100" />
+		
+		<image path="gfx\level_tiles\craft_obj\partofbear1.png" x="726" y="907" w="46" h="90" />
+		<image path="gfx\level_tiles\craft_obj\partofbear2.png" x="810" y="900" w="80" h="90" />
+		
+		<image path="gfx\ItemsNew\betonplate.png" x="402" y="601" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton.png" x="603" y="601" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate1.png" x="502" y="702" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate2.png" x="603" y="702" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate3.png" x="704" y="702" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate4.png" x="502" y="803" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate5.png" x="603" y="803" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plate6.png" x="704" y="803" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\beton_plat_lu.png" x="600" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_u.png" x="701" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_ru.png" x="802" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_r.png" x="903" y="101" w="100" h="100" />
+		<image path="gfx\ItemsNew\beton_plat_l.png" x="903" y="202" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\beton_bord1.png" x="805" y="702" w="100" h="10" />
+		<image path="gfx\ItemsNew\beton_bord2.png" x="905" y="702" w="100" h="10" />
+		<image path="gfx\ItemsNew\beton_bord3.png" x="805" y="732" w="100" h="10" />
+		<image path="gfx\ItemsNew\beton_bord4.png" x="905" y="732" w="100" h="10" />
+		
+		<image path="gfx\ItemsNew\stone_ladder.png" x="303" y="700" w="100" h="100" />
+		
+		<image path="gfx\ItemsNew\beton_cornel1.png" x="542" y="595" w="62" h="61" />
+		<image path="gfx\ItemsNew\beton_cornel.png" x="503" y="638" w="62" h="61" />
+		<image path="gfx\ItemsNew\beton_cornel3.png" x="440" y="800" w="62" h="61" />
+		<image path="gfx\ItemsNew\beton_cornel2.png" x="404" y="843" w="62" h="61" />
+
+    </list>
+</atlas>

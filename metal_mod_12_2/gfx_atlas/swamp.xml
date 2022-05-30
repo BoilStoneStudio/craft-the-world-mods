@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="swamp" border="1">
+    <list name="swamp1" size="1024|512" count="259">
+        
+        <image path="gfx\Spine\environment\bush\1krona.png" x="358" y="0" w="81" h="51" />
+        
+        <image path="gfx\Spine\environment\bush\1krona_back.png" x="358" y="167" w="75" h="51" />
+        
+        <image path="gfx\Spine\environment\bush\1left_leavs.png" x="294" y="332" w="59" h="59" />
+        
+        <image path="gfx\Spine\environment\bush\1right_leavs.png" x="440" y="56" w="58" h="59" />
+        
+        <image path="gfx\Spine\environment\bush\1centre_leavs.png" x="640" y="0" w="60" h="51" />
+        <image path="gfx\Spine\environment\bush\1centre_stvol.png" x="542" y="129" w="41" h="73" />
+       
+        <image path="gfx\Spine\environment\bush\1right_stvol.png" x="586" y="72" w="45" h="61" />
+        
+        <image path="gfx\Spine\environment\bush\1left_stvol.png" x="632" y="122" w="47" h="56" />
+        
+        <image path="gfx\Spine\environment\pos_bush.png" x="778" y="478" w="32" h="31" />
+        
+		
+		
+		
+		<image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_-2.png" x="0" y="0" w="121" h="85" />
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_hat.png" x="0" y="86" w="121" h="85" />
+        
+        <image path="gfx\Spine\environment\swamptree2\krona_high.png" x="0" y="256" w="100" h="78" />
+        
+		
+		
+        <image path="gfx\Spine\environment\swamptree1\krona_high.png" x="122" y="0" w="91" h="68" />
+        <image path="gfx\Spine\environment\swamptree1\l2.png" x="122" y="69" w="79" h="72" />
+        <image path="gfx\Spine\environment\swamptree1\l9.png" x="122" y="142" w="91" h="62" />
+        <image path="gfx\Spine\environment\swamptree1\l6.png" x="122" y="205" w="84" h="67" />
+        <image path="gfx\Spine\environment\swamptree2\l6.png" x="122" y="273" w="82" h="67" />
+        
+        <image path="gfx\Spine\environment\swamptree2\l9.png" x="122" y="418" w="87" h="62" />
+        <image path="gfx\Spine\environment\swamptree1\l10.png" x="214" y="0" w="79" h="61" />
+        <image path="gfx\Spine\environment\swamptree2\l10.png" x="214" y="62" w="74" h="62" />
+        <image path="gfx\Spine\environment\swamptree1\l4.png" x="214" y="125" w="70" h="65" />
+        <image path="gfx\Spine\environment\swamptree1\l3.png" x="214" y="191" w="71" h="64" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_body.png" x="214" y="256" w="77" h="58" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_tail.png" x="214" y="315" w="64" h="67" />
+        <image path="gfx\Spine\environment\swamptree2\l3.png" x="214" y="383" w="65" h="65" />
+        <image path="gfx\Spine\environment\swamptree2\l1.png" x="294" y="0" w="63" h="67" />
+        
+        <image path="gfx\Spine\environment\swamptree1\l5.png" x="214" y="449" w="65" h="62" />
+        <image path="gfx\Spine\environment\swamptree2\krona_back.png" x="358" y="52" w="69" h="57" />
+        <image path="gfx\Spine\environment\swamptree1\krona_back.png" x="358" y="110" w="70" h="56" />
+       
+        
+        <image path="gfx\Spine\environment\swamptree2\l5.png" x="294" y="144" w="62" h="61" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing2_a.png" x="294" y="206" w="55" h="66" />
+        <image path="gfx\Spine\environment\swamptree2\l4.png" x="294" y="273" w="62" h="58" />
+        
+        <image path="gfx\Spine\environment\swamptree1\l8.png" x="440" y="0" w="65" h="55" />
+        <image path="gfx\Spine\environment\swamptree1\l1.png" x="506" y="0" w="66" h="54" />
+        <image path="gfx\Spine\environment\swamptree1\stvol_2.png" x="82" y="411" w="35" h="100" />
+        
+        <image path="gfx\Spine\environment\swamptree1\stvol_1.png" x="294" y="392" w="35" h="98" />
+       
+        
+        <image path="gfx\Spine\environment\swamptree1\v1_r.png" x="440" y="176" w="58" h="58" />
+        <image path="gfx\Spine\environment\swamptree2\v1_r.png" x="440" y="235" w="58" h="57" />
+        <image path="gfx\Spine\environment\swamptree2\l8.png" x="440" y="293" w="60" h="54" />
+        <image path="gfx\Spine\environment\swamptree1\l6_b.png" x="573" y="0" w="66" h="49" />
+        <image path="gfx\Spine\environment\swamptree2\stvol_2.png" x="440" y="348" w="35" h="91" />
+        <image path="gfx\Spine\environment\swamptree1\l7.png" x="440" y="440" w="61" h="52" />
+        <image path="gfx\Spine\environment\swamptree2\stvol_1.png" x="506" y="55" w="35" h="90" />
+        <image path="gfx\Spine\environment\swamptree1\stvol_ground.png" x="506" y="146" w="35" h="90" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing6_b.png" x="542" y="55" w="43" h="73" />
+        
+        <image path="gfx\Spine\environment\swamptree2\l7.png" x="701" y="0" w="58" h="51" />
+        <image path="gfx\Spine\environment\swamptree2\stvol_ground.png" x="506" y="237" w="35" h="83" />
+        <image path="gfx\Spine\environment\swamptree1\stvol_krona.png" x="506" y="321" w="35" h="83" />
+        <image path="gfx\Spine\environment\swamptree2\l6_b.png" x="760" y="0" w="63" h="46" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing6_a.png" x="542" y="203" w="38" h="75" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing1_a.png" x="824" y="0" w="57" h="50" />
+        
+        <image path="gfx\Spine\environment\swamptree1\l5_b.png" x="882" y="0" w="54" h="51" />
+        
+        <image path="gfx\Spine\environment\swamptree2\stvol_krona.png" x="506" y="405" w="35" h="78" />
+        <image path="gfx\Spine\environment\swamptree1\v6_r.png" x="937" y="0" w="55" h="49" />
+        <image path="gfx\Spine\environment\swamptree2\v6_r.png" x="632" y="72" w="54" h="49" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing3_a.png" x="687" y="72" w="54" h="49" />
+        
+        <image path="gfx\Spine\environment\swamptree2\l5_b.png" x="680" y="122" w="52" h="50" />
+        <image path="gfx\Spine\environment\swamptree1\v3_r.png" x="632" y="179" w="47" h="55" />
+        <image path="gfx\Spine\environment\swamptree2\v2_l.png" x="733" y="122" w="51" h="50" />
+        <image path="gfx\Spine\environment\swamptree1\v2_l.png" x="785" y="122" w="51" h="50" />
+        <image path="gfx\Spine\environment\swamptree1\l3_b.png" x="742" y="72" w="55" h="46" />
+        <image path="gfx\Spine\environment\swamptree2\v3_r.png" x="632" y="235" w="46" h="54" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing5_a.png" x="798" y="72" w="63" h="38" />
+        
+        <image path="gfx\Spine\environment\swamptree2\l3_b.png" x="862" y="72" w="53" h="44" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing9_a.png" x="916" y="72" w="62" h="37" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing7_a.png" x="542" y="333" w="39" h="57" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing2_b.png" x="86" y="335" w="35" h="62" />
+        
+        <image path="gfx\Spine\environment\swamptree1\v7_l.png" x="586" y="243" w="42" h="49" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing9_b.png" x="901" y="122" w="57" h="36" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing8_a.png" x="959" y="122" w="57" h="36" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_neck_04.png" x="586" y="293" w="43" h="46" />
+        <image path="gfx\Spine\environment\swamptree2\v7_l.png" x="586" y="340" w="41" h="48" />
+        
+        
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing7_b.png" x="586" y="389" w="37" h="52" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing1_b.png" x="586" y="442" w="36" h="52" />
+        
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_head.png" x="680" y="344" w="49" h="36" />
+        <image path="gfx\Spine\environment\swamptree1_2.png" x="680" y="381" w="54" h="32" />
+        
+        <image path="gfx\Spine\environment\swamptree2\v5_r.png" x="979" y="72" w="45" h="38" />
+        <image path="gfx\Spine\environment\swamptree1\v5_r.png" x="632" y="344" w="45" h="38" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing8_b.png" x="680" y="414" w="50" h="34" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing3_b.png" x="632" y="383" w="37" h="44" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing4_b.png" x="929" y="173" w="52" h="30" />
+        
+        <image path="gfx\Spine\environment\swamptree2\l1_b.png" x="740" y="205" w="42" h="37" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing4_a.png" x="783" y="205" w="53" h="29" />
+        
+        
+        <image path="gfx\Spine\environment\swamptree2\v4_l.png" x="935" y="205" w="51" h="29" />
+        <image path="gfx\Spine\environment\swamptree1\v4_l.png" x="818" y="243" w="51" h="29" />
+        <image path="gfx\Spine\environment\swamptree2\l2.png" x="870" y="243" w="39" h="37" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_wing5_b.png" x="910" y="243" w="40" h="36" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg2_2.png" x="476" y="348" w="29" h="45" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg2_1.png" x="740" y="328" w="34" h="38" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg1_1.png" x="740" y="367" w="34" h="38" />
+		
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_leg2.png" x="993" y="0" w="28" h="46" />
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg1_2.png" x="330" y="392" w="27" h="46" />
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_leg1-2.png" x="330" y="439" w="27" h="46" />
+        
+        <image path="gfx\Spine\environment\swamptree2_2.png" x="982" y="173" w="37" h="31" />
+        
+        
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg4_2.png" x="987" y="205" w="28" h="37" />
+        
+        
+        <image path="gfx\Spine\environment\swamptree1_1.png" x="778" y="408" w="32" h="32" />
+		
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_leg3-2.png" x="778" y="441" w="28" h="36" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg3_2.png" x="824" y="310" w="26" h="37" />
+        
+        <image path="gfx\Spine\environment\swamptree2_1.png" x="851" y="310" w="29" h="32" />
+        
+        
+        <image path="gfx\Spine\environment\swamptree1\l1_b.png" x="0" y="490" w="48" h="18" />
+        
+        
+        
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_leg4.png" x="1001" y="243" w="23" h="34" />
+		
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_neck_03.png" x="506" y="484" w="29" h="26" />
+		
+       
+        
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_leg1-1.png" x="851" y="343" w="30" h="23" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg1_1.png" x="996" y="310" w="26" h="26" />
+        
+        
+        
+        <image path="gfx\Spine\characters\shamanmashroom\sham_main_mashroom_leg3-1.png" x="740" y="491" w="32" h="20" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_neck_02.png" x="912" y="343" w="32" h="19" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg4_1.png" x="824" y="489" w="26" h="22" />
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg2_2.png" x="719" y="449" w="20" h="28" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg1_2.png" x="851" y="421" w="20" h="28" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg2_1.png" x="878" y="424" w="19" h="26" />
+        
+        
+        
+       
+        <image path="gfx\Spine\characters\shamanmashroom\shaman_mashroom_leg3_1.png" x="917" y="389" w="20" h="22" />
+        
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_neck_01.png" x="824" y="55" w="26" h="16" />
+        
+        
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_tongue.png" x="86" y="398" w="35" h="11" />
+        
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_low_jaw.png" x="960" y="389" w="18" h="20" />
+        
+        
+        
+        
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg2_f2.png" x="822" y="111" w="25" h="9" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg2_f1.png" x="916" y="110" w="25" h="9" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg1_f2.png" x="942" y="110" w="25" h="9" />
+        <image path="gfx\Spine\characters\swamp_chicken\blue_chick_leg1_f1.png" x="979" y="111" w="25" h="9" />
+        
+        
+    </list>
+     <list name="swamp2" size="1024|512" count="259">
+        
+        
+		<image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_-2.png" x="0" y="0" w="121" h="85" />
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_hat.png" x="0" y="86" w="121" h="85" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg2_2.png" x="476" y="348" w="29" h="45" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_leg2.png" x="993" y="0" w="28" h="46" />
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg1_2.png" x="330" y="392" w="27" h="46" />
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_leg1-2.png" x="330" y="439" w="27" h="46" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg4_2.png" x="987" y="205" w="28" h="37" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_leg3-2.png" x="778" y="441" w="28" h="36" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg3_2.png" x="824" y="310" w="26" h="37" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_leg4.png" x="1001" y="243" w="23" h="34" />
+		
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_leg1-1.png" x="851" y="343" w="30" h="23" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg1_1.png" x="996" y="310" w="26" h="26" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\sham_main_mashroom_leg3-1.png" x="740" y="491" w="32" h="20" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg4_1.png" x="824" y="489" w="26" h="22" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg2_1.png" x="878" y="424" w="19" h="26" />
+        
+        <image path="gfx\Spine\characters\shamanmashroom1\shaman_mashroom_leg3_1.png" x="917" y="389" w="20" h="22" />
+        
+    </list>
+</atlas>

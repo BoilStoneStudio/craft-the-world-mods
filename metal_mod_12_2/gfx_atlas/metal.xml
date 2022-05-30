@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="metal" border="1">
+    <list name="metal1" size="1024|1024" count="22">
+        <image path="gfx\metalmod\plate1.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\plate2.png" x="0" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\plate3.png" x="0" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\plate4.png" x="0" y="303" w="100" h="100" />
+		
+		<image path="gfx\metalmod\stairs1.png" x="101" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\stairs2.png" x="101" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\stairs3.png" x="101" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\stairs4.png" x="101" y="303" w="100" h="100" />
+		
+		<image path="gfx\metalmod\fence_iron1.png" x="505" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron2.png" x="606" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron3.png" x="707" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron4.png" x="808" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\fence_iron_prev.png" x="924" y="924" w="100" h="100" />
+		
+		<image path="gfx\metalmod\stair_wood.png" x="202" y="202" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\little_bridge1.png" x="0" y="606" w="100" h="50" />
+		<image path="gfx\metalmod\little_bridge2.png" x="101" y="606" w="100" h="50" />
+		<image path="gfx\metalmod\little_bridge3.png" x="101" y="505" w="100" h="50" />
+		
+		<image path="gfx\metalmod\little_bridge_prev.png" x="0" y="606" w="100" h="24" />
+		
+		
+		<image path="gfx\metalmod\bridge1.png" x="505" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\bridge2.png" x="606" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\bridge3.png" x="707" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\bridge4.png" x="808" y="0" w="100" h="100" />
+		
+		<image path="gfx\metalmod\bridg4.png" x="0" y="606" w="100" h="21" />
+		
+		<image path="gfx\metalmod\collumn_iron1.png" x="404" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\collumn_iron21.png" x="404" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\collumn_iron22.png" x="404" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\collumn_iron23.png" x="404" y="303" w="100" h="100" />
+		
+		<image path="gfx\metalmod\cornel.png" x="0" y="404" w="100" h="100" />
+		<image path="gfx\metalmod\roof.png" x="101" y="404" w="100" h="100" />
+		<image path="gfx\metalmod\side.png" x="0" y="505" w="100" h="100" />
+		<image path="gfx\metalmod\cornelb.png" x="202" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\side1.png" x="202" y="101" w="100" h="100" />
+		
+		<image path="gfx\metalmod\table_iron.png" x="302" y="600" w="100" h="100" />
+		
+		<image path="gfx\metalmod\chair_iron.png" x="303" y="501" w="100" h="99" />
+		
+		<image path="gfx\particles\stonetorch1.png" x="35" y="921" w="27" h="56" />
+		<image path="gfx\particles\stonetorch2.png" x="135" y="921" w="27" h="56" />
+		<image path="gfx\particles\stonetorch3.png" x="235" y="921" w="27" h="56" />
+		
+		<image path="gfx\metalmod\fence_wood1.png" x="0" y="801" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood2.png" x="101" y="801" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood3.png" x="202" y="801" w="100" h="100" />
+		<image path="gfx\metalmod\fence_wood4.png" x="303" y="801" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\balcony.png" x="404" y="404" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\gate_closed.png" x="400" y="500" w="50" h="100" />
+		<image path="gfx\metalmod\gate_rame.png" x="202" y="500" w="50" h="100" />
+		<image path="gfx\metalmod\gate_opened.png" x="202" y="601" w="100" h="98" />
+		
+		<image path="gfx\metalmod\iron_window.png" x="303" y="0" w="100" h="100" />
+		
+		<image path="gfx\metalmod\posion.png" x="336" y="448" w="26" h="52" />
+		
+		<image path="gfx\metalmod\medieval_walls1.png" x="505" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls2.png" x="606" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls3.png" x="707" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls4.png" x="808" y="201" w="100" h="100" />
+		<image path="gfx\metalmod\medieval_walls5.png" x="909" y="201" w="100" h="100" />
+		
+		<image path="gfx\metalmod\ceramic_tale1.png" x="0" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\ceramic_tale2.png" x="101" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\ceramic_tale3.png" x="202" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\ceramic_tale4.png" x="303" y="700" w="100" h="100" />
+		
+		
+		
+		<image path="gfx\metalmod\gate_iron_closed.png" x="303" y="101" w="100" h="100" />
+		<image path="gfx\metalmod\gate_iron_opened.png" x="303" y="202" w="100" h="100" />
+		
+		<image path="gfx\metalmod\gate_iron_1closed.png" x="505" y="202" w="100" h="100" />
+		<image path="gfx\metalmod\gate_iron_1opened.png" x="505" y="303" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\gate_water.png" x="300" y="900" w="100" h="100" />
+		
+		<image path="gfx\metalmod\gear.png" x="400" y="907" w="100" h="90" />
+		
+		<image path="gfx\metalmod\scarecrow_pig.png" x="402" y="604" w="100" h="96" />
+		<image path="gfx\metalmod\scarecrow_skeleton.png" x="503" y="604" w="100" h="96" />
+		
+		
+		<image path="gfx\metalmod\big_window3.png" x="909" y="0" w="100" h="200" />
+		
+		<image path="gfx\metalmod\big_window01.png" x="909" y="0" w="100" h="100" />
+		<image path="gfx\metalmod\big_window02.png" x="909" y="100" w="100" h="100" />
+		
+		<image path="gfx\metalmod\tube_ud.png" x="600" y="302" w="100" h="100" />
+		<image path="gfx\metalmod\tube_lr.png" x="701" y="302" w="100" h="100" />
+		<image path="gfx\metalmod\tube_lu.png" x="802" y="302" w="100" h="100" />
+		<image path="gfx\metalmod\tube_ru.png" x="903" y="302" w="100" h="100" />
+		<image path="gfx\metalmod\tube_ld.png" x="600" y="403" w="100" h="100" />
+		<image path="gfx\metalmod\tube_rd.png" x="701" y="403" w="100" h="100" />
+		<image path="gfx\metalmod\tube_lru.png" x="802" y="403" w="100" h="100" />
+		<image path="gfx\metalmod\tube_lrd.png" x="903" y="403" w="100" h="100" />
+		<image path="gfx\metalmod\tube_rud.png" x="600" y="504" w="100" h="100" />
+		<image path="gfx\metalmod\tube_lud.png" x="701" y="504" w="100" h="100" />
+		<image path="gfx\metalmod\tube_lrud.png" x="803" y="504" w="100" h="100" />
+		
+		<image path="gfx\metalmod\tube_prev.png" x="904" y="504" w="100" h="100" />
+		
+		<image path="gfx\metalmod\vine.png" x="404" y="700" w="100" h="100" />
+		<image path="gfx\metalmod\vine_seed.png" x="404" y="800" w="100" h="100" />
+		
+		
+		<image path="gfx\metalmod\arrow_posion.png" x="545" y="402" w="13" h="100" />
+		<image path="gfx\metalmod\arrow_quiver_posion.png" x="500" y="520" w="100" h="64" />
+		
+		<image path="gfx\metalmod\book.png" x="900" y="800" w="100" h="100" />
+		
+		
+        <image path="gfx\metalmod\cuprum.png" x="610" y="810" w="70" h="52" />
+		<image path="gfx\metalmod\cuprum_ignot.png" x="800" y="620" w="100" h="60" />
+		
+		
+		<image path="gfx\metalmod\cuprum_door_open.png" x="601" y="700" w="95" h="100" />
+		<image path="gfx\metalmod\cuprum_door_close.png" x="700" y="605" w="100" h="100" />
+		<image path="gfx\metalmod\cuprum_door_rame.png" x="601" y="700" w="6" h="100" />
+		
+		<image path="gfx\metalmod\cuprum_hatch_open.png" x="699" y="800" w="100" h="100" />
+		<image path="gfx\metalmod\cuprum_hatch_close.png" x="800" y="800" w="100" h="100" />
+		<image path="gfx\metalmod\cuprum_hatch_rame.png" x="699" y="894" w="100" h="6" />
+		
+		<image path="gfx\metalmod\cuprum_wire.png" x="905" y="606" w="100" h="100" />
+		
+    </list>
+</atlas>

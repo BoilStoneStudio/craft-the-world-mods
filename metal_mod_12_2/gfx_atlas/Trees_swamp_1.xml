@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="Trees_swamp_1" border="1">
+    <list name="Trees_swamp_1" size="512|512" count="41">
+        
+        <image path="gfx\Spine\environment\tree_swamp3\stvol_1.png" x="45" y="196" w="44" h="104" />
+        
+        
+        
+        <image path="gfx\Spine\environment\tree_swamp3\stvol_2.png" x="0" y="437" w="44" h="73" />
+        
+        
+        <image path="gfx\Spine\environment\tree_swamp3_2.png" x="45" y="440" w="32" h="32" />
+        <image path="gfx\Spine\environment\tree_swamp3_1.png" x="45" y="473" w="32" h="32" />
+        
+    </list>
+</atlas>

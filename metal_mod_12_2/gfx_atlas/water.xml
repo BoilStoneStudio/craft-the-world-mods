@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<atlas name="water" border="1">
+    <list name="water" size="1024|1024" count="22">
+        <image path="gfx\level_tiles\tile\Oilwater\lv5_up_right.png" x="0" y="0" w="100" h="100" />
+		<image path="gfx\level_tiles\tile\Oilwater\lv5_up_lef.png" x="202" y="0" w="100" h="100" />
+		<image path="gfx\level_tiles\tile\Oilwater\lv5_up_lef_right.png" x="101" y="0" w="100" h="100" />
+		<image path="gfx\level_tiles\tile\Oilwater\lv5_up.png" x="303" y="0" w="100" h="100" />
+		
+		<image path="gfx\level_tiles\tile\Oilwater\lv1.png" x="0" y="290" w="60" h="10" />
+		<image path="gfx\level_tiles\tile\Oilwater\lv2.png" x="100" y="290" w="60" h="10" />
+		<image path="gfx\level_tiles\tile\Oilwater\lv3.png" x="200" y="290" w="60" h="10" />
+		
+		<image path="gfx\level_tiles\tile\Oilwater\lv4.png" x="0" y="290" w="60" h="10" />
+		<image path="gfx\level_tiles\tile\Oilwater\lv5.png" x="100" y="290" w="60" h="10" />
+		
+		<image path="gfx\level_tiles\tile\Oilwater\bg_gradient.png" x="0" y="290" w="60" h="10" />
+		<image path="gfx\level_tiles\tile\Oilwater\bg_full.png" x="100" y="290" w="60" h="10" />
+		
+		<image path="gfx\swamp\dirt1.png" x="0" y="301" w="100" h="100" />
+		<image path="gfx\swamp\dirt2.png" x="101" y="301" w="100" h="100" />
+		<image path="gfx\swamp\dirt3.png" x="202" y="301" w="100" h="100" />
+		<image path="gfx\swamp\dirt4.png" x="0" y="402" w="100" h="100" />
+		<image path="gfx\swamp\dirt5.png" x="101" y="402" w="100" h="100" />
+		<image path="gfx\swamp\dirt6.png" x="202" y="402" w="100" h="100" />
+		
+		<image path="gfx\swamp\grass1.png" x="303" y="301" w="100" h="100" />
+		<image path="gfx\swamp\grass2.png" x="404" y="301" w="100" h="100" />
+		<image path="gfx\swamp\grass3.png" x="505" y="301" w="100" h="100" />
+		<image path="gfx\swamp\grass4.png" x="303" y="402" w="100" h="100" />
+		<image path="gfx\swamp\grass5.png" x="404" y="402" w="100" h="100" />
+		<image path="gfx\swamp\grass6.png" x="505" y="402" w="100" h="100" />
+		
+		<image path="gfx\swamp\border1.png" x="0" y="570" w="100" h="60" />
+		<image path="gfx\swamp\border2.png" x="101" y="547" w="100" h="100" />
+		<image path="gfx\swamp\border3.png" x="202" y="547" w="100" h="100" />
+		<image path="gfx\swamp\border4.png" x="0" y="648" w="100" h="100" />
+		<image path="gfx\swamp\border5.png" x="101" y="648" w="100" h="100" />
+		<image path="gfx\swamp\border6.png" x="202" y="648" w="100" h="100" />
+		
+		<image path="gfx\swamp\cornel1.png" x="24" y="511" w="62" h="61" />
+		<image path="gfx\swamp\cornel.png" x="78" y="511" w="62" h="61" />
+		<image path="gfx\swamp\cornel3.png" x="240" y="531" w="62" h="61" />
+		<image path="gfx\swamp\cornel2.png" x="160" y="529" w="62" h="61" />
+		
+		<image path="gfx\swamp\torf1.png" x="701" y="102" w="100" h="100" />
+		<image path="gfx\swamp\torf2.png" x="801" y="102" w="100" h="100" />
+		<image path="gfx\swamp\torf3.png" x="901" y="102" w="100" h="100" />
+		
+		<image path="gfx\swamp\oil1.png" x="700" y="204" w="100" h="100" />
+		<image path="gfx\swamp\oil2.png" x="800" y="204" w="100" h="100" />
+		<image path="gfx\swamp\oil3.png" x="900" y="204" w="100" h="100" />
+		
+		
+		<image path="gfx\swamp\stone1.png" x="608" y="306" w="100" h="100" />
+		<image path="gfx\swamp\stone2.png" x="709" y="306" w="100" h="100" />
+		<image path="gfx\swamp\stone3.png" x="810" y="306" w="100" h="100" />
+		<image path="gfx\swamp\stone4.png" x="911" y="307" w="100" h="99" />
+		<image path="gfx\swamp\stone5.png" x="709" y="407" w="100" h="100" />
+		<image path="gfx\swamp\stone6.png" x="810" y="407" w="100" h="100" />
+		<image path="gfx\swamp\stone7.png" x="911" y="407" w="100" h="100" />
+		
+		<image path="gfx\swamp\sand1.png" x="608" y="407" w="100" h="100" />
+		<image path="gfx\swamp\sand2.png" x="608" y="508" w="100" h="100" />
+		<image path="gfx\swamp\sand3.png" x="709" y="508" w="100" h="100" />
+		<image path="gfx\swamp\sand4.png" x="810" y="508" w="100" h="100" />
+		<image path="gfx\swamp\sand5.png" x="911" y="508" w="100" h="100" />
+		<image path="gfx\swamp\sand6.png" x="810" y="609" w="100" h="100" />
+		<image path="gfx\swamp\sand7.png" x="911" y="609" w="100" h="100" />
+		
+		
+		<image path="gfx\swamp\red_grass1.png" x="0" y="940" w="100" h="84" />
+		<image path="gfx\swamp\red_grass2.png" x="101" y="940" w="100" h="84" />
+		<image path="gfx\swamp\red_grass3.png" x="202" y="940" w="100" h="84" />
+		<image path="gfx\swamp\red_grass4.png" x="303" y="940" w="100" h="84" />
+		<image path="gfx\swamp\red_grass5.png" x="404" y="940" w="100" h="84" />
+		
+		
+		
+		
+		
+		<image path="gfx\swamp\stone_border1.png" x="303" y="680" w="100" h="25" />
+		<image path="gfx\swamp\stone_border2.png" x="404" y="680" w="100" h="25" />
+		<image path="gfx\swamp\stone_border3.png" x="505" y="680" w="100" h="25" />
+		<image path="gfx\swamp\stone_border4.png" x="606" y="680" w="100" h="25" />
+		
+		<image path="gfx\swamp\stone_cornel2.png" x="305" y="518" w="84" h="62" />
+		
+		<image path="gfx\swamp\stone_cornel1.png" x="405" y="518" w="84" h="62" />
+		
+		
+		
+		<image path="gfx\Spine\environment\reed1\colos.png" x="928" y="813" w="41" h="112" />
+		<image path="gfx\Spine\environment\reed1\colos2.png" x="832" y="842" w="30" h="82" />
+		<image path="gfx\Spine\environment\reed1\colos3.png" x="733" y="875" w="32" h="48" />
+		
+		<image path="gfx\Spine\environment\cane\colos.png" x="925" y="710" w="53" h="103" />
+		<image path="gfx\Spine\environment\cane\colos2.png" x="833" y="710" w="33" h="103" />
+		<image path="gfx\Spine\environment\cane\colos3.png" x="736" y="768" w="28" h="45" />
+		
+		<image path="gfx\Spine\environment\grass\colos.png" x="470" y="615" w="10" h="33" />
+		<image path="gfx\Spine\environment\grass\colos2.png" x="518" y="570" w="13" h="79" />
+		<image path="gfx\Spine\environment\grass\colos3.png" x="570" y="548" w="13" h="100" />
+		
+		
+		
+		<image path="gfx\ork\sand1.png" x="0" y="736" w="100" h="100" />
+		<image path="gfx\ork\sand2.png" x="101" y="736" w="100" h="100" />
+		<image path="gfx\ork\sand3.png" x="202" y="736" w="100" h="100" />
+		<image path="gfx\ork\sand4.png" x="303" y="736" w="100" h="100" />
+		<image path="gfx\ork\sand5.png" x="0" y="837" w="100" h="100" />
+		<image path="gfx\ork\sand6.png" x="101" y="837" w="100" h="100" />
+		<image path="gfx\ork\sand7.png" x="202" y="837" w="100" h="100" />
+		
+		<image path="gfx\ork\border1.png" x="313" y="854" w="100" h="20" />
+		<image path="gfx\ork\border2.png" x="313" y="875" w="100" h="20" />
+		<image path="gfx\ork\border3.png" x="313" y="900" w="100" h="20" />
+		<image path="gfx\ork\border4.png" x="314" y="923" w="100" h="20" />
+		<image path="gfx\ork\border5.png" x="414" y="856" w="100" h="20" />
+		<image path="gfx\ork\border6.png" x="414" y="877" w="100" h="20" />
+		<image path="gfx\ork\border7.png" x="414" y="923" w="100" h="20" />
+		
+		<image path="gfx\ork\cornel1.png" x="410" y="712" w="62" h="61" />
+		<image path="gfx\ork\cornel.png" x="468" y="712" w="62" h="61" />
+		<image path="gfx\ork\cornel3.png" x="410" y="797" w="62" h="61" />
+		<image path="gfx\ork\cornel2.png" x="466" y="797" w="62" h="61" />
+		
+		<image path="gfx\swamp\cane.png" x="550" y="810" w="100" h="77" />
+		
+		<image path="gfx\swamp\stump1.png" x="515" y="945" w="100" h="60" />
+		<image path="gfx\swamp\stump2.png" x="530" y="890" w="125" h="48" />
+		<image path="gfx\swamp\stump3.png" x="645" y="955" w="105" h="40" />
+		
+		<image path="gfx\particles\cane_torch.png" x="741" y="609" w="21" h="91" />
+		
+		<image path="gfx\swamp\silver_door_rame.png" x="559" y="707" w="12" h="100" />
+		<image path="gfx\swamp\silver_door_closen.png" x="559" y="707" w="22" h="100" />		
+		<image path="gfx\swamp\silver_door_open.png" x="632" y="707" w="100" h="100" />
+		
+    </list>
+</atlas>

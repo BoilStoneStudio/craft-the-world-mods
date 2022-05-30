@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <bind res="plank" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" />
+  <bind res="club" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="club_iron" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="picture3" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="flag1" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="flag1" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="window_stained_2" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="window_stained_4" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="window_stained_1" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="window_stained_7" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="thread" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="wine_barrel" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="clay_vase" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mirror_ring" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="picture_02" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="chair_stone" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bed_02" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="torch" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="torch_mucus" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="trolley" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="fence_brick" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bush_flower" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="lamponthefloor3" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="chair_tissue" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bed_leaves" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bed_chic" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="window3" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="plant" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="table_normal_01" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="godeus_sword_th" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="wall_stucco" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="stove" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="apple_pie" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="beer" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="cocos" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="bird" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="aquarium" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="statue3" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="statue4" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="gargoyle" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="outdoor_lamp" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="locker3" swamp="true" plains="true"  orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bones_shield" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="feather" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bow_arrow" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bow_arrow_fire" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="bow_arrow_silver" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="workbench" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="millstone" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mstuff" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="jug" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="flour" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+
+  <bind res="snow" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="ice" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="fat" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="ice_wall" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+
+  <bind res="winter_boots" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="winter_shoes" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="winter_hat1" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="winter_hat2" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="winter_hat3" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+
+  <bind res="desert_hat_01" swamp="false" plains="false" orc_world="false" plane="true" usual_desert="true" usual_medium="false" usual_cold="false" underground="false"/>
+  <bind res="desert_hat_02" swamp="false" plains="false" orc_world="false" plane="true" usual_desert="true" usual_medium="false" usual_cold="false" underground="false"/>
+  <bind res="desert_shoes" swamp="false" plains="false" orc_world="false" plane="true" usual_desert="true" usual_medium="false" usual_cold="false" underground="false"/>
+  <bind res="desert_sneakers" swamp="false" plains="false" orc_world="false" plane="true" usual_desert="true" usual_medium="false" usual_cold="false" underground="false"/>
+
+  <bind res="base_hat" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="false" underground="true"/>
+  <bind res="cloak_hat" swamp="true" plains="true" orc_world="true" plane="false" usual_desert="false" usual_medium="true" usual_cold="false" underground="true"/>
+  <bind res="tinker_hat" swamp="true" plains="true" orc_world="true" plane="false" usual_desert="false" usual_medium="true" usual_cold="false" underground="true"/>
+  <bind res="woodman_hat" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="false" underground="true"/>
+
+  <bind res="table_ice" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="ice_statue" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+  <bind res="ice_spikes" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="true" underground="false"/>
+
+  <bind res="mportal" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mlight" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mfireball" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mforest" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mcompas" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mhorn" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mrain" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mcollect" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mexplosion" swamp="false" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mimp" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+ 
+
+
+  <bind res="sulfur" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="gunpowder" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="trunk" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="trigger_mechanism" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="false" underground="true"/>
+  <bind res="pistol" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="rifle" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="heavy_rifle" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="ammo" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="ammo_steel" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="ammo_fire" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true"/>
+  <bind res="mushroom" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="mushroom_dry" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="mushroom_salat" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="mushroom_soup" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="mushroom-pies" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="pick_cave_goblin" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="cave_goblin_saber" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="cave_goblin_saber1" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  <bind res="cave_goblin_saber2" swamp="false" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="true"/>
+  
+ 
+  
+  <bind res="posion" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="posion_berries" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  
+  
+  
+  <bind res="electrypist" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="battery_energ" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  
+  <bind res="gear" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="rice" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="boil_rice" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="wh_rice" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  
+  
+  <bind res="cane_s" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="sugar" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="cane_plate" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="cane_chair" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="cane_bed" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="cane_table" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="cane_wall" swamp="true" plains="false" orc_world="false" plane="true" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  
+  <bind res="beton" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_plate" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="beton_plate" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_ladder" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_bridge" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="little_iron_bridge" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_fence" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="table_iron" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="chair_iron" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="fence_wood" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="gate_wooden" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="stair_wood" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_window" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="stonetorch" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="medieval_walls" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="ceramic_tale" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="gate_iron" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="collumn_iron" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="scarecrow_pig" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="scarecrow_skeleton" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="big_window" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="stone_window" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="wood_tonnel" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_tonnel" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="door_wood" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="glass_door" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="door_gold" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="skin_wall" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="iron_bed" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="posion_berries" swamp="true" plains="false" orc_world="false" plane="false" usual_desert="false" usual_medium="false" usual_cold="false" underground="false" biome1="false"/>
+  <bind res="book" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="drink_water" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="roof_wheat" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="roof_metall" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="silver_door" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="onion" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="meat_onion" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="fish_onion" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="sword_shop" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="axe_blue" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="pick_blue" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="blue_spear" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="blue_sword" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="duo_axe" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="nightstand" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="streetlight" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="stone_ladder" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="axe_cuprum" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="pick_cuprum" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_spear" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_sword" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_lamp" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_up_lamp" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_torch" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="lightbulb" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_wire" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_table" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_chair" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_bed" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="door_cuprum" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_hatch" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="cuprum_ignot" swamp="true" plains="true" orc_world="true" plane="true" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+    
+  
+  
+  
+  <bind res="portal_biome_green" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="portal_biome" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="revival_elexir" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+  <bind res="soul_keep" usual_desert="true" usual_medium="true" usual_cold="true" underground="true" biome1="false"/>
+</root>
